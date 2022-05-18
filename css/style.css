@@ -393,4 +393,10 @@ html {
   bottom: 15%;
   left: 10%;
 }
+
+.catnip-heroe .cat {
+  position: relative;
+  top: 25%;
+  left: calc(50%);
+}
 /*# sourceMappingURL=style.css.map */
