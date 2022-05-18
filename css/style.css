@@ -252,7 +252,6 @@ html {
   font-weight: 700;
   font-size: 199px;
   line-height: 0.9;
-  /* or 90% */
   text-transform: uppercase;
 }
 
@@ -334,4 +333,3 @@ html {
   left: -5%;
   top: 5%;
 }
-/*# sourceMappingURL=style.css.map */
