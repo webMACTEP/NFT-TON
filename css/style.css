@@ -343,7 +343,7 @@ html {
 }
 
 .catnip-heroe {
-  height: 250vh;
+  height: 100%;
   background: url(../img/bg-catnip.png);
   background-position-x: center;
   background-repeat: no-repeat;
@@ -361,7 +361,7 @@ html {
   width: 444px;
   height: 491px;
   top: 20%;
-  left: 5%;
+  left: 0;
 }
 
 .catnip-heroe .light2 {
@@ -369,27 +369,29 @@ html {
   width: 444px;
   height: 491px;
   top: 20%;
-  right: 5%;
+  right: 0;
 }
 
 .catnip-heroe .light3 {
   position: absolute;
   width: 444px;
   height: 491px;
-  bottom: 15%;
-  right: 5%;
+  bottom: 10%;
+  right: 0;
+  z-index: 0;
 }
 
 .catnip-heroe .light4 {
   position: absolute;
   width: 444px;
   height: 491px;
-  bottom: 15%;
-  left: 5%;
+  bottom: 10%;
+  left: 0;
+  z-index: 0;
 }
 
 .catnip-heroe .cat {
-  padding: 300px 0px 0px 0px;
+  padding: 30% 0px 0px 0px;
 }
 
 .catnip-heroe .cat img {
@@ -399,6 +401,7 @@ html {
 }
 
 .catnip-heroe h3 {
+  margin-top: calc();
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -406,5 +409,31 @@ html {
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  z-index: 3;
   color: #ffffff;
 }
+
+.catnip-heroe h1 {
+  z-index: 3;
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 220px;
+  line-height: 220px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.catnip-heroe .description {
+  z-index: 3;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+  text-align: center;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */
