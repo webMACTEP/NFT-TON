@@ -239,12 +239,15 @@ html {
 }
 
 .about {
+  z-index: 0;
   background: #ef2adc;
   padding: 150px 70px;
+  position: relative;
 }
 
 .about h2 {
-  font-family: "Bebas Neue";
+  z-index: 2;
+  font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
   font-size: 199px;
@@ -256,3 +259,64 @@ html {
 .about h2 span {
   color: #00ed75;
 }
+
+.about .fly1 {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  z-index: -1;
+}
+
+.about .fly2 {
+  position: absolute;
+  top: 35%;
+  right: 3%;
+  width: 180px;
+  height: 185px;
+  z-index: -1;
+}
+
+.about .fly3 {
+  position: absolute;
+  top: 35%;
+  left: -15%;
+  z-index: -1;
+}
+
+.about .fly4 {
+  position: absolute;
+  z-index: -1;
+  left: 20%;
+  bottom: 5%;
+}
+
+.about .fly5 {
+  position: absolute;
+  z-index: -1;
+  left: -5%;
+  bottom: -10%;
+  -webkit-filter: blur(9px);
+          filter: blur(9px);
+}
+
+.about .fly6 {
+  position: absolute;
+  z-index: -1;
+  left: -5%;
+  bottom: -10%;
+  width: 153px;
+  height: 143px;
+  -webkit-filter: blur(11px);
+          filter: blur(11px);
+}
+
+.about .fly7 {
+  position: absolute;
+  z-index: -1;
+}
+
+.about .fly8 {
+  position: absolute;
+  z-index: -1;
+}
+/*# sourceMappingURL=style.css.map */
