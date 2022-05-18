@@ -185,9 +185,9 @@ html {
    }
    .fly6 {
       position: absolute;
-      z-index: -1;
-      left: -5%;
-      bottom: -10%;
+      z-index: -2;
+      left: 3%;
+      bottom: 10%;
       width: 153px;
 height: 143px;
       filter: blur(11px);
@@ -195,10 +195,25 @@ height: 143px;
    .fly7 {
       position: absolute;
       z-index: -1;
+      left: 47%;
+      bottom: -10%;
+      width: 153px;
+height: 143px;
+      
    }
    .fly8 {
       position: absolute;
       z-index: -1;
+      filter: blur(20px);
+      left: 25%;
+      top: 20%;
+   }
+   .fly9 {
+      position: absolute;
+      z-index: -1;
+      
+      left: -5%;
+      top: 5%;
    }
    
    
