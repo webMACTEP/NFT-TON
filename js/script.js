@@ -31,12 +31,12 @@ jQuery(document).ready(function ($) {
       fog8.style.transform = 'translate(-' + x * 70 + 'px, -' + y * 70 + 'px)';
       fog9.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
       fog10.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 20 + 'px)';
-      light1.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 20 + 'px)';
-      light2.style.transform = 'translate(-' + x * 30 + 'px, -' + y * 30 + 'px)';
-      light3.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 40 + 'px)';
-      light4.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 20 + 'px)';
-      metalball1.style.transform = 'translate(-' + x * 60 + 'px, -' + y * 40 + 'px)';
-      metalball2.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 30 + 'px)';
+      light1.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 40 + 'px)';
+      light2.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
+      light3.style.transform = 'translate(-' + x * 80 + 'px, -' + y * 80 + 'px)';
+      light4.style.transform = 'translate(-' + x * 30 + 'px, -' + y * 30 + 'px)';
+      metalball1.style.transform = 'translate(-' + x * 90 + 'px, -' + y * 90 + 'px)';
+      metalball2.style.transform = 'translate(-' + x * 100 + 'px, -' + y * 100 + 'px)';
    });
 
 
