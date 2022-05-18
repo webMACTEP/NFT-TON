@@ -213,14 +213,54 @@ html {
       left: -5%;
       top: 5%;
    }
+   .fly10 {
+      position: absolute;
+      z-index: -1;
+
+      right: -2%;
+      bottom: -5%;
+   }
 }
 .catnip-heroe{
-   height: 150vh;
+   height: 200vh;
    background: url(../img/bg-catnip.png);
    background-position-x:center;
    background-repeat: no-repeat;
    background-size: cover;
    .bg{
       display: flex;
+   }
+   .cat-lights{
+      width: 100%;
+      height: 100%;
+      position: relative;
+   }
+   .light1{
+      position: absolute;
+      width: 444px;
+      height: 491px;
+      top: 20%;
+      left: 10%;
+   }
+   .light2{
+      position: absolute;
+      width: 444px;
+      height: 491px;
+      top: 20%;
+      right: 10%;
+   }
+   .light3{
+      position: absolute;
+      width: 444px;
+      height: 491px;
+      bottom: 15%;
+      right: 10%;
+   }
+   .light4{
+      position: absolute;
+      width: 444px;
+      height: 491px;
+      bottom: 15%;
+      left: 10%;
    }
 }
