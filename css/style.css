@@ -516,7 +516,6 @@ html {
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  z-index: 3;
   color: #ffffff;
 }
 
@@ -623,5 +622,87 @@ html {
   font-size: 16.3745px;
   line-height: 19px;
   color: #FFFFFF;
+}
+
+.wrap-fix {
+  position: relative;
+}
+
+.howmuch {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.how1 {
+  position: absolute;
+  left: 50%;
+  top: -10%;
+}
+
+.how2 {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+
+.how3 {
+  position: absolute;
+  right: calc(50% + 343px);
+  top: 230px;
+  z-index: -1;
+}
+
+.how4 {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+}
+
+.how5 {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+
+.how6 {
+  position: absolute;
+  top: 80%;
+  left: 1%;
+}
+
+.how7 {
+  position: absolute;
+  bottom: -10%;
+  right: 25%;
+}
+
+.how8 {
+  position: absolute;
+  bottom: 5%;
+  right: 0%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 80px;
+  /* identical to box height, or 133% */
+  padding-top: 200px;
+  text-align: center;
+  color: #00ED75;
+}
+
+.number {
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 589.763px;
+  line-height: 590px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #00ED75;
 }
 /*# sourceMappingURL=style.css.map */
