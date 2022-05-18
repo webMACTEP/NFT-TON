@@ -44,7 +44,7 @@ jQuery(document).ready(function ($) {
       light3.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 40 + 'px)';
       light4.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 20 + 'px)';
       metalball1.style.transform = 'translate(-' + x * 60 + 'px, -' + y * 40 + 'px)';
-      metalball1.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 30 + 'px)';
+      metalball2.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 30 + 'px)';
       how1.style.transform = 'translate(-' + x * 60 + 'px, -' + y * 60 + 'px)';
       how2.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
       how3.style.transform = 'translate(-' + x * 90 + 'px, -' + y * 90 + 'px)';

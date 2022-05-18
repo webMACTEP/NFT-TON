@@ -705,4 +705,8 @@ html {
   text-transform: uppercase;
   color: #00ED75;
 }
+
+.double {
+  height: 100vh;
+}
 /*# sourceMappingURL=style.css.map */
