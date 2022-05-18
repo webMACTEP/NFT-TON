@@ -366,7 +366,7 @@ html {
   width: 444px;
   height: 491px;
   top: 20%;
-  left: 0;
+  left: 50px;
 }
 
 .catnip-heroe .light2 {
@@ -374,7 +374,7 @@ html {
   width: 444px;
   height: 491px;
   top: 20%;
-  right: 0;
+  right: 50px;
 }
 
 .catnip-heroe .light3 {
@@ -382,7 +382,7 @@ html {
   width: 444px;
   height: 491px;
   bottom: 10%;
-  right: 0;
+  right: 50px;
   z-index: 0;
 }
 
@@ -391,7 +391,7 @@ html {
   width: 444px;
   height: 491px;
   bottom: 10%;
-  left: 0;
+  left: 50px;
   z-index: 0;
 }
 
@@ -459,8 +459,8 @@ html {
 
 .ufo-heroe .metal1 {
   position: absolute;
-  top: -20%;
-  left: -200px;
+  top: 0%;
+  left: -250px;
 }
 
 .ufo-heroe .metal2 {
@@ -480,6 +480,20 @@ html {
   position: absolute;
   bottom: -30px;
   left: 0;
+  z-index: 0;
+}
+
+.ufo-heroe .metal-ball1 {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  z-index: 0;
+}
+
+.ufo-heroe .metal-ball2 {
+  position: absolute;
+  bottom: 35%;
+  right: 5%;
   z-index: 0;
 }
 
@@ -529,5 +543,85 @@ html {
   text-align: center;
   color: #FFFFFF;
   padding-bottom: 81px;
+}
+
+.allcards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.allcards .cards-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.allcards .cards-left .card {
+  margin-right: 13px;
+}
+
+.allcards .cards-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.allcards .cards-right .card {
+  margin-left: 13px;
+}
+
+.card {
+  background: #171717;
+  width: 216px;
+  height: 270px;
+  margin-bottom: 13px;
+  border-radius: 13.6454px;
+}
+
+.card .heroe-picture img {
+  width: 217px;
+  height: 212px;
+}
+
+.card .down {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .down .name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.3745px;
+  line-height: 19px;
+  color: #DBAE00;
+}
+
+.card .down .number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.3745px;
+  line-height: 19px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
