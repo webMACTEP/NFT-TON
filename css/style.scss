@@ -221,68 +221,61 @@ html {
       bottom: -5%;
    }
 }
-.catnip-heroe{
+.catnip-heroe {
    height: 250vh;
    background: url(../img/bg-catnip.png);
-   background-position-x:center;
+   background-position-x: center;
    background-repeat: no-repeat;
    background-size: cover;
-   .bg{
-      display: flex;
-   }
-   .cat-lights{
+   .cat-lights {
       width: 100%;
       height: 100%;
       position: relative;
    }
-   .light1{
+   .light1 {
       position: absolute;
       width: 444px;
       height: 491px;
       top: 20%;
       left: 5%;
    }
-   .light2{
+   .light2 {
       position: absolute;
       width: 444px;
       height: 491px;
       top: 20%;
       right: 5%;
    }
-   .light3{
+   .light3 {
       position: absolute;
       width: 444px;
       height: 491px;
       bottom: 15%;
       right: 5%;
    }
-   .light4{
+   .light4 {
       position: absolute;
       width: 444px;
       height: 491px;
       bottom: 15%;
       left: 5%;
    }
-   .cat img{
-      position: relative;
-      top: 25%;
-      left: calc(50% - 720px);
-      
+   .cat {
+      padding: 300px 0px 0px 0px;
+      img {
+         width: 100%;
+         object-fit: cover;
+      }
    }
-   .cat{
-      bottom: 0;
-      position: relative;
-      height: 100%;
-   }
-   h3{
+   h3 {
       font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-letter-spacing: 0.04em;
-text-transform: uppercase;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
 
-color: #FFFFFF;
+      color: #ffffff;
    }
 }
