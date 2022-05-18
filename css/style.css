@@ -239,6 +239,7 @@ html {
 }
 
 .about {
+  height: 100vh;
   z-index: 0;
   background: #ef2adc;
   padding: 150px 70px;
