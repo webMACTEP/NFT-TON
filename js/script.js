@@ -16,6 +16,14 @@ jQuery(document).ready(function ($) {
    let light2 = document.querySelector('.light2');
    let light3 = document.querySelector('.light3');
    let light4 = document.querySelector('.light4');
+   let how1 = document.querySelector('.how1');
+   let how2 = document.querySelector('.how2');
+   let how3 = document.querySelector('.how3');
+   let how4 = document.querySelector('.how4');
+   let how5 = document.querySelector('.how5');
+   let how6 = document.querySelector('.how6');
+   let how7 = document.querySelector('.how7');
+   let how8 = document.querySelector('.how8');
    let metalball1 = document.querySelector('.metal-ball1');
    let metalball2 = document.querySelector('.metal-ball2');
    window.addEventListener('mousemove', function (e) {
@@ -31,12 +39,30 @@ jQuery(document).ready(function ($) {
       fog8.style.transform = 'translate(-' + x * 70 + 'px, -' + y * 70 + 'px)';
       fog9.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
       fog10.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 20 + 'px)';
+<<<<<<< HEAD
       light1.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 40 + 'px)';
       light2.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
       light3.style.transform = 'translate(-' + x * 80 + 'px, -' + y * 80 + 'px)';
       light4.style.transform = 'translate(-' + x * 30 + 'px, -' + y * 30 + 'px)';
       metalball1.style.transform = 'translate(-' + x * 90 + 'px, -' + y * 90 + 'px)';
       metalball2.style.transform = 'translate(-' + x * 100 + 'px, -' + y * 100 + 'px)';
+=======
+      light1.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 20 + 'px)';
+      light2.style.transform = 'translate(-' + x * 30 + 'px, -' + y * 30 + 'px)';
+      light3.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 40 + 'px)';
+      light4.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 20 + 'px)';
+      metalball1.style.transform = 'translate(-' + x * 60 + 'px, -' + y * 40 + 'px)';
+      metalball2.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 30 + 'px)';
+      how1.style.transform = 'translate(-' + x * 60 + 'px, -' + y * 60 + 'px)';
+      how2.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
+      how3.style.transform = 'translate(-' + x * 90 + 'px, -' + y * 90 + 'px)';
+      how4.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 40 + 'px)';
+      how5.style.transform = 'translate(-' + x * 110 + 'px, -' + y * 110 + 'px)';
+      how6.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 20 + 'px)';
+      how7.style.transform = 'translate(-' + x * 75 + 'px, -' + y * 75 + 'px)';
+      how8.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
+      
+>>>>>>> b9a10d2fc3a8f5f018d075e1fcc72d6197732767
    });
 
 
