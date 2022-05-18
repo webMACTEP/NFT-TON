@@ -252,7 +252,6 @@ html {
   font-weight: 700;
   font-size: 199px;
   line-height: 0.9;
-  /* or 90% */
   text-transform: uppercase;
 }
 
@@ -319,4 +318,3 @@ html {
   position: absolute;
   z-index: -1;
 }
-/*# sourceMappingURL=style.css.map */
