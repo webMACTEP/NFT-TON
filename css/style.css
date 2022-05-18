@@ -707,6 +707,95 @@ html {
 }
 
 .double {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 100vh;
+  background: url(../img/double-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.double .cardl {
+  height: 85%;
+  background: url(../img/double-left.png) #EF2ADC no-repeat;
+  background-position: top left;
+  width: 35%;
+  margin-left: 70px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 42.3174px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.double .cardl .number {
+  font-size: 300px;
+  line-height: 100%;
+  padding-left: 52px;
+  color: #fff;
+}
+
+.double .cardl .name {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50.7809px;
+  line-height: 60px;
+  /* identical to box height */
+  padding-bottom: 62px;
+  padding-left: 52px;
+  color: #FFFFFF;
+}
+
+.double .cardr {
+  margin-right: 70px;
+  margin-left: 20px;
+  height: 85%;
+  width: 35%;
+  background: url(../img/double-right.png) #00ED75 no-repeat;
+  background-position: bottom left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 42.3174px;
+}
+
+.double .cardr .number {
+  font-size: 300px;
+  line-height: 100%;
+  padding-left: 52px;
+  text-align: left;
+  color: #fff;
+}
+
+.double .cardr .name {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50.7809px;
+  line-height: 60px;
+  /* identical to box height */
+  padding-left: 52px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
