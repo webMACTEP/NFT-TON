@@ -91,6 +91,43 @@ html {
   max-width: 1360px;
 }
 
+.scroll-container {
+  height: 100vh;
+  background: black;
+}
+
+.speak {
+  margin: 150vh 0;
+}
+
+.speak:first-child {
+  margin-top: -50vh;
+}
+
+.speak[data-scroll] {
+  -webkit-transform: translatey(calc(var(--viewport-y) * 30vh));
+          transform: translatey(calc(var(--viewport-y) * 30vh));
+  opacity: calc(var(--visible-y));
+}
+
+.scroll-sequence__content {
+  padding: 4em;
+}
+
+.scroll-sequence {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -5;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .header {
   position: fixed;
   z-index: 100;
@@ -634,56 +671,56 @@ html {
   overflow: hidden;
 }
 
-.how1 {
+.howmuch .how1 {
   position: absolute;
   left: 50%;
   top: -10%;
 }
 
-.how2 {
+.howmuch .how2 {
   position: absolute;
   right: 5%;
   top: 10%;
 }
 
-.how3 {
+.howmuch .how3 {
   position: absolute;
   right: calc(50% + 343px);
   top: 230px;
   z-index: -1;
 }
 
-.how4 {
+.howmuch .how4 {
   position: absolute;
   top: 50%;
   left: -5%;
 }
 
-.how5 {
+.howmuch .how5 {
   position: absolute;
   top: 70%;
   left: 35%;
 }
 
-.how6 {
+.howmuch .how6 {
   position: absolute;
   top: 80%;
   left: 1%;
 }
 
-.how7 {
+.howmuch .how7 {
   position: absolute;
   bottom: -10%;
   right: 25%;
 }
 
-.how8 {
+.howmuch .how8 {
   position: absolute;
   bottom: 5%;
   right: 0%;
 }
 
-.title {
+.howmuch .title {
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -694,7 +731,7 @@ html {
   color: #00ed75;
 }
 
-.number {
+.howmuch .number {
   font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
