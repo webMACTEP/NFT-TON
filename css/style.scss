@@ -875,8 +875,11 @@ html {
    background-repeat: no-repeat;
    height: 100vh;
    position: relative;
+   overflow: hidden;
    .title-sub{
-      font-family: 'Bebas Neue';
+      z-index: -2;
+      padding-top: 40vh;
+      font-family: 'Bebas';
       font-style: normal;
       font-weight: 700;
       font-size: 80px;
@@ -884,5 +887,32 @@ html {
       text-align: center;
       text-transform: uppercase;
       color: #FFFFFF;
+      
+   }
+   .sub1{
+      position: absolute;
+      z-index: 1;
+      top: -20%;
+      left: 40%;
+   }
+   .sub2{
+      position: absolute;
+      z-index: 1;
+      top: 0;
+   }
+   .sub3{
+      position: absolute;z-index: 1;
+   }
+   .sub4{
+      position: absolute;z-index: 1;
+   }
+   .sub5{
+      position: absolute;z-index: 1;
+   }
+   .sub6{
+      position: absolute;z-index: 1;
+   }
+   .sub7{
+      position: absolute;z-index: 1;   
    }
 }
