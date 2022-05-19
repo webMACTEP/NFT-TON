@@ -57,7 +57,14 @@ jQuery(document).ready(function ($) {
       });
 
 
-      var totalImages = 45; // Wow, so many images for such a short clip
+
+
+
+
+
+
+
+      var totalImages = 45;
       var images = [];
       for (var i = 1; i < totalImages; i++) {
             var filename = '';
@@ -67,11 +74,13 @@ jQuery(document).ready(function ($) {
             var img = new Image;
             img.src = 'http://127.0.0.1:5500/img/sequence/cat/' + filename;
             images.push(img);
-            //images.clearRect(img);
 
       }
+
       var canv = document.getElementById('background');
+      var canv2 = document.getElementById('background2');
       var context = canv.getContext('2d');
+      var context2 = canv2.getContext('2d');
 
 
       var currentLocation = 0;
@@ -79,6 +88,8 @@ jQuery(document).ready(function ($) {
       var setImage = function (newLocation) {
             context.clearRect(0, 0, 1280, 720);
             context.drawImage(images[newLocation], 0, 0, 1280, 720);
+            context2.clearRect(0, 0, 1280, 720);
+            context2.drawImage(images[newLocation], 0, 0, 1280, 720);
       }
       var wheelDistance = function (evt) {
             if (!evt) evt = event;
@@ -149,6 +160,10 @@ jQuery(document).ready(function ($) {
       window.addEventListener("resize", canvasFillWin, false);
       setImage(1);
       canvasFillWin();
+
+
+
+      ///////////////////////////////////////////////////////////////////////////////////////
 
 
 
