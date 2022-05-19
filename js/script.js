@@ -124,7 +124,7 @@ jQuery(document).ready(function ($) {
                         .width(winH / ratio)
                         .height(winH)
                         .css({
-                              marginLeft: - winH / ratio / 2 + "px",
+                              // marginLeft: - winH / ratio / 2 + "px",
                               left: "50%",
                               top: "0",
                               marginTop: "0"

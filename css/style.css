@@ -804,7 +804,7 @@ html {
   margin-left: 20px;
   height: 85%;
   width: 35%;
-  background: url(../img/double-right.png) #00ed75 no-repeat;
+  background: url(../img/double-right.png) #00ED75 no-repeat;
   background-position: bottom left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -831,7 +831,7 @@ html {
   line-height: 60px;
   /* identical to box height */
   padding-left: 52px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .game {
@@ -858,7 +858,7 @@ html {
   line-height: 19px;
   /* identical to box height */
   margin-left: 47px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .game .up {
@@ -876,7 +876,7 @@ html {
 
 .game .title-game {
   text-align: center;
-  font-family: "Bebas";
+  font-family: 'Bebas';
   font-style: normal;
   font-weight: 700;
   font-size: 180px;
@@ -884,7 +884,7 @@ html {
   /* or 169px */
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .game .descripton-game {
@@ -894,7 +894,7 @@ html {
   line-height: 48px;
   /* identical to box height, or 171% */
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .game .righthp {
@@ -918,7 +918,7 @@ html {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .game .center {
@@ -967,7 +967,7 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   width: 50%;
-  background: #ef2adc;
+  background: #EF2ADC;
 }
 
 .game .down .left .title-down {
@@ -986,7 +986,7 @@ html {
   margin-left: 5%;
   max-width: 516px;
   padding: 10% 0;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .game .down .left .coming-soon {
@@ -1015,7 +1015,7 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 50%;
-  background: #00ed75;
+  background: #00ED75;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1038,7 +1038,7 @@ html {
   margin-right: 5%;
   max-width: 516px;
   padding: 10% 0;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .integration {
@@ -1061,14 +1061,14 @@ html {
 .integration .left .title-int {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: "Bebas";
+  font-family: 'Bebas';
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
   line-height: 120px;
   /* identical to box height */
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .integration .left .description1 {
@@ -1076,7 +1076,7 @@ html {
   font-size: 32px;
   line-height: 127.19%;
   /* or 41px */
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .integration .left .description2 {
@@ -1085,7 +1085,7 @@ html {
   font-size: 32px;
   line-height: 127.19%;
   /* or 41px */
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .integration .right {
@@ -1095,13 +1095,14 @@ html {
 }
 
 .integration .right .phone {
-  border: 10px solid #480d42;
+  border: 10px solid #480D42;
   border-radius: 45px;
   height: 784px;
   width: 519px;
   margin-left: auto;
-  -webkit-box-shadow: 0px 8px 38px 0px #ff00f533;
-          box-shadow: 0px 8px 38px 0px #ff00f533;
-  -webkit-box-shadow: 0px 38px 184px 0px #ef2adc5e;
-          box-shadow: 0px 38px 184px 0px #ef2adc5e;
+  -webkit-box-shadow: 0px 8px 38px 0px #FF00F533;
+          box-shadow: 0px 8px 38px 0px #FF00F533;
+  -webkit-box-shadow: 0px 38px 184px 0px #EF2ADC5E;
+          box-shadow: 0px 38px 184px 0px #EF2ADC5E;
 }
+/*# sourceMappingURL=style.css.map */
