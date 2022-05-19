@@ -181,7 +181,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60vw;
+  width: 58.5vw;
   height: 100vh;
   background: #ef2adc;
   -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
@@ -194,7 +194,7 @@ html {
   right: 0;
   top: 0;
   background: #00ed75;
-  width: 60vw;
+  width: 58.5vw;
   height: 100vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
@@ -420,7 +420,7 @@ html {
 
 .catnip-heroe h1 {
   z-index: 3;
-  font-family: 'Bebas';
+  font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
   font-size: 220px;
@@ -428,7 +428,7 @@ html {
   /* identical to box height */
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .catnip-heroe .description {
@@ -439,7 +439,7 @@ html {
   line-height: 48px;
   /* or 150% */
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 81px;
 }
 
@@ -521,7 +521,7 @@ html {
 
 .ufo-heroe h1 {
   z-index: 3;
-  font-family: 'Bebas';
+  font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
   font-size: 220px;
@@ -529,7 +529,7 @@ html {
   /* identical to box height */
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .ufo-heroe .description {
@@ -540,7 +540,7 @@ html {
   line-height: 48px;
   /* or 150% */
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 81px;
 }
 
@@ -613,7 +613,7 @@ html {
   font-weight: 400;
   font-size: 16.3745px;
   line-height: 19px;
-  color: #DBAE00;
+  color: #dbae00;
 }
 
 .card .down .number {
@@ -621,7 +621,7 @@ html {
   font-weight: 400;
   font-size: 16.3745px;
   line-height: 19px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .wrap-fix {
@@ -691,11 +691,11 @@ html {
   /* identical to box height, or 133% */
   padding-top: 200px;
   text-align: center;
-  color: #00ED75;
+  color: #00ed75;
 }
 
 .number {
-  font-family: 'Bebas';
+  font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
   font-size: 589.763px;
@@ -703,7 +703,7 @@ html {
   /* identical to box height */
   text-align: center;
   text-transform: uppercase;
-  color: #00ED75;
+  color: #00ed75;
 }
 
 .double {
@@ -725,7 +725,7 @@ html {
 
 .double .cardl {
   height: 85%;
-  background: url(../img/double-left.png) #EF2ADC no-repeat;
+  background: url(../img/double-left.png) #ef2adc no-repeat;
   background-position: top left;
   width: 35%;
   margin-left: 70px;
@@ -761,7 +761,7 @@ html {
   /* identical to box height */
   padding-bottom: 62px;
   padding-left: 52px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .double .cardr {
@@ -769,7 +769,7 @@ html {
   margin-left: 20px;
   height: 85%;
   width: 35%;
-  background: url(../img/double-right.png) #00ED75 no-repeat;
+  background: url(../img/double-right.png) #00ed75 no-repeat;
   background-position: bottom left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -796,6 +796,5 @@ html {
   line-height: 60px;
   /* identical to box height */
   padding-left: 52px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-/*# sourceMappingURL=style.css.map */

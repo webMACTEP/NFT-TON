@@ -81,7 +81,7 @@ html {
       position: absolute;
       top: 0;
       left: 0;
-      width: 60vw;
+      width: 58.5vw;
       height: 100vh;
       background: #ef2adc;
       clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
@@ -92,7 +92,7 @@ html {
       right: 0;
       top: 0;
       background: #00ed75;
-      width: 60vw;
+      width: 58.5vw;
       height: 100vh;
       clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
    }
@@ -243,7 +243,7 @@ html {
       width: 444px;
       height: 491px;
       top: 20%;
-      left:50px;
+      left: 50px;
    }
    .light2 {
       position: absolute;
@@ -257,7 +257,7 @@ html {
       width: 444px;
       height: 491px;
       bottom: 10%;
-      right:50px;
+      right: 50px;
       z-index: 0;
    }
    .light4 {
@@ -287,42 +287,40 @@ html {
       z-index: 3;
       color: #ffffff;
    }
-   h1{
+   h1 {
       z-index: 3;
-      font-family: 'Bebas';
-font-style: normal;
-font-weight: 700;
-font-size: 220px;
-line-height: 220px;
-/* identical to box height */
+      font-family: "Bebas";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 220px;
+      line-height: 220px;
+      /* identical to box height */
 
-text-align: center;
-text-transform: uppercase;
+      text-align: center;
+      text-transform: uppercase;
 
-color: #FFFFFF;
-
+      color: #ffffff;
    }
-   .description{
+   .description {
       z-index: 3;
       font-style: normal;
-font-weight: 300;
-font-size: 32px;
-line-height: 48px;
-/* or 150% */
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 48px;
+      /* or 150% */
 
-text-align: center;
+      text-align: center;
 
-color: #FFFFFF;
-padding-bottom: 81px;
-
+      color: #ffffff;
+      padding-bottom: 81px;
    }
 }
-.ufo-heroe{
+.ufo-heroe {
    background: url(../img/ufo-bg.png) no-repeat;
    background-size: cover;
    background-position-x: center;
    height: 100%;
-   
+
    .cat-lights {
       width: 100%;
       height: 100%;
@@ -331,45 +329,45 @@ padding-bottom: 81px;
    }
    .metal1 {
       position: absolute;
-      
+
       top: 0%;
-      left:-250px;
+      left: -250px;
    }
    .metal2 {
       position: absolute;
-      
+
       top: 0%;
       right: 0px;
    }
    .metal3 {
       position: absolute;
-      
-      bottom:0%;
-      right:0;
+
+      bottom: 0%;
+      right: 0;
       z-index: 0;
    }
    .metal4 {
       position: absolute;
-      
+
       bottom: -30px;
       left: 0;
-      
+
       z-index: 0;
    }
    .metal-ball1 {
       position: absolute;
-      
+
       top: 5%;
       left: 15%;
-      
+
       z-index: 0;
    }
    .metal-ball2 {
       position: absolute;
-      
+
       bottom: 35%;
       right: 5%;
-      
+
       z-index: 0;
    }
    .cat {
@@ -388,40 +386,38 @@ padding-bottom: 81px;
       text-align: center;
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      
+
       color: #ffffff;
    }
-   h1{
+   h1 {
       z-index: 3;
-      font-family: 'Bebas';
-font-style: normal;
-font-weight: 700;
-font-size: 220px;
-line-height: 220px;
-/* identical to box height */
+      font-family: "Bebas";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 220px;
+      line-height: 220px;
+      /* identical to box height */
 
-text-align: center;
-text-transform: uppercase;
+      text-align: center;
+      text-transform: uppercase;
 
-color: #FFFFFF;
-
+      color: #ffffff;
    }
-   .description{
+   .description {
       z-index: 3;
       font-style: normal;
-font-weight: 300;
-font-size: 32px;
-line-height: 48px;
-/* or 150% */
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 48px;
+      /* or 150% */
 
-text-align: center;
+      text-align: center;
 
-color: #FFFFFF;
-padding-bottom: 81px;
+      color: #ffffff;
+      padding-bottom: 81px;
    }
 }
 .collection {
-
 }
 .allcards {
    display: flex;
@@ -430,18 +426,18 @@ padding-bottom: 81px;
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-end;
-      .card{
+      .card {
          margin-right: 13px;
       }
-}
+   }
    .cards-right {
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-start;
-      .card{
+      .card {
          margin-left: 13px;
       }
-}
+   }
 }
 
 .card {
@@ -451,11 +447,9 @@ padding-bottom: 81px;
    margin-bottom: 13px;
    border-radius: 13.6454px;
    .heroe-picture {
-      
-      
-      img{
+      img {
          width: 217px;
-      height: 212px;
+         height: 212px;
       }
    }
    .down {
@@ -470,22 +464,19 @@ padding-bottom: 81px;
          font-weight: 400;
          font-size: 16.3745px;
          line-height: 19px;
-         color: #DBAE00;
-         
-   }
+         color: #dbae00;
+      }
       .number {
          font-style: normal;
          font-weight: 400;
          font-size: 16.3745px;
          line-height: 19px;
-         
-         color: #FFFFFF;
-         
 
+         color: #ffffff;
+      }
    }
 }
-}
-.wrap-fix{
+.wrap-fix {
    position: relative;
 }
 .howmuch {
@@ -506,8 +497,8 @@ padding-bottom: 81px;
 .how3 {
    position: absolute;
    right: calc(50% + 343px);
-top: 230px;
-z-index: -1;
+   top: 230px;
+   z-index: -1;
 }
 .how4 {
    position: absolute;
@@ -536,28 +527,26 @@ z-index: -1;
 }
 .title {
    font-style: normal;
-font-weight: 600;
-font-size: 60px;
-line-height: 80px;
-/* identical to box height, or 133% */
-padding-top: 200px;
+   font-weight: 600;
+   font-size: 60px;
+   line-height: 80px;
+   /* identical to box height, or 133% */
+   padding-top: 200px;
 
-text-align: center;
-color: #00ED75;
-
+   text-align: center;
+   color: #00ed75;
 }
 .number {
-   font-family: 'Bebas';
-font-style: normal;
-font-weight: 700;
-font-size: 589.763px;
-line-height: 590px;
-/* identical to box height */
-text-align: center;
-text-transform: uppercase;
+   font-family: "Bebas";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 589.763px;
+   line-height: 590px;
+   /* identical to box height */
+   text-align: center;
+   text-transform: uppercase;
 
-color: #00ED75;
-
+   color: #00ed75;
 }
 .double {
    display: flex;
@@ -568,72 +557,68 @@ color: #00ED75;
    background-position: center;
    align-items: center;
    justify-content: center;
-.cardl {
-   height: 85%;
-   background: url(../img/double-left.png) #EF2ADC no-repeat;
-   background-position: top left;
-   width: 35%;
-   margin-left: 70px;
-   margin-right: 20px;
-   
-   display: flex;
-   justify-content: flex-end;
-   align-items: flex-start;
-   border-radius: 42.3174px;
-   flex-direction: column;
-   .picture {
-   }
-   .number {
-      font-size: 300px;
-      line-height: 100%;
-      padding-left: 52px;
-      color: #fff;
-   }
-   .name {
-      font-style: normal;
-font-weight: 300;
-font-size: 50.7809px;
-line-height: 60px;
-/* identical to box height */
-padding-bottom: 62px;
-padding-left: 52px;
+   .cardl {
+      height: 85%;
+      background: url(../img/double-left.png) #ef2adc no-repeat;
+      background-position: top left;
+      width: 35%;
+      margin-left: 70px;
+      margin-right: 20px;
 
-color: #FFFFFF;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      border-radius: 42.3174px;
+      flex-direction: column;
+      .picture {
+      }
+      .number {
+         font-size: 300px;
+         line-height: 100%;
+         padding-left: 52px;
+         color: #fff;
+      }
+      .name {
+         font-style: normal;
+         font-weight: 300;
+         font-size: 50.7809px;
+         line-height: 60px;
+         /* identical to box height */
+         padding-bottom: 62px;
+         padding-left: 52px;
+
+         color: #ffffff;
+      }
+   }
+
+   .cardr {
+      margin-right: 70px;
+      margin-left: 20px;
+      height: 85%;
+      width: 35%;
+      background: url(../img/double-right.png) #00ed75 no-repeat;
+      background-position: bottom left;
+      display: flex;
+      flex-direction: column;
+      border-radius: 42.3174px;
+      .picture {
+      }
+      .number {
+         font-size: 300px;
+         line-height: 100%;
+         padding-left: 52px;
+         text-align: left;
+         color: #fff;
+      }
+      .name {
+         font-style: normal;
+         font-weight: 300;
+         font-size: 50.7809px;
+         line-height: 60px;
+         /* identical to box height */
+         padding-left: 52px;
+
+         color: #ffffff;
+      }
    }
 }
-
-.cardr {
-   margin-right: 70px;
-   margin-left: 20px;
-   height: 85%;
-   width: 35%;
-   background:url(../img/double-right.png) #00ED75 no-repeat;
-   background-position: bottom left;
-   display: flex;
-   flex-direction: column;
-   border-radius: 42.3174px;
-   .picture {
-   }
-   .number {
-      font-size: 300px;
-      line-height: 100%;
-      padding-left: 52px;
-      text-align: left;
-      color: #fff;
-      
-   }
-   .name {
-      font-style: normal;
-font-weight: 300;
-font-size: 50.7809px;
-line-height: 60px;
-/* identical to box height */
-padding-left: 52px;
-
-color: #FFFFFF;
-   }
-}
-}
-
-
-
