@@ -64,16 +64,20 @@ jQuery(document).ready(function ($) {
 
 
 
-      var totalImages = 45;
+      var totalImages = 34;
       var images = [];
+      var images2 = [];
       for (var i = 1; i < totalImages; i++) {
             var filename = '';
             if (i < 10) filename += '00';
             else if (i < 100) filename += '0';
             filename += i + '.png';
             var img = new Image;
+            var img2 = new Image;
             img.src = 'http://127.0.0.1:5500/img/sequence/cat/' + filename;
+            img2.src = 'http://127.0.0.1:5500/img/sequence/ufo/' + filename;
             images.push(img);
+            images2.push(img2);
 
       }
 
@@ -88,8 +92,10 @@ jQuery(document).ready(function ($) {
       var setImage = function (newLocation) {
             context.clearRect(0, 0, 1280, 720);
             context.drawImage(images[newLocation], 0, 0, 1280, 720);
+      }
+      var setImage2 = function (newLocation) {
             context2.clearRect(0, 0, 1280, 720);
-            context2.drawImage(images[newLocation], 0, 0, 1280, 720);
+            context2.drawImage(images2[newLocation], 0, 0, 1280, 720);
       }
       var wheelDistance = function (evt) {
             if (!evt) evt = event;
@@ -121,6 +127,7 @@ jQuery(document).ready(function ($) {
             // See below for the details of this function
             console.log("currentLocation", currentLocation, distance);
             setImage(currentLocation);
+            setImage2(currentLocation);
       };
       var canvasFillWin = function (e) {
             var h = 720;
@@ -140,8 +147,26 @@ jQuery(document).ready(function ($) {
                               top: "0",
                               marginTop: "0"
                         });
+                  $(canv2)
+                        .width(winH / ratio)
+                        .height(winH)
+                        .css({
+                              // marginLeft: - winH / ratio / 2 + "px",
+                              left: "50%",
+                              top: "0",
+                              marginTop: "0"
+                        });
             } else {
                   $(canv)
+                        .width(winW)
+                        .height(winW * ratio)
+                        .css({
+                              marginLeft: "0",
+                              left: "0",
+                              top: "50%",
+                              marginTop: - winW * ratio / 2 + "px"
+                        });
+                  $(canv2)
                         .width(winW)
                         .height(winW * ratio)
                         .css({
@@ -159,6 +184,7 @@ jQuery(document).ready(function ($) {
       window.addEventListener("DOMMouseScroll", MouseWheelHandler, false);
       window.addEventListener("resize", canvasFillWin, false);
       setImage(1);
+      setImage2(1);
       canvasFillWin();
 
 
