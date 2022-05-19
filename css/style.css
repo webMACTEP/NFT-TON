@@ -181,7 +181,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60vw;
+  width: 58.5vw;
   height: 100vh;
   background: #ef2adc;
   -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
@@ -194,7 +194,7 @@ html {
   right: 0;
   top: 0;
   background: #00ed75;
-  width: 60vw;
+  width: 58.5vw;
   height: 100vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
@@ -420,7 +420,7 @@ html {
 
 .catnip-heroe h1 {
   z-index: 3;
-  font-family: 'Bebas';
+  font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
   font-size: 220px;
@@ -428,7 +428,7 @@ html {
   /* identical to box height */
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .catnip-heroe .description {
@@ -439,7 +439,7 @@ html {
   line-height: 48px;
   /* or 150% */
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 81px;
 }
 
@@ -521,7 +521,7 @@ html {
 
 .ufo-heroe h1 {
   z-index: 3;
-  font-family: 'Bebas';
+  font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
   font-size: 220px;
@@ -529,7 +529,7 @@ html {
   /* identical to box height */
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .ufo-heroe .description {
@@ -540,7 +540,7 @@ html {
   line-height: 48px;
   /* or 150% */
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 81px;
 }
 
@@ -613,7 +613,7 @@ html {
   font-weight: 400;
   font-size: 16.3745px;
   line-height: 19px;
-  color: #DBAE00;
+  color: #dbae00;
 }
 
 .card .down .number {
@@ -621,7 +621,7 @@ html {
   font-weight: 400;
   font-size: 16.3745px;
   line-height: 19px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .wrap-fix {
@@ -691,11 +691,11 @@ html {
   /* identical to box height, or 133% */
   padding-top: 200px;
   text-align: center;
-  color: #00ED75;
+  color: #00ed75;
 }
 
 .number {
-  font-family: 'Bebas';
+  font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
   font-size: 589.763px;
@@ -703,7 +703,7 @@ html {
   /* identical to box height */
   text-align: center;
   text-transform: uppercase;
-  color: #00ED75;
+  color: #00ed75;
 }
 
 .double {
@@ -725,7 +725,7 @@ html {
 
 .double .cardl {
   height: 85%;
-  background: url(../img/double-left.png) #EF2ADC no-repeat;
+  background: url(../img/double-left.png) #ef2adc no-repeat;
   background-position: top left;
   width: 35%;
   margin-left: 70px;
@@ -761,7 +761,7 @@ html {
   /* identical to box height */
   padding-bottom: 62px;
   padding-left: 52px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .double .cardr {
@@ -769,7 +769,7 @@ html {
   margin-left: 20px;
   height: 85%;
   width: 35%;
-  background: url(../img/double-right.png) #00ED75 no-repeat;
+  background: url(../img/double-right.png) #00ed75 no-repeat;
   background-position: bottom left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -796,12 +796,46 @@ html {
   line-height: 60px;
   /* identical to box height */
   padding-left: 52px;
+  color: #ffffff;
+}
+
+.cardr {
+  margin-right: 70px;
+  margin-left: 20px;
+  height: 85%;
+  width: 35%;
+  background: url(../img/double-right.png) #00ED75 no-repeat;
+  background-position: bottom left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 42.3174px;
+}
+
+.cardr .number {
+  font-size: 300px;
+  line-height: 100%;
+  padding-left: 52px;
+  text-align: left;
+  color: #fff;
+}
+
+.cardr .name {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50.7809px;
+  line-height: 60px;
+  /* identical to box height */
+  padding-left: 52px;
   color: #FFFFFF;
 }
 
 .game {
   background: url(../img/game-bg.png);
-  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -900,7 +934,8 @@ html {
   display: flex;
 }
 
-.game .center .left-heroe img {
+.game .center .left-heroe {
+  margin-left: 5%;
   display: block;
 }
 
@@ -909,6 +944,7 @@ html {
 }
 
 .game .center .right-heroe {
+  margin-right: 5%;
   display: block;
 }
 
@@ -920,12 +956,153 @@ html {
 }
 
 .game .down .left {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 50%;
   background: #EF2ADC;
 }
 
+.game .down .left .title-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 127.19%;
+  /* or 41px */
+  text-align: center;
+  margin-left: 5%;
+  max-width: 516px;
+  padding: 10% 0;
+  color: #FFFFFF;
+}
+
+.game .down .left .coming-soon {
+  padding-left: 40px;
+  padding-bottom: 5%;
+  opacity: 0.4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.game .down .left .coming-soon .logo img {
+  margin-right: 13px;
+}
+
+.game .down .left .coming-soon .text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 127.19%;
+  color: #000000;
+}
+
 .game .down .right {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 50%;
   background: #00ED75;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.game .down .right .title-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 127.19%;
+  /* or 41px */
+  text-align: center;
+  margin-right: 5%;
+  max-width: 516px;
+  padding: 10% 0;
+  color: #FFFFFF;
+}
+
+.integration {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 100vh;
+  padding: auto 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.integration .left {
+  height: 80%;
+  width: 60%;
+  padding-left: 5%;
+}
+
+.integration .left .title-int {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 120px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.integration .left .description1 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 127.19%;
+  /* or 41px */
+  color: #FFFFFF;
+}
+
+.integration .left .description2 {
+  margin-top: 24px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 127.19%;
+  /* or 41px */
+  color: #FFFFFF;
+}
+
+.integration .right {
+  margin-right: 5%;
+  width: 40%;
+  height: 80%;
+}
+
+.integration .right .phone {
+  border: 10px solid #480D42;
+  border-radius: 45px;
+  height: 784px;
+  width: 519px;
+  margin-left: auto;
+  -webkit-box-shadow: 0px 8px 38px 0px #FF00F533;
+          box-shadow: 0px 8px 38px 0px #FF00F533;
+  -webkit-box-shadow: 0px 38px 184px 0px #EF2ADC5E;
+          box-shadow: 0px 38px 184px 0px #EF2ADC5E;
 }
 /*# sourceMappingURL=style.css.map */
