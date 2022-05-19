@@ -416,8 +416,6 @@ html {
       padding-bottom: 81px;
    }
 }
-.collection {
-}
 .allcards {
    display: flex;
    justify-content: center;
@@ -571,8 +569,6 @@ html {
       align-items: flex-start;
       border-radius: 42.3174px;
       flex-direction: column;
-      .picture {
-      }
       .number {
          font-size: 300px;
          line-height: 100%;
@@ -623,13 +619,253 @@ html {
       }
    }
 }
-.test {
-   // position: relative;
-   // width: 100%;
+
+.cardr {
+   margin-right: 70px;
+   margin-left: 20px;
+   height: 85%;
+   width: 35%;
+   background: url(../img/double-right.png) #00ed75 no-repeat;
+   background-position: bottom left;
+   display: flex;
+   flex-direction: column;
+   border-radius: 42.3174px;
+   .picture {
+   }
+   .number {
+      font-size: 300px;
+      line-height: 100%;
+      padding-left: 52px;
+      text-align: left;
+      color: #fff;
+   }
+   .name {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 50.7809px;
+      line-height: 60px;
+      /* identical to box height */
+      padding-left: 52px;
+
+      color: #ffffff;
+   }
 }
-#background {
-   position: fixed;
-   left: 0;
-   top: 0;
-   width: 100%;
+
+.game {
+   background: url(../img/game-bg.png);
+
+   background-repeat: no-repeat;
+   background-size: cover;
+   .lefthp {
+      width: 337px;
+      height: 33px;
+      background: url(../img/game-lefthp.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+      margin-left: 47px;
+
+      color: #ffffff;
+   }
+   .up {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 5%;
+   }
+   .title-game {
+      text-align: center;
+      font-family: "Bebas";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 180px;
+      line-height: 94%;
+      /* or 169px */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #ffffff;
+   }
+   .descripton-game {
+      text-align: center;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 48px;
+      /* identical to box height, or 171% */
+
+      text-align: center;
+
+      color: #ffffff;
+   }
+   .righthp {
+      width: 337px;
+      height: 33px;
+      background: url(../img/game-righthp.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      padding-right: 10px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+      margin-right: 47px;
+      justify-content: flex-end;
+      color: #ffffff;
+   }
+   .center {
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      .left-heroe {
+         margin-left: 5%;
+         display: block;
+      }
+      .game-center {
+         display: block;
+      }
+      .right-heroe {
+         margin-right: 5%;
+         display: block;
+      }
+   }
+   .down {
+      display: flex;
+      margin-top: -5px;
+      .left {
+         flex-direction: column;
+         display: flex;
+         justify-content: center;
+
+         width: 50%;
+         background: #ef2adc;
+         .title-down {
+            display: flex;
+            justify-content: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 127.19%;
+            /* or 41px */
+
+            text-align: center;
+            margin-left: 5%;
+
+            max-width: 516px;
+            padding: 10% 0;
+
+            color: #ffffff;
+         }
+         .coming-soon {
+            padding-left: 40px;
+            padding-bottom: 5%;
+            opacity: 0.4;
+            display: flex;
+            .logo {
+               img {
+                  margin-right: 13px;
+               }
+            }
+            .text {
+               font-weight: 400;
+               font-size: 20px;
+               line-height: 127.19%;
+               color: #000000;
+            }
+         }
+      }
+      .right {
+         flex-direction: column;
+         width: 50%;
+         background: #00ed75;
+         display: flex;
+         align-items: center;
+         .title-down {
+            display: flex;
+
+            width: 100%;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 127.19%;
+            /* or 41px */
+
+            text-align: center;
+            margin-right: 5%;
+
+            max-width: 516px;
+            padding: 10% 0;
+
+            color: #ffffff;
+         }
+      }
+   }
+}
+.integration {
+   padding-top: 10%;
+   padding-bottom: 10%;
+   height: 100vh;
+   padding: auto 5%;
+   display: flex;
+   position: relative;
+   .left {
+      height: 80%;
+      width: 60%;
+      padding-left: 5%;
+      .title-int {
+         padding-top: 20px;
+         padding-bottom: 20px;
+         font-family: "Bebas";
+         font-style: normal;
+         font-weight: 700;
+         font-size: 120px;
+         line-height: 120px;
+         /* identical to box height */
+
+         text-transform: uppercase;
+
+         color: #ffffff;
+      }
+      .description1 {
+         font-weight: 300;
+         font-size: 32px;
+         line-height: 127.19%;
+         /* or 41px */
+
+         color: #ffffff;
+      }
+      .description2 {
+         margin-top: 24px;
+         font-weight: 300;
+         font-size: 32px;
+         line-height: 127.19%;
+         /* or 41px */
+
+         color: #ffffff;
+      }
+   }
+   .right {
+      margin-right: 5%;
+      width: 40%;
+      height: 80%;
+      .phone {
+         border: 10px solid #480d42;
+         border-radius: 45px;
+         height: 784px;
+         width: 519px;
+         margin-left: auto;
+         box-shadow: 0px 8px 38px 0px #ff00f533;
+
+         box-shadow: 0px 38px 184px 0px #ef2adc5e;
+      }
+   }
 }

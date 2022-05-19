@@ -799,9 +799,309 @@ html {
   color: #ffffff;
 }
 
-#background {
-  position: fixed;
-  left: 0;
-  top: 0;
+.cardr {
+  margin-right: 70px;
+  margin-left: 20px;
+  height: 85%;
+  width: 35%;
+  background: url(../img/double-right.png) #00ed75 no-repeat;
+  background-position: bottom left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 42.3174px;
+}
+
+.cardr .number {
+  font-size: 300px;
+  line-height: 100%;
+  padding-left: 52px;
+  text-align: left;
+  color: #fff;
+}
+
+.cardr .name {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50.7809px;
+  line-height: 60px;
+  /* identical to box height */
+  padding-left: 52px;
+  color: #ffffff;
+}
+
+.game {
+  background: url(../img/game-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game .lefthp {
+  width: 337px;
+  height: 33px;
+  background: url(../img/game-lefthp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  margin-left: 47px;
+  color: #ffffff;
+}
+
+.game .up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5%;
+}
+
+.game .title-game {
+  text-align: center;
+  font-family: "Bebas";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 94%;
+  /* or 169px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.game .descripton-game {
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 48px;
+  /* identical to box height, or 171% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.game .righthp {
+  width: 337px;
+  height: 33px;
+  background: url(../img/game-righthp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  margin-right: 47px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #ffffff;
+}
+
+.game .center {
   width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.game .center .left-heroe {
+  margin-left: 5%;
+  display: block;
+}
+
+.game .center .game-center {
+  display: block;
+}
+
+.game .center .right-heroe {
+  margin-right: 5%;
+  display: block;
+}
+
+.game .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -5px;
+}
+
+.game .down .left {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  background: #ef2adc;
+}
+
+.game .down .left .title-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 127.19%;
+  /* or 41px */
+  text-align: center;
+  margin-left: 5%;
+  max-width: 516px;
+  padding: 10% 0;
+  color: #ffffff;
+}
+
+.game .down .left .coming-soon {
+  padding-left: 40px;
+  padding-bottom: 5%;
+  opacity: 0.4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.game .down .left .coming-soon .logo img {
+  margin-right: 13px;
+}
+
+.game .down .left .coming-soon .text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 127.19%;
+  color: #000000;
+}
+
+.game .down .right {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  background: #00ed75;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.game .down .right .title-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 127.19%;
+  /* or 41px */
+  text-align: center;
+  margin-right: 5%;
+  max-width: 516px;
+  padding: 10% 0;
+  color: #ffffff;
+}
+
+.integration {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 100vh;
+  padding: auto 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.integration .left {
+  height: 80%;
+  width: 60%;
+  padding-left: 5%;
+}
+
+.integration .left .title-int {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Bebas";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 120px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.integration .left .description1 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 127.19%;
+  /* or 41px */
+  color: #ffffff;
+}
+
+.integration .left .description2 {
+  margin-top: 24px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 127.19%;
+  /* or 41px */
+  color: #ffffff;
+}
+
+.integration .right {
+  margin-right: 5%;
+  width: 40%;
+  height: 80%;
+}
+
+.integration .right .phone {
+  border: 10px solid #480d42;
+  border-radius: 45px;
+  height: 784px;
+  width: 519px;
+  margin-left: auto;
+  -webkit-box-shadow: 0px 8px 38px 0px #ff00f533;
+          box-shadow: 0px 8px 38px 0px #ff00f533;
+  -webkit-box-shadow: 0px 38px 184px 0px #ef2adc5e;
+          box-shadow: 0px 38px 184px 0px #ef2adc5e;
 }
