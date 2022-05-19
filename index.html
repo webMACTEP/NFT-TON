@@ -8,13 +8,15 @@
    <title>NFT</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/media.css">
-   <!-- <link rel="stylesheet" href="css/animate.css"> -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="css/animate.css">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
 
    <script src="js/jquery.min.js"></script>
    <script src="js/script.js"></script>
    <script src="js/wow.js"></script>
-
+   <script>
+      new WOW().init();
+   </script>
 </head>
 
 <body>
@@ -39,13 +41,12 @@
    <main class="main">
 
       <section class="intro">
-         <div class="ileft animate__animated animate__slideInLeft"></div>
-         <div class="iright  animate__animated animate__slideInRight"></div>
+         <div class="ileft wow slideInLeft"></div>
+         <div class="iright wow slideInRight"></div>
          <div class="iimg"><img src="img/inro-logo.png" alt=""></div>
-         <div class="cat animate__animated animate__bounceInLeft animate__delay-1s"><img src="img/cat-intro.png" alt="">
+         <div class="cat wow  bounceInLeft delay-1s"><img src="img/cat-intro.png" alt="">
          </div>
-         <div class="ufo animate__animated animate__bounceInRight animate__delay-1s"><img src="img/ufo-intro.png"
-               alt=""></div>
+         <div class="ufo wow  bounceInRight delay-1s"><img src="img/ufo-intro.png" alt=""></div>
          <img class="mouse" src="img/mouse.svg" alt="">
       </section>
       <section class="about">
@@ -108,8 +109,8 @@
             <img class="how6" src="img/how6.png" alt="">
             <img class="how7" src="img/how7.png" alt="">
             <img class="how8" src="img/how8.png" alt="">
-            <div class="title animate__animated animate__zoomIn">Коллекция NFT</div>
-            <div class="number animate__animated animate__zoomIn">6282</div>
+            <div class="title wow  zoomIn " data-wow-duration="2s" data-wow-delay="1s">Коллекция NFT</div>
+            <div class="number wow  zoomIn" data-wow-duration="2s" data-wow-delay="1s">6282</div>
          </section>
       </div>
 
