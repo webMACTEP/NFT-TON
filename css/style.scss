@@ -16,6 +16,39 @@ html {
    //padding: 0px 40px;
 }
 
+.scroll-container {
+   height: 100vh;
+   background: black;
+}
+.speak {
+   margin: 150vh 0;
+   &:first-child {
+      margin-top: -50vh;
+   }
+}
+
+.speak[data-scroll] {
+   // transition: opacity .3s;
+   transform: translatey(calc(var(--viewport-y) * 30vh));
+   opacity: calc(var(--visible-y));
+}
+
+.scroll-sequence__content {
+   padding: 4em;
+}
+.scroll-sequence {
+   position: sticky;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: -5;
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
 .header {
    position: fixed;
    z-index: 100;
@@ -483,71 +516,73 @@ html {
    height: 100vh;
    position: relative;
    overflow: hidden;
-}
-.how1 {
-   position: absolute;
-   left: 50%;
-   top: -10%;
-}
-.how2 {
-   position: absolute;
-   right: 5%;
-   top: 10%;
-}
-.how3 {
-   position: absolute;
-   right: calc(50% + 343px);
-   top: 230px;
-   z-index: -1;
-}
-.how4 {
-   position: absolute;
-   top: 50%;
-   left: -5%;
-}
-.how5 {
-   position: absolute;
-   top: 70%;
-   left: 35%;
-}
-.how6 {
-   position: absolute;
-   top: 80%;
-   left: 1%;
-}
-.how7 {
-   position: absolute;
-   bottom: -10%;
-   right: 25%;
-}
-.how8 {
-   position: absolute;
-   bottom: 5%;
-   right: 0%;
-}
-.title {
-   font-style: normal;
-   font-weight: 600;
-   font-size: 60px;
-   line-height: 80px;
-   /* identical to box height, or 133% */
-   padding-top: 200px;
 
-   text-align: center;
-   color: #00ed75;
-}
-.number {
-   font-family: "Bebas";
-   font-style: normal;
-   font-weight: 700;
-   font-size: 589.763px;
-   line-height: 590px;
-   /* identical to box height */
-   text-align: center;
-   text-transform: uppercase;
+   .how1 {
+      position: absolute;
+      left: 50%;
+      top: -10%;
+   }
+   .how2 {
+      position: absolute;
+      right: 5%;
+      top: 10%;
+   }
+   .how3 {
+      position: absolute;
+      right: calc(50% + 343px);
+      top: 230px;
+      z-index: -1;
+   }
+   .how4 {
+      position: absolute;
+      top: 50%;
+      left: -5%;
+   }
+   .how5 {
+      position: absolute;
+      top: 70%;
+      left: 35%;
+   }
+   .how6 {
+      position: absolute;
+      top: 80%;
+      left: 1%;
+   }
+   .how7 {
+      position: absolute;
+      bottom: -10%;
+      right: 25%;
+   }
+   .how8 {
+      position: absolute;
+      bottom: 5%;
+      right: 0%;
+   }
+   .title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 80px;
+      /* identical to box height, or 133% */
+      padding-top: 200px;
 
-   color: #00ed75;
+      text-align: center;
+      color: #00ed75;
+   }
+   .number {
+      font-family: "Bebas";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 589.763px;
+      line-height: 590px;
+      /* identical to box height */
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #00ed75;
+   }
 }
+
 .double {
    display: flex;
    height: 100vh;
