@@ -798,4 +798,134 @@ html {
   padding-left: 52px;
   color: #FFFFFF;
 }
+
+.game {
+  background: url(../img/game-bg.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game .lefthp {
+  width: 337px;
+  height: 33px;
+  background: url(../img/game-lefthp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  margin-left: 47px;
+  color: #FFFFFF;
+}
+
+.game .up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5%;
+}
+
+.game .title-game {
+  text-align: center;
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 94%;
+  /* or 169px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.game .descripton-game {
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 48px;
+  /* identical to box height, or 171% */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.game .righthp {
+  width: 337px;
+  height: 33px;
+  background: url(../img/game-righthp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  margin-right: 47px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #FFFFFF;
+}
+
+.game .center {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.game .center .left-heroe img {
+  display: block;
+}
+
+.game .center .game-center {
+  display: block;
+}
+
+.game .center .right-heroe {
+  display: block;
+}
+
+.game .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -5px;
+}
+
+.game .down .left {
+  width: 50%;
+  background: #EF2ADC;
+}
+
+.game .down .right {
+  width: 50%;
+  background: #00ED75;
+}
 /*# sourceMappingURL=style.css.map */

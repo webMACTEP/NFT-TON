@@ -634,6 +634,111 @@ color: #FFFFFF;
    }
 }
 }
+.game{
+   background: url(../img/game-bg.png);
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   .lefthp{
+      width: 337px;
+      height: 33px;
+      background: url(../img/game-lefthp.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      padding-left:10px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+      margin-left: 47px;
+      
+      color: #FFFFFF;
+      
+      
+   }
+   .up{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 5%;
+   }
+   .title-game{
+      text-align: center;
+      font-family: 'Bebas';
+font-style: normal;
+font-weight: 700;
+font-size: 180px;
+line-height: 94%;
+/* or 169px */
 
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+   }
+   .descripton-game{
+      text-align: center;
+      font-weight: 500;
+font-size: 28px;
+line-height: 48px;
+/* identical to box height, or 171% */
+
+text-align: center;
+
+color: #FFFFFF;
+   }
+   .righthp{
+      width: 337px;
+      height: 33px;
+      background: url(../img/game-righthp.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      padding-right:10px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+      margin-right: 47px;
+      justify-content: flex-end;
+      color: #FFFFFF;
+      
+      
+   }
+   .center{
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      .left-heroe img{
+         
+         display: block;
+      }
+      .game-center{
+         display: block;
+         
+      }
+      .right-heroe{
+         
+         display: block;
+      }
+   }
+   .down{
+      display: flex;
+      margin-top: -5px;
+      .left{
+         width: 50%;
+         background: #EF2ADC;
+
+      }
+      .right{
+         width: 50%;
+         background: #00ED75;
+      }
+   }
+}
 
 
