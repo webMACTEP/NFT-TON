@@ -84,8 +84,8 @@ jQuery(document).ready(function ($) {
             filename += i + '.png';
             var img = new Image;
             var img2 = new Image;
-            img.src = 'http://127.0.0.1:5500/img/sequence/cat/' + filename;
-            img2.src = 'http://127.0.0.1:5500/img/sequence/ufo/' + filename;
+            img.src = 'img/sequence/cat/' + filename;
+            img2.src = 'img/sequence/ufo/' + filename;
             images.push(img);
             images2.push(img2);
 
@@ -200,7 +200,6 @@ jQuery(document).ready(function ($) {
 
 
       ///////////////////////////////////////////////////////////////////////////////////////
-
 
 
 
