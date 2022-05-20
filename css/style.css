@@ -1010,6 +1010,9 @@ html {
 }
 
 .game .down .right {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1019,9 +1022,6 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .game .down .right .title-down {
@@ -1130,38 +1130,81 @@ html {
 .subscribe .sub1 {
   position: absolute;
   z-index: 1;
-  top: -20%;
+  top: -170px;
   left: 40%;
 }
 
 .subscribe .sub2 {
   position: absolute;
   z-index: 1;
-  top: 0;
+  right: calc(50% - 575px);
+  top: calc(50% - 400px);
 }
 
 .subscribe .sub3 {
   position: absolute;
   z-index: 1;
+  left: 0;
+  top: 10vh;
 }
 
 .subscribe .sub4 {
   position: absolute;
   z-index: 1;
+  left: calc(40% - 306px);
+  bottom: calc(40% - 349px);
 }
 
 .subscribe .sub5 {
   position: absolute;
   z-index: 1;
+  right: 5vw;
+  bottom: 0;
 }
 
 .subscribe .sub6 {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
+  bottom: -5%;
+  right: 0;
 }
 
 .subscribe .sub7 {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
+  left: 0;
+  bottom: calc(50% - 300px);
+}
+
+.subscribe a {
+  display: block;
+  width: 420px;
+  height: 110px;
+  background: #000000;
+  border-radius: 167.75px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+.subscribe .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.subscribe .text {
+  font-weight: 400;
+  font-size: 41.25px;
+  line-height: 48px;
+  color: #FFFFFF;
+  padding-left: 11px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -26,6 +26,11 @@ jQuery(document).ready(function ($) {
       let how8 = document.querySelector('.how8');
       let metalball1 = document.querySelector('.metal-ball1');
       let metalball2 = document.querySelector('.metal-ball2');
+      let sub1 = document.querySelector('.sub1');
+      let sub2 = document.querySelector('.sub2');
+      let sub6 = document.querySelector('.sub6');
+      let sub4 = document.querySelector('.sub4');
+      let sub7 = document.querySelector('.sub7');
       window.addEventListener('mousemove', function (e) {
             let x = e.clientX / window.innerWidth;
             let y = e.clientY / window.innerHeight;
@@ -53,6 +58,11 @@ jQuery(document).ready(function ($) {
             how6.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 20 + 'px)';
             how7.style.transform = 'translate(-' + x * 75 + 'px, -' + y * 75 + 'px)';
             how8.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
+            sub1.style.transform = 'translate(-' + x * 80 + 'px, -' + y * 80 + 'px)';
+            sub2.style.transform = 'translate(-' + x * 5 + 'px, -' + y * 5 + 'px)';
+            sub6.style.transform = 'translate(-' + x * 120 + 'px, -' + y * 120 + 'px)';
+            sub4.style.transform = 'translate(-' + x * 5 + 'px, -' + y * 5 + 'px)';
+            sub7.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
 
       });
 
