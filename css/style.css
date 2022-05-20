@@ -1105,8 +1105,26 @@ html {
           box-shadow: 0px 38px 184px 0px #ef2adc5e;
 }
 
+.integration .video-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 35px;
+}
+
+.integration .video-container video {
+  max-width: 120%;
+  max-height: 120%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
 .subscribe {
-  background: url(../img/light-sub.png) #EF2ADC;
+  background: url(../img/light-sub.png) #ef2adc;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -1117,14 +1135,14 @@ html {
 .subscribe .title-sub {
   z-index: -2;
   padding-top: 40vh;
-  font-family: 'Bebas';
+  font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
   font-size: 80px;
   line-height: 80px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subscribe .sub1 {
@@ -1164,4 +1182,3 @@ html {
   position: absolute;
   z-index: 1;
 }
-/*# sourceMappingURL=style.css.map */

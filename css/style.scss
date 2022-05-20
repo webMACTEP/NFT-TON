@@ -813,7 +813,7 @@ html {
 .integration {
    padding-top: 10vh;
    padding-bottom: 10vh;
-   
+
    padding: auto 5%;
    display: flex;
    position: relative;
@@ -868,51 +868,71 @@ html {
          box-shadow: 0px 38px 184px 0px #ef2adc5e;
       }
    }
+   .video-container {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      border-radius: 35px;
+   }
+
+   .video-container video {
+      max-width: 120%;
+      max-height: 120%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+   }
 }
-.subscribe{
-   background: url(../img/light-sub.png) #EF2ADC;
+.subscribe {
+   background: url(../img/light-sub.png) #ef2adc;
    background-size: cover;
    background-repeat: no-repeat;
    height: 100vh;
    position: relative;
    overflow: hidden;
-   .title-sub{
+   .title-sub {
       z-index: -2;
       padding-top: 40vh;
-      font-family: 'Bebas';
+      font-family: "Bebas";
       font-style: normal;
       font-weight: 700;
       font-size: 80px;
       line-height: 80px;
       text-align: center;
       text-transform: uppercase;
-      color: #FFFFFF;
-      
+      color: #ffffff;
    }
-   .sub1{
+   .sub1 {
       position: absolute;
       z-index: 1;
       top: -20%;
       left: 40%;
    }
-   .sub2{
+   .sub2 {
       position: absolute;
       z-index: 1;
       top: 0;
    }
-   .sub3{
-      position: absolute;z-index: 1;
+   .sub3 {
+      position: absolute;
+      z-index: 1;
    }
-   .sub4{
-      position: absolute;z-index: 1;
+   .sub4 {
+      position: absolute;
+      z-index: 1;
    }
-   .sub5{
-      position: absolute;z-index: 1;
+   .sub5 {
+      position: absolute;
+      z-index: 1;
    }
-   .sub6{
-      position: absolute;z-index: 1;
+   .sub6 {
+      position: absolute;
+      z-index: 1;
    }
-   .sub7{
-      position: absolute;z-index: 1;   
+   .sub7 {
+      position: absolute;
+      z-index: 1;
    }
 }
