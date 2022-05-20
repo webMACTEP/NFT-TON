@@ -949,14 +949,20 @@ right: calc(50% - 575px);
    }
    a{
       display: block;
+      position: relative;
       width: 420px;
       height: 110px;
       background: #000000;
       border-radius: 167.75px;
       margin: 0 auto;
       margin-top: 26px;
+      z-index: 20;
    }
    .button{
+      width: 420px;
+      height: 110px;
+      background: #000000;
+      border-radius: 167.75px;
       display: flex;
       justify-content: center;
       align-items: center;

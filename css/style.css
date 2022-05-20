@@ -1196,15 +1196,21 @@ html {
 
 .subscribe a {
   display: block;
+  position: relative;
   width: 420px;
   height: 110px;
   background: #000000;
   border-radius: 167.75px;
   margin: 0 auto;
   margin-top: 26px;
+  z-index: 20;
 }
 
 .subscribe .button {
+  width: 420px;
+  height: 110px;
+  background: #000000;
+  border-radius: 167.75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
