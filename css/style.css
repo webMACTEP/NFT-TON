@@ -550,8 +550,11 @@ main {
 
 .collection {
   position: relative;
+  z-index: 1;
   top: -100vh;
   height: 100vh;
+  background: #000;
+  padding: auto;
 }
 
 .collection .allcards {
@@ -641,6 +644,7 @@ main {
 .wrap-fix {
   position: relative;
   height: 100vh;
+  overflow: hidden;
 }
 
 .wrap-fix .animation-wrap {
@@ -664,6 +668,7 @@ main {
   height: 100vh;
   position: relative;
   overflow: hidden;
+  z-index: -1;
 }
 
 .howmuch .how1 {

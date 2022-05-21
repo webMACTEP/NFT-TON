@@ -421,8 +421,11 @@ main{
 }
 .collection{
 position: relative;
+z-index: 1;
 top: -100vh;
 height: 100vh;
+background: #000;
+padding: auto;
 
 .allcards {
    display: flex;
@@ -486,6 +489,7 @@ height: 100vh;
 .wrap-fix {
    position: relative;
    height: 100vh;
+   overflow: hidden;
    .animation-wrap{
       height: 100vh;
       display: flex;
@@ -499,7 +503,8 @@ height: 100vh;
    height: 100vh;
    position: relative;
    overflow: hidden;
-
+   z-index: -1;
+   
    .how1 {
       position: absolute;
       left: 50%;

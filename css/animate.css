@@ -2879,6 +2879,32 @@
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
 }
+@-webkit-keyframes opacing {
+  from {
+    opacity: 0;
+    
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacing {
+  from {
+    opacity: 0;
+    
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
 
 @-webkit-keyframes zoomInDown {
   from {
@@ -3079,6 +3105,39 @@
 .zoomOut {
   -webkit-animation-name: zoomOut;
   animation-name: zoomOut;
+}
+@-webkit-keyframes zoomOutt {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(6, 6, 6);
+    transform: scale3d(6, 6, 6);
+  }
+
+  
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomOutt {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(8, 8, 8);
+    transform: scale3d(8, 8, 8);
+  }
+
+  
+  
+
+  to {
+    opacity: 1;
+  }
+}
+
+.zoomOutt {
+  -webkit-animation-name: zoomOutt;
+  animation-name: zoomOutt;
 }
 
 @-webkit-keyframes zoomOutDown {
