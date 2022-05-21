@@ -86,6 +86,10 @@ html {
   color: #fff;
 }
 
+main {
+  margin-bottom: -100vh;
+}
+
 .container {
   margin: 0px auto;
   max-width: 1360px;
@@ -544,16 +548,26 @@ html {
   padding-bottom: 81px;
 }
 
-.allcards {
+.collection {
+  position: relative;
+  top: -100vh;
+  height: 100vh;
+}
+
+.collection .allcards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
 }
 
-.allcards .cards-left {
+.collection .allcards .cards-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -564,11 +578,11 @@ html {
           justify-content: flex-end;
 }
 
-.allcards .cards-left .card {
+.collection .allcards .cards-left .card {
   margin-right: 13px;
 }
 
-.allcards .cards-right {
+.collection .allcards .cards-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -579,7 +593,7 @@ html {
           justify-content: flex-start;
 }
 
-.allcards .cards-right .card {
+.collection .allcards .cards-right .card {
   margin-left: 13px;
 }
 
@@ -626,6 +640,24 @@ html {
 
 .wrap-fix {
   position: relative;
+  height: 100vh;
+}
+
+.wrap-fix .animation-wrap {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .howmuch {
@@ -711,6 +743,7 @@ html {
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
+  position: relative;
   background: url(../img/double-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -747,9 +780,11 @@ html {
 }
 
 .double .cardl .number {
-  font-size: 300px;
+  font-size: 13vw;
   line-height: 100%;
   padding-left: 52px;
+  width: 100%;
+  font-weight: bold;
   color: #fff;
 }
 
@@ -782,46 +817,14 @@ html {
 }
 
 .double .cardr .number {
-  font-size: 300px;
+  font-size: 13vw;
   line-height: 100%;
   padding-left: 52px;
   text-align: left;
+  font-weight: bold;
   color: #fff;
-}
-
-.double .cardr .name {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 50.7809px;
-  line-height: 60px;
-  /* identical to box height */
-  padding-left: 52px;
-  color: #ffffff;
-}
-
-.double .cardr {
-  margin-right: 70px;
-  margin-left: 20px;
-  height: 85%;
-  width: 35%;
-  background: url(../img/double-right.png) #00ed75 no-repeat;
-  background-position: bottom left;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  border-radius: 42.3174px;
-}
-
-.double .cardr .number {
-  font-size: 300px;
-  line-height: 100%;
-  padding-left: 52px;
-  text-align: left;
-  color: #fff;
+  width: 100%;
+  padding-top: 5%;
 }
 
 .double .cardr .name {
@@ -836,6 +839,7 @@ html {
 
 .game {
   background: url(../img/game-bg.png);
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1052,6 +1056,16 @@ html {
 }
 
 .integration .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 80%;
   width: 60%;
   padding-left: 5%;
@@ -1088,6 +1102,16 @@ html {
 }
 
 .integration .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-right: 5%;
   width: 40%;
   height: 80%;

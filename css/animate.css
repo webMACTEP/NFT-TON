@@ -3046,13 +3046,15 @@
 
 @-webkit-keyframes zoomOut {
   from {
-    opacity: 1;
+    opacity: 0;
+    -webkit-transform: scale3d(6, 6, 6);
+    transform: scale3d(6, 6, 6);
   }
 
   50% {
     opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
+    -webkit-transform: scale3d(3, 3, 3);
+    transform: scale3d(3, 3, 3);
   }
 
   to {
@@ -3063,16 +3065,14 @@
 @keyframes zoomOut {
   from {
     opacity: 1;
+    -webkit-transform: scale3d(8, 8, 8);
+    transform: scale3d(8, 8, 8);
   }
 
-  50% {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
+  
 
   to {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
