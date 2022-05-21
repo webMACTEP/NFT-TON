@@ -1,0 +1,487 @@
+@media(max-width:1700px){
+    .about h2{
+        font-size: 180px;
+    }
+}
+@media(max-width:1500px){
+    .about h2{
+        font-size: 150px;
+    }
+    .subscribe .sub3{
+        top: 0;
+    }
+    .subscribe .sub5{
+        right: 0;
+    }
+    .intro .ufo{
+        height: 70vh;
+    }
+    .intro .cat{
+        height: 70vh;
+    }
+}
+@media(max-width:1300px){
+    canvas{
+        display: none;
+    }
+    .hiiden{
+        display: block;
+    }
+    .about h2{
+        font-size: 120px;
+    }
+    .integration .right .phone{
+        height: 548px;
+        width: 363px;
+    }
+    .integration .left .title-int{
+        font-size: 100px;
+    }
+    .subscribe .sub3{
+        top: -5vh;
+    }
+    .subscribe .sub5{
+        right: -5vh;
+    }
+    .intro .ufo{
+        height: 60vh;
+    }
+    .intro .cat{
+        height: 60vh;
+    }
+    .intro .ufo{
+        width: 35vh;
+    }
+    .intro .cat{
+        width: 35vh;
+    }
+    .intro .iimg{
+        top: 0;
+    }
+    .catnip-heroe{
+        .under-title{
+            font-weight: 700;
+font-size: 110px;
+line-height: 110px;
+        }
+        .light1{
+            width: 89.98px;
+height: 157.74px;
+left: 0!important;
+        }
+        .light2{
+            width: 89.98px;
+height: 157.74px;
+right: 0!important;
+        }
+        .light3{
+            width: 89.98px;
+height: 157.74px;
+right: 0!important;
+bottom: 30%!important;
+        }
+        .light4{
+            width: 89.98px;
+height: 157.74px;
+left: 0!important;
+bottom: 30%!important;
+        }
+        .description{
+            font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+        }
+    }
+    .metal1,.metal2{
+        display: none;
+    }
+    .ufo-heroe{
+        .metal-ball1{
+            width: 91px!important;
+height: 84px!important;
+top: 20%!important;
+        }
+        .metal-ball2{
+            width: 107px;
+height: 98px;
+bottom: 50%!important;
+
+        }
+        .metal3{
+            width: 189px;
+height: 182px;
+bottom: -4%!important;
+        }
+        .metal4{
+            width: 189px;
+height: 182px;
+left: -10%!important;
+bottom: -2%!important;
+        }
+    }
+    .howmuch{
+        .number{
+            font-weight: 700;
+font-size: 201.628px;
+line-height: 202px;
+        }
+        .title{
+            font-weight: 600;
+font-size: 20.5128px;
+line-height: 27px;
+        }
+        
+    }
+    .double{
+        .cardl{
+            background-position: -95px 27px !important;
+        }
+        .cardr{
+            background-position: -110px 27px !important;
+        }
+    }
+}
+
+@media (max-width:750px) {
+    .ufo-heroe{
+        .metal-ball1{
+            width: 91px;
+height: 84px;
+top: 20%!important;
+        }
+        .metal-ball2{
+            width: 107px;
+height: 98px;
+bottom: 50%!important;
+
+        }
+        
+        .metal3{
+            width: 189px;
+height: 182px;
+bottom: -7%!important;
+        }
+        .metal4{
+            width: 189px;
+height: 182px;
+left: -20%!important;
+bottom: -5%!important;
+        }
+        .under-title{
+            font-weight: 700;
+font-size: 110px;
+line-height: 110px;
+        }
+        .description{
+            font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+        }
+    }
+    .catnip-heroe{
+        .under-title{
+            font-weight: 700;
+font-size: 110px;
+line-height: 110px;
+        }
+        .light1{
+            width: 89.98px;
+height: 157.74px;
+        }
+        .light2{
+            width: 89.98px;
+height: 157.74px;
+        }
+        .light3{
+            width: 89.98px;
+height: 157.74px;
+        }
+        .light4{
+            width: 89.98px;
+height: 157.74px;
+        }
+    }
+    .about h2 {
+        font-size: 80px;
+        line-height: 110%;
+    }
+    .fly5,.fly7,.fly8,.fly9{
+        display: none;
+    }
+    .about{
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        h2{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    .fly4{
+        left: 5%!important;
+        filter: blur(5px);
+        top: -20px;
+        width: 104px;
+        height: 88px;
+    }
+    .fly1 {
+        position: absolute;
+        top: 5%;
+        right: -50px!important;
+        z-index: -1;
+     }
+     .fly2 {
+        position: absolute;
+        top: 35%;
+        right: 3%;
+        width: 180px;
+        height: 185px;
+        z-index: -1;
+        display: none;
+     }
+     .fly3 {
+        position: absolute;
+        top: 35%;
+        left: -2%!important;
+        z-index: -1;
+        width: 101px;
+        height: 204px;
+     }
+     .fly4 {
+        position: absolute;
+        z-index: -1;
+        left: 20%;
+        bottom: 5%;
+     }
+     .fly5 {
+        position: absolute;
+        z-index: -1;
+        left: -5%;
+        bottom: -10%;
+        filter: blur(9px);
+     }
+     .fly6 {
+        position: absolute;
+        z-index: -2;
+        left: 3%;
+        bottom: 10%;
+        width: 153px;
+        height: 143px;
+        filter: blur(11px);
+     }
+     .fly7 {
+        position: absolute;
+        z-index: -1;
+        left: 47%;
+        bottom: -10%;
+        width: 153px;
+        height: 143px;
+     }
+     .fly8 {
+        position: absolute;
+        z-index: -1;
+        filter: blur(20px);
+        left: 25%;
+        top: 20%;
+     }
+     .fly9 {
+        position: absolute;
+        z-index: -1;
+  
+        left: -5%;
+        top: 5%;
+     }
+     .fly10 {
+        position: absolute;
+        z-index: -1;
+        width: 132px;
+        height: 130px;
+  
+        right: -5%!important;
+        bottom: 5%!important;
+     }
+    
+    .collection .allcards .cards-right .card {
+        width: 148px!important;
+        height: 184px!important;
+    }
+    .collection .allcards .cards-left .card {
+        width: 148px!important;
+        height: 184px!important;
+    }
+    .card .heroe-picture img {
+        display: block;
+        width: 100%!important;
+        height: 100%!important;
+    }
+    .card .down .name{
+        font-weight: 400;
+font-size: 11.1408px;
+line-height: 13px;
+    }
+    .card .down .number{
+        font-weight: 400;
+font-size: 11.1408px;
+line-height: 13px;
+    }
+    .howmuch{
+        .how1,.how2{
+            display: none;
+        }
+        .how3{
+            top: 0%!important;
+            
+            right: 40%!important;
+            
+            width: 92px!important;
+            height: 90px!important;
+        }
+        .how4{
+            bottom: 5%!important;
+            
+            left: 0%!important;
+            
+            width: 205px!important;
+            height: 265px!important;
+        }
+        .how5{
+            bottom: 50%!important;
+            
+            left: 40%!important;
+            
+            width: 120px!important;
+            height: 120px!important;
+        }
+        .how6{
+            top: 20%!important;
+            
+            left: 0%!important;
+            
+            width: 85px!important;
+            height: 70px!important;
+        }
+        .how7{
+            bottom: 10%!important;
+            
+            right: 5%!important;
+            
+            width: 110px!important;
+            height: 110px!important;
+        }
+        .how8{
+            top: 10%!important;
+            
+            right:0%!important;
+            
+            width: 130px!important;
+            height: 110px!important;
+        }
+        
+    }
+    .double{
+        background: #000!important;
+        padding: 5% 5%;
+        flex-direction: column;
+        height: 160vh;
+        .cardl{
+            height: 70vh;
+            width: 100%;
+            margin: 0;
+            margin-bottom: 20px;
+            .number {
+                font-size: 30vw!important;
+                line-height: 100%;
+                padding-left: 52px;
+                width: 100%;
+                font-weight: bold;
+                color: #fff;
+             }
+             .name {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 40.7809px!important;
+                line-height: 60px;
+                /* identical to box height */
+                padding-bottom: 62px;
+                padding-left: 52px;
+                
+                color: #ffffff;
+             }
+        }
+        .cardr{
+            width: 100%;
+            height: 70vh;
+            margin: 0;
+            .number {
+                font-size: 30vw!important;
+                line-height: 100%;
+                padding-left: 52px;
+                width: 100%;
+                font-weight: bold;
+                color: #fff;
+             }
+             .name {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 40.7809px!important;
+                line-height: 60px;
+                /* identical to box height */
+                padding-bottom: 62px;
+                padding-left: 52px;
+                
+                color: #ffffff;
+             }
+        }
+    }
+
+}
+@media (max-width:500px) {
+    .about h2{
+        font-size: 50.25px;
+        left: 180%;
+        font-weight: 700;
+font-size: 68px!important;
+line-height: 61px;
+    }
+    .iimg img{
+        
+        width: 300px;
+        height: 300px;
+    }
+    .iimg{
+        top: 10%!important;
+        left: calc(50% - 150px)!important;
+        width: 100%!important;
+        height: 100%!important;
+    }
+}
+@media(max-width:1100px){
+    .double{
+        .cardl{
+            background: url(../img/mob-cat.png)#ef2adc;
+            background-position: top left!important;
+            background-repeat: no-repeat;
+            .number{
+                font-size: 10vw;
+
+            }
+            .name{
+                font-size: 30px;
+            }
+        }
+        .cardr{
+            background: url(../img/mob-ufo.png)#00ED75;
+            background-position: bottom left!important;
+            background-repeat: no-repeat;
+            .number{
+                font-size: 10vw;
+                
+            }
+            .name{
+                font-size: 30px;
+            }   
+        }
+    }
+}

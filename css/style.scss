@@ -4,6 +4,9 @@
    font-family: "Bebas";
    src: url("../fonts/BebasNeue Bold.otf") format("opentype");
 }
+.hiiden{
+   display: none;
+}
 body,
 html {
    background: #000;
@@ -732,14 +735,17 @@ background: #000;
       display: flex;
       .left-heroe {
          margin-left: 5%;
+         img{
          display: block;
+         width: 100%;}
       }
       .game-center {
          display: block;
       }
       .right-heroe {
          margin-right: 5%;
-         display: block;
+         img{display: block;
+         width: 100%;}
       }
    }
    .down {
@@ -869,12 +875,14 @@ background: #000;
       margin-right: 5%;
       width: 40%;
       height: 80%;
+      align-items: flex-end;
       .phone {
          border: 10px solid #480d42;
          border-radius: 45px;
          height: 784px;
          width: 519px;
          margin-left: auto;
+         margin-left: 20px;
          box-shadow: 0px 8px 38px 0px #ff00f533;
 
          box-shadow: 0px 38px 184px 0px #ef2adc5e;

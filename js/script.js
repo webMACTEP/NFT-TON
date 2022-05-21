@@ -149,7 +149,7 @@ jQuery(document).ready(function ($) {
 
             if (winRatio > ratio) {
                   $(canv)
-                        .width(winH / ratio)
+                        .width(winW)
                         .height(winH)
                         .css({
                               // marginLeft: - winH / ratio / 2 + "px",
@@ -158,7 +158,7 @@ jQuery(document).ready(function ($) {
                               marginTop: "0"
                         });
                   $(canv2)
-                        .width(winH / ratio)
+                        .width(winW)
                         .height(winH)
                         .css({
                               // marginLeft: - winH / ratio / 2 + "px",
