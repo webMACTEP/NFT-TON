@@ -554,7 +554,6 @@ main {
   top: -100vh;
   height: 100vh;
   background: #000;
-  padding: auto;
 }
 
 .collection .allcards {
@@ -666,7 +665,6 @@ main {
 
 .howmuch {
   height: 100vh;
-  position: relative;
   overflow: hidden;
   z-index: -1;
 }
