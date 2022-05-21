@@ -5,6 +5,12 @@
 }
 
 @media (max-width: 1500px) {
+  .game .title-game {
+    font-size: 100px;
+  }
+  .game .descripton-game {
+    font-size: 19px;
+  }
   .about h2 {
     font-size: 150px;
   }
@@ -23,6 +29,12 @@
 }
 
 @media (max-width: 1300px) {
+  .game .lefthp {
+    margin-left: 5px;
+  }
+  .game .righthp {
+    margin-right: 5px;
+  }
   canvas {
     display: none;
   }
@@ -135,7 +147,80 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .game .title-game {
+    font-size: 60px;
+  }
+  .game .descripton-game {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .game .lefthp {
+    display: none;
+  }
+  .game .righthp {
+    display: none;
+  }
+  .game .text {
+    margin: 0 auto;
+  }
+  .game .down .right .title-down {
+    margin-right: 10px;
+  }
+  .game .down .left .title-down {
+    margin-left: 10px;
+  }
+  .game .down .left .coming-soon {
+    margin-left: 10px;
+  }
+  .integration {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .integration .right {
+    margin: 0;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .integration .right .phone {
+    margin-left: 0;
+  }
+  .integration .right .title-int {
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 94%;
+    padding-bottom: 30px;
+    font-family: 'Bebas';
+    display: block;
+  }
+  .integration .left {
+    padding: 0;
+    padding-top: 40px;
+  }
+  .integration .left .title-int {
+    display: none;
+  }
+}
+
 @media (max-width: 750px) {
+  .game .down .left .title-down {
+    margin: 0 auto !important;
+  }
+  .game .down .right .coming-soon {
+    display: block;
+  }
   .ufo-heroe .metal-ball1 {
     width: 91px;
     height: 84px;
@@ -392,7 +477,7 @@
     font-size: 40.7809px !important;
     line-height: 60px;
     /* identical to box height */
-    padding-bottom: 62px;
+    padding-bottom: 20%;
     padding-left: 52px;
     color: #ffffff;
   }
@@ -407,6 +492,7 @@
     padding-left: 52px;
     width: 100%;
     font-weight: bold;
+    padding-top: 20%;
     color: #fff;
   }
   .double .cardr .name {
@@ -419,9 +505,94 @@
     padding-left: 52px;
     color: #ffffff;
   }
+  .game .up {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .game .down {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .game .down .left {
+    width: 100%;
+  }
+  .game .down .left .coming-soon {
+    display: none;
+  }
+  .game .down .right {
+    width: 100%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .game .down .right .title-down {
+    margin: 0 auto;
+  }
+  .game .down .right .coming-soon {
+    padding-left: 40px;
+    padding-bottom: 5%;
+    opacity: 0.4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .game .down .right .coming-soon .logo img {
+    margin-right: 13px;
+  }
+  .game .down .right .coming-soon .text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 127.19%;
+    color: #000000;
+  }
+  .game .lefthp, .game .righthp {
+    display: none;
+  }
+  .game .title-game {
+    font-weight: 700;
+    font-size: 102.121px;
+    line-height: 94%;
+  }
+  .game .descripton-game {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .game .center .game-center img {
+    width: 92px;
+    height: 120px;
+  }
+  .game .center .left-heroe {
+    margin-left: 0;
+  }
+  .game .center .right-heroe {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 500px) {
+  .integration .left .title-int {
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 94%;
+  }
+  .integration .left .description1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .integration .left .description2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+  }
   .about h2 {
     font-size: 50.25px;
     left: 180%;

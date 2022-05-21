@@ -4,7 +4,7 @@
    font-family: "Bebas";
    src: url("../fonts/BebasNeue Bold.otf") format("opentype");
 }
-.hiiden{
+.hiiden,.game .down .right .coming-soon,.integration .right .title-int{
    display: none;
 }
 body,
@@ -869,6 +869,7 @@ background: #000;
       }
    }
    .right {
+      margin-left: 56px;
       display: flex;
       justify-content: center;
       flex-direction: column;

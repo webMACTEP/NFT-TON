@@ -4,6 +4,12 @@
     }
 }
 @media(max-width:1500px){
+    .game .title-game{
+        font-size: 100px;
+    }
+    .game .descripton-game{
+        font-size: 19px;
+    }
     .about h2{
         font-size: 150px;
     }
@@ -20,7 +26,15 @@
         height: 70vh;
     }
 }
+
 @media(max-width:1300px){
+    .game{.lefthp{
+        margin-left:5px;
+        }
+        .righthp{
+            margin-right: 5px;
+        }
+    }
     canvas{
         display: none;
     }
@@ -142,8 +156,74 @@ line-height: 27px;
         }
     }
 }
+@media(max-width:1100px){
+    .game .title-game{
+        font-size: 60px;
+    }
+    .game .descripton-game{
+        font-size: 12px;
+    }
 
+}
+@media(max-width:1100px){
+    .game .lefthp{
+        display: none;
+    }
+    .game .righthp{
+        display: none;
+    }
+    .game .text{
+        margin: 0 auto;
+    }
+    
+        .game .down .right .title-down{
+            margin-right: 10px;
+
+        }
+        .game .down .left .title-down{
+            margin-left: 10px;
+        }
+        .game .down .left .coming-soon{
+            margin-left: 10px;
+        }
+        .integration{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            .right{
+                margin: 0;
+                width: 100%;
+                align-items: center;
+                .phone{
+                    margin-left: 0;
+                }
+                .title-int{
+                    font-weight: 700;
+font-size: 78px;
+line-height: 94%;
+padding-bottom: 30px;
+font-family: 'Bebas';
+display: block;
+                }
+            }
+            .left{
+                padding: 0;
+                padding-top: 40px;
+                .title-int{
+                    display: none;
+                }
+
+            }
+        }
+}
 @media (max-width:750px) {
+    .game .down .left .title-down{
+        margin: 0 auto!important;
+        
+    }
+    .game .down .right .coming-soon{
+        display: block;
+    }
     .ufo-heroe{
         .metal-ball1{
             width: 91px;
@@ -394,6 +474,7 @@ line-height: 13px;
                 font-size: 30vw!important;
                 line-height: 100%;
                 padding-left: 52px;
+                
                 width: 100%;
                 font-weight: bold;
                 color: #fff;
@@ -404,7 +485,7 @@ line-height: 13px;
                 font-size: 40.7809px!important;
                 line-height: 60px;
                 /* identical to box height */
-                padding-bottom: 62px;
+                padding-bottom: 20%;
                 padding-left: 52px;
                 
                 color: #ffffff;
@@ -420,6 +501,7 @@ line-height: 13px;
                 padding-left: 52px;
                 width: 100%;
                 font-weight: bold;
+                padding-top: 20%;
                 color: #fff;
              }
              .name {
@@ -434,10 +516,106 @@ line-height: 13px;
                 color: #ffffff;
              }
         }
+        
     }
+    .game{
+
+        .up{
+            justify-content: center;
+        }
+        .down{
+            flex-direction: column;
+            .left{
+                
+                width: 100%;
+                .coming-soon{
+                    display: none;
+                }
+            }
+            .right{
+                width: 100%;
+                align-items: flex-start;
+                .title-down{
+                    margin: 0 auto;
+                }
+                .coming-soon {
+                    padding-left: 40px;
+                    padding-bottom: 5%;
+                    opacity: 0.4;
+                    display: flex;
+                    .logo {
+                       img {
+                          margin-right: 13px;
+                       }
+                    }
+                    .text {
+                       font-weight: 400;
+                       font-size: 20px;
+                       line-height: 127.19%;
+                       color: #000000;
+                    }
+                 }
+            }
+        }
+            .lefthp,.righthp{
+                display: none;
+            }
+            .title-game{
+                font-weight: 700;
+font-size: 102.121px;
+line-height: 94%;
+            }
+            .descripton-game{
+                font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+width: 90%;
+margin: 0 auto;
+            }
+            .center{
+                .game-center{
+                    img{
+                        width: 92px;
+                        height: 120px;
+                    }
+                }
+                .left-heroe{
+                    margin-left: 0;
+                    img{
+                        
+                        
+                    }
+                }
+                .right-heroe{
+                    margin-right: 0;
+                    img{
+                        
+                        
+                    }
+                }
+            }
+        }
+        
 
 }
 @media (max-width:500px) {
+    .integration .left .title-int{
+        font-weight: 700;
+font-size: 78px;
+line-height: 94%;
+    }
+    .integration .left .description1{
+        font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+    }
+    .integration .left .description2{
+        font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+    }
     .about h2{
         font-size: 50.25px;
         left: 180%;
