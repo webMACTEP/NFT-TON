@@ -287,10 +287,7 @@ jQuery(document).ready(function ($) {
       ///////////////////////////////////////////////////////////////////////////////////////
 
 
-      setTimeout(function () {
-            $("#clothes1, #clothes2, #clothes3, #clothes4, #clothes5, #clothes6").remove();
-      }, 5000)
-
+      
 
 
 });

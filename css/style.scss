@@ -754,42 +754,43 @@ max-height: 108px;
       .clothes6{
          z-index: 2;
       }
-      
+      .body-cat{
+         z-index: -1;
+      }
+      .clothes11{
+         z-index: 0;
+      }
+      .clothes22{
+         z-index: 0;
+         
+      }
+      .clothes33{
+         z-index: 1;
+      }
+      .clothes44{
+         z-index: 0;
+      }
+      .clothes55{
+         z-index: 0;
+      }
+      .clothes66{
+         z-index: 2;
+      }
    }
    .kat-2{
-      display: none;
+      
       position: relative;
       width: 750px;
       height: 900px;
       //left: calc(50% - 375px);
       left: 0;
+      top:0;
       img{
          left: 0;
          bottom: 0;
          position: absolute;
       }
-      .body-cat{
-         z-index: -1;
-      }
-      .clothes1{
-         z-index: 0;
-      }
-      .clothes2{
-         z-index: 0;
-         
-      }
-      .clothes3{
-         z-index: 1;
-      }
-      .clothes4{
-         z-index: 0;
-      }
-      .clothes5{
-         z-index: 0;
-      }
-      .clothes6{
-         z-index: 2;
-      }
+      
    }
    .img-wrapper{
       position: relative;
