@@ -36,7 +36,7 @@
 
 @media (max-width: 1300px) {
   .phraze {
-    display: none;
+    display: none !important;
   }
   .phraze-mob {
     display: block;
@@ -670,6 +670,14 @@
   }
   .custom .img-wrapper {
     margin-top: 0;
+    width: 90vw;
+    height: 100%;
+  }
+  .custom .img-wrapper img {
+    width: 375px;
+    height: 450px;
+    display: block;
+    margin-left: calc(50% - 187.5px);
   }
   .roadmap {
     text-align-last: left;
@@ -683,6 +691,28 @@
 }
 
 @media (max-width: 500px) {
+  .phraze-mob {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    left: calc(50% + 50px);
+    bottom: calc(50% - 350px);
+    left: 39px;
+    bottom: 377px;
+  }
+  a
+.custom h1 {
+    font-size: 60px;
+    padding: 0 3%;
+  }
+  .custom h2 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    padding: 0 3%;
+  }
   .integration .left .title-int {
     font-weight: 700;
     font-size: 78px;
