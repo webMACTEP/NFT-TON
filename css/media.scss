@@ -864,23 +864,28 @@ color: #000000;
         }
     }
 }
+
 @media(max-width:1280px){
+    
     .roadmap{
-        .title{
-            margin-left: 20px;
-            
-        }
+        
+        display: block;
         height: 100%;
         canvas{
             display: none;
         }
-        .places{
-            display: none;
+        .mob-road{
+        .title{
+            margin-left: 20px;
+            display: block;
         }
+        
         .mob-road{
             display: flex;
             justify-content: flex-start;
+            
         }
+        
         .left{
 margin-top: 30px;
 margin-bottom: 60px;
@@ -1070,5 +1075,5 @@ color: #FFFFFF;
                 }
             }
         }
-    }
+    }}
 }

@@ -816,18 +816,17 @@
 
 @media (max-width: 1280px) {
   .roadmap {
+    display: block;
     height: 100%;
-  }
-  .roadmap .title {
-    margin-left: 20px;
   }
   .roadmap canvas {
     display: none;
   }
-  .roadmap .places {
-    display: none;
+  .roadmap .mob-road .title {
+    margin-left: 20px;
+    display: block;
   }
-  .roadmap .mob-road {
+  .roadmap .mob-road .mob-road {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -835,19 +834,19 @@
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
-  .roadmap .left {
+  .roadmap .mob-road .left {
     margin-top: 30px;
     margin-bottom: 60px;
     display: block;
     padding-left: 20px;
   }
-  .roadmap .left img {
+  .roadmap .mob-road .left img {
     display: block;
   }
-  .roadmap .right {
+  .roadmap .mob-road .right {
     margin-left: 15px;
   }
-  .roadmap .right .mob-1 .date {
+  .roadmap .mob-road .right .mob-1 .date {
     margin-top: 30px;
     text-align-last: left;
     font-weight: 400;
@@ -856,7 +855,7 @@
     /* identical to box height */
     color: #00ED75;
   }
-  .roadmap .right .mob-1 .whatnext {
+  .roadmap .mob-road .right .mob-1 .whatnext {
     margin-top: 8px;
     font-weight: 400;
     font-size: 24px;
@@ -864,10 +863,10 @@
     text-align-last: left;
     color: #00ED75;
   }
-  .roadmap .right .mob-2 {
+  .roadmap .mob-road .right .mob-2 {
     text-align-last: left;
   }
-  .roadmap .right .mob-2 .date {
+  .roadmap .mob-road .right .mob-2 .date {
     margin-top: 38px;
     font-weight: 400;
     font-size: 16px;
@@ -875,16 +874,16 @@
     /* identical to box height */
     color: #FFFFFF;
   }
-  .roadmap .right .mob-2 .whatnext {
+  .roadmap .mob-road .right .mob-2 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
   }
-  .roadmap .right .mob-3 {
+  .roadmap .mob-road .right .mob-3 {
     text-align-last: left;
   }
-  .roadmap .right .mob-3 .date {
+  .roadmap .mob-road .right .mob-3 .date {
     margin-top: 20px;
     font-weight: 400;
     font-size: 16px;
@@ -892,16 +891,16 @@
     /* identical to box height */
     color: #FFFFFF;
   }
-  .roadmap .right .mob-3 .whatnext {
+  .roadmap .mob-road .right .mob-3 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
   }
-  .roadmap .right .mob-4 {
+  .roadmap .mob-road .right .mob-4 {
     text-align-last: left;
   }
-  .roadmap .right .mob-4 .date {
+  .roadmap .mob-road .right .mob-4 .date {
     margin-top: 49px;
     font-weight: 400;
     font-size: 16px;
@@ -909,16 +908,16 @@
     /* identical to box height */
     color: #FFFFFF;
   }
-  .roadmap .right .mob-4 .whatnext {
+  .roadmap .mob-road .right .mob-4 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
   }
-  .roadmap .right .mob-5 {
+  .roadmap .mob-road .right .mob-5 {
     text-align-last: left;
   }
-  .roadmap .right .mob-5 .date {
+  .roadmap .mob-road .right .mob-5 .date {
     margin-top: 49px;
     font-weight: 400;
     font-size: 16px;
@@ -926,16 +925,16 @@
     /* identical to box height */
     color: #FFFFFF;
   }
-  .roadmap .right .mob-5 .whatnext {
+  .roadmap .mob-road .right .mob-5 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
   }
-  .roadmap .right .mob-6 {
+  .roadmap .mob-road .right .mob-6 {
     text-align-last: left;
   }
-  .roadmap .right .mob-6 .date {
+  .roadmap .mob-road .right .mob-6 .date {
     margin-top: 49px;
     font-weight: 400;
     font-size: 16px;
@@ -943,7 +942,7 @@
     /* identical to box height */
     color: #FFFFFF;
   }
-  .roadmap .right .mob-6 .whatnext {
+  .roadmap .mob-road .right .mob-6 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -954,10 +953,10 @@
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 12px;
   }
-  .roadmap .right .mob-7 {
+  .roadmap .mob-road .right .mob-7 {
     text-align-last: left;
   }
-  .roadmap .right .mob-7 .date {
+  .roadmap .mob-road .right .mob-7 .date {
     margin-top: 49px;
     font-weight: 400;
     font-size: 16px;
@@ -965,16 +964,16 @@
     /* identical to box height */
     color: #FFFFFF;
   }
-  .roadmap .right .mob-7 .whatnext {
+  .roadmap .mob-road .right .mob-7 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
   }
-  .roadmap .right .mob-7 {
+  .roadmap .mob-road .right .mob-7 {
     text-align-last: left;
   }
-  .roadmap .right .mob-7 .date {
+  .roadmap .mob-road .right .mob-7 .date {
     margin-top: 49px;
     font-weight: 400;
     font-size: 16px;
@@ -987,7 +986,7 @@
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 12px;
   }
-  .roadmap .right .mob-7 .whatnext {
+  .roadmap .mob-road .right .mob-7 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;

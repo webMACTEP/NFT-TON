@@ -79,6 +79,10 @@ h1, h2, h3, h4, h5, h6 {
   src: url("../fonts/BebasNeue Bold.otf") format("opentype");
 }
 
+.mob-road {
+  display: none;
+}
+
 .hiiden,
 .game .down .right .coming-soon,
 .integration .right .title-int, .phraze-mob, .header-mob {
@@ -1461,9 +1465,23 @@ main {
   padding-left: 11px;
 }
 
+@media (max-width: 1280px) {
+  .places {
+    display: none;
+  }
+  .mob-road {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .roadmap .title {
+    margin-left: 20px;
+  }
+}
+
 .roadmap {
   position: relative;
-  height: 220vh;
+  height: 280vh;
   background: #000;
 }
 
