@@ -38,6 +38,7 @@
     
 }
 @media(max-width:1300px){
+    
     .phraze{
         display: none;
     }
@@ -749,6 +750,23 @@ line-height: 61px;
     
 }
 @media(max-width:1100px){
+    .wrap-fix {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        .animation-wrap {
+           height: 100vh;
+           display: flex;
+           align-items: center;
+           flex-direction: column;
+           justify-content: center;
+           background: url(../img/animation-group-mob.svg);
+           background-repeat: no-repeat;
+     
+           background-position: center;
+           width: 100vw;
+        }
+     }
     .double{
         .cardl{
             background: url(../img/mob-cat.png)#ef2adc;

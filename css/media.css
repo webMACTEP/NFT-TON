@@ -710,6 +710,31 @@
 }
 
 @media (max-width: 1100px) {
+  .wrap-fix {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .wrap-fix .animation-wrap {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: url(../img/animation-group-mob.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+  }
   .double .cardl {
     background: url(../img/mob-cat.png) #ef2adc;
     background-position: top left !important;
