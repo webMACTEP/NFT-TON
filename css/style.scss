@@ -674,7 +674,137 @@ main {
       }
    }
 }
+.custom{
+   overflow: hidden;
+   .button{
+      display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 4px;
 
+width: 232px;
+height: 40px;
+
+background: #BF22B0;
+border-radius: 61px;
+margin: 0 auto;
+margin-top: 112px;
+margin-bottom: 35px;
+   }
+   h1{
+      font-family: 'Bebas';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 94%;
+/* identical to box height, or 94px */
+
+text-transform: uppercase;
+
+background: linear-gradient(90.46deg, #BF22B0 10.27%, #E0B70F 96.57%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+   }
+   h2{
+      font-weight: 300;
+font-size: 28px;
+line-height: 36px;
+/* or 129% */
+
+text-align: center;
+
+color: #FFFFFF;
+margin: 0 auto;
+max-width: 915px;
+max-height: 108px;
+   }
+   .kat{
+      left: 0;
+      position: relative;
+      width: 750px;
+      height: 900px;
+      //left: calc(50% - 375px);
+      
+      img{
+         left: 0;
+         bottom: 0;
+         position: absolute;
+      }
+      .body-cat{
+         z-index: -1;
+      }
+      .clothes1{
+         z-index: 0;
+      }
+      .clothes2{
+         z-index: 0;
+         
+      }
+      .clothes3{
+         z-index: 1;
+      }
+      .clothes4{
+         z-index: 0;
+      }
+      .clothes5{
+         z-index: 0;
+      }
+      .clothes6{
+         z-index: 2;
+      }
+      
+   }
+   .kat-2{
+      display: none;
+      position: relative;
+      width: 750px;
+      height: 900px;
+      //left: calc(50% - 375px);
+      left: 0;
+      img{
+         left: 0;
+         bottom: 0;
+         position: absolute;
+      }
+      .body-cat{
+         z-index: -1;
+      }
+      .clothes1{
+         z-index: 0;
+      }
+      .clothes2{
+         z-index: 0;
+         
+      }
+      .clothes3{
+         z-index: 1;
+      }
+      .clothes4{
+         z-index: 0;
+      }
+      .clothes5{
+         z-index: 0;
+      }
+      .clothes6{
+         z-index: 2;
+      }
+   }
+   .img-wrapper{
+      position: relative;
+      margin-top: -100px;
+   }
+      .phraze{
+         display: none;
+         position: absolute ;
+         z-index: 3;
+         left: 425px;
+         bottom: 300px;
+      }
+}
 .game {
    background: url(../img/game-bg.png);
    position: relative;

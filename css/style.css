@@ -865,6 +865,158 @@ main {
   color: #ffffff;
 }
 
+.custom {
+  overflow: hidden;
+}
+
+.custom .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 16px;
+  gap: 4px;
+  width: 232px;
+  height: 40px;
+  background: #BF22B0;
+  border-radius: 61px;
+  margin: 0 auto;
+  margin-top: 112px;
+  margin-bottom: 35px;
+}
+
+.custom h1 {
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 94%;
+  /* identical to box height, or 94px */
+  text-transform: uppercase;
+  background: linear-gradient(90.46deg, #BF22B0 10.27%, #E0B70F 96.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.custom h2 {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 36px;
+  /* or 129% */
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+  max-width: 915px;
+  max-height: 108px;
+}
+
+.custom .kat {
+  left: 0;
+  position: relative;
+  width: 750px;
+  height: 900px;
+}
+
+.custom .kat img {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.custom .kat .body-cat {
+  z-index: -1;
+}
+
+.custom .kat .clothes1 {
+  z-index: 0;
+}
+
+.custom .kat .clothes2 {
+  z-index: 0;
+}
+
+.custom .kat .clothes3 {
+  z-index: 1;
+}
+
+.custom .kat .clothes4 {
+  z-index: 0;
+}
+
+.custom .kat .clothes5 {
+  z-index: 0;
+}
+
+.custom .kat .clothes6 {
+  z-index: 2;
+}
+
+.custom .kat-2 {
+  display: none;
+  position: relative;
+  width: 750px;
+  height: 900px;
+  left: 0;
+}
+
+.custom .kat-2 img {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.custom .kat-2 .body-cat {
+  z-index: -1;
+}
+
+.custom .kat-2 .clothes1 {
+  z-index: 0;
+}
+
+.custom .kat-2 .clothes2 {
+  z-index: 0;
+}
+
+.custom .kat-2 .clothes3 {
+  z-index: 1;
+}
+
+.custom .kat-2 .clothes4 {
+  z-index: 0;
+}
+
+.custom .kat-2 .clothes5 {
+  z-index: 0;
+}
+
+.custom .kat-2 .clothes6 {
+  z-index: 2;
+}
+
+.custom .img-wrapper {
+  position: relative;
+  margin-top: -100px;
+}
+
+.custom .phraze {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  left: 425px;
+  bottom: 300px;
+}
+
 .game {
   background: url(../img/game-bg.png);
   position: relative;
