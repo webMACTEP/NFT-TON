@@ -273,6 +273,7 @@ main {
   font-size: 199px;
   line-height: 0.9;
   text-transform: uppercase;
+  text-align-last: left;
 }
 
 .about h2 span {
@@ -493,7 +494,7 @@ main {
 
 .ufo-heroe .metal4 {
   position: absolute;
-  bottom: -30px;
+  bottom: -100px;
   left: 0;
   z-index: 0;
 }
@@ -589,6 +590,7 @@ main {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-right: -7.5px;
 }
 
 .collection .allcards .cards-left .card {
@@ -596,6 +598,7 @@ main {
 }
 
 .collection .allcards .cards-right {
+  margin-left: -7.5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -760,7 +763,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 120vh;
+  height: 100%;
   position: relative;
   padding-top: 10vh;
   padding-bottom: 10vh;
@@ -777,12 +780,13 @@ main {
 }
 
 .double .cardl {
-  height: 100%;
+  height: 884px;
   background: url(../img/double-left.png) #ef2adc no-repeat;
   background-position: top left;
   width: 35%;
   margin-left: 70px;
   margin-right: 20px;
+  width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -807,11 +811,7 @@ main {
   width: 100%;
   font-weight: bold;
   color: #fff;
-}
-
-.double .cardl .number img {
-  max-width: 100%;
-  height: 100%;
+  height: 20vh;
   display: block;
   margin-right: auto;
 }
@@ -822,7 +822,6 @@ main {
   font-size: 50.7809px;
   line-height: 60px;
   /* identical to box height */
-  margin-bottom: 15%;
   padding-left: 52px;
   margin-top: 20px;
   color: #ffffff;
@@ -831,8 +830,9 @@ main {
 .double .cardr {
   margin-right: 70px;
   margin-left: 20px;
-  height: 100%;
+  height: 884px;
   width: 35%;
+  width: 600px;
   background: url(../img/double-right.png) #00ed75 no-repeat;
   background-position: bottom left;
   display: -webkit-box;
@@ -854,13 +854,6 @@ main {
   font-weight: bold;
   color: #fff;
   width: 100%;
-  padding-top: 15%;
-}
-
-.double .cardr .number img {
-  max-width: 100%;
-  height: 100%;
-  margin-right: auto;
 }
 
 .double .cardr .name {
@@ -1288,6 +1281,7 @@ main {
   font-size: 32px;
   line-height: 127.19%;
   /* or 41px */
+  text-align: left;
   color: #ffffff;
 }
 
@@ -1297,6 +1291,7 @@ main {
   font-size: 32px;
   line-height: 127.19%;
   /* or 41px */
+  text-align: left;
   color: #ffffff;
 }
 
@@ -1723,5 +1718,10 @@ main {
           filter: blur(12px);
   background: rgba(217, 217, 217, 0.11);
   color: #FFFFFF;
+}
+
+#background, #background2 {
+  width: 1280px !important;
+  height: 720px !important;
 }
 /*# sourceMappingURL=style.css.map */

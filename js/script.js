@@ -125,10 +125,10 @@ jQuery(document).ready(function ($) {
             fog8.style.transform = 'translate(-' + x * 70 + 'px, -' + y * 70 + 'px)';
             fog9.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
             fog10.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 20 + 'px)';
-            light1.style.transform = 'translate(-' + x * 90 + 'px, -' + y * 90 + 'px)';
-            light2.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
+            light1.style.transform = 'translate(-' + x * 200 + 'px, -' + y * 200 + 'px)';
+            light2.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 20 + 'px)';
             light3.style.transform = 'translate(-' + x * 140 + 'px, -' + y * 140 + 'px)';
-            light4.style.transform = 'translate(-' + x * 70 + 'px, -' + y * 70 + 'px)';
+            light4.style.transform = 'translate(-' + x * 30 + 'px, -' + y * 30 + 'px)';
             metalball1.style.transform = 'translate(-' + x * 60 + 'px, -' + y * 40 + 'px)';
             metalball2.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 30 + 'px)';
             how1.style.transform = 'translate(-' + x * 60 + 'px, -' + y * 60 + 'px)';
