@@ -2,7 +2,14 @@
     .about h2{
         font-size: 180px;
     }
+    .double .cardr .number{
+        padding-top: 5%;
+    }
+    .double .cardl .name{
+        margin-bottom: 5%;
+    }
 }
+
 @media(max-width:1500px){
     .game .title-game{
         font-size: 100px;
@@ -25,8 +32,11 @@
     .intro .cat{
         height: 70vh;
     }
+    
 }
-
+@media(max-width:1400px){
+    
+}
 @media(max-width:1300px){
     .game{.lefthp{
         margin-left:5px;
@@ -41,6 +51,7 @@
     .hiiden{
         display: block;
     }
+    
     .about h2{
         font-size: 120px;
     }

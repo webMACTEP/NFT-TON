@@ -361,6 +361,7 @@ main {
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .catnip-heroe .cat-lights {
@@ -665,6 +666,10 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: url(../img/animation-group.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
 }
 
 .howmuch {
@@ -751,6 +756,8 @@ main {
   display: flex;
   height: 100vh;
   position: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
   background: url(../img/double-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -764,7 +771,7 @@ main {
 }
 
 .double .cardl {
-  height: 85%;
+  height: 100%;
   background: url(../img/double-left.png) #ef2adc no-repeat;
   background-position: top left;
   width: 35%;
@@ -790,9 +797,15 @@ main {
   font-size: 13vw;
   line-height: 100%;
   padding-left: 52px;
+  padding-right: 52px;
   width: 100%;
   font-weight: bold;
   color: #fff;
+}
+
+.double .cardl .number img {
+  max-width: 100%;
+  height: 100%;
 }
 
 .double .cardl .name {
@@ -801,7 +814,7 @@ main {
   font-size: 50.7809px;
   line-height: 60px;
   /* identical to box height */
-  padding-bottom: 62px;
+  margin-bottom: 15%;
   padding-left: 52px;
   color: #ffffff;
 }
@@ -809,7 +822,7 @@ main {
 .double .cardr {
   margin-right: 70px;
   margin-left: 20px;
-  height: 85%;
+  height: 100%;
   width: 35%;
   background: url(../img/double-right.png) #00ed75 no-repeat;
   background-position: bottom left;
@@ -827,11 +840,17 @@ main {
   font-size: 13vw;
   line-height: 100%;
   padding-left: 52px;
+  padding-right: 52px;
   text-align: left;
   font-weight: bold;
   color: #fff;
   width: 100%;
-  padding-top: 5%;
+  padding-top: 15%;
+}
+
+.double .cardr .number img {
+  max-width: 100%;
+  height: 100%;
 }
 
 .double .cardr .name {
@@ -1002,7 +1021,7 @@ main {
   line-height: 127.19%;
   /* or 41px */
   text-align: center;
-  margin-left: 5%;
+  margin: 0 auto;
   max-width: 516px;
   padding: 10% 0;
   color: #ffffff;
@@ -1054,7 +1073,7 @@ main {
   line-height: 127.19%;
   /* or 41px */
   text-align: center;
-  margin-right: 5%;
+  margin: 0 auto;
   max-width: 516px;
   padding: 10% 0;
   color: #ffffff;
@@ -1155,6 +1174,11 @@ main {
   overflow: hidden;
   position: relative;
   border-radius: 35px;
+  z-index: 1;
+}
+
+.integration .video-container video {
+  z-index: -1;
 }
 
 .integration .video-container video {
@@ -1274,5 +1298,18 @@ main {
   line-height: 48px;
   color: #FFFFFF;
   padding-left: 11px;
+}
+
+.roadmap .title {
+  padding-top: 114px;
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 200px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */

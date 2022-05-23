@@ -2,6 +2,12 @@
   .about h2 {
     font-size: 180px;
   }
+  .double .cardr .number {
+    padding-top: 5%;
+  }
+  .double .cardl .name {
+    margin-bottom: 5%;
+  }
 }
 
 @media (max-width: 1500px) {
