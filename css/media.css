@@ -896,7 +896,7 @@
     margin-left: calc(50% - 187.5px);
   }
   .roadmap {
-    text-align-last: left;
+    text-align: left !important;
   }
   .roadmap .title {
     font-style: normal;
@@ -1119,6 +1119,7 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    text-align: left;
   }
   .roadmap .mob-road .left {
     margin-top: 30px;

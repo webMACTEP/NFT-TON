@@ -929,7 +929,7 @@ margin-right: 0;
 font-weight: 700;
 font-size: 78px;
 line-height: 94%;}
-text-align-last: left;
+text-align: left!important;
         }
 
 }
@@ -1149,7 +1149,7 @@ color: #000000;
         .mob-road{
             display: flex;
             justify-content: flex-start;
-            
+            text-align: left;
         }
         
         .left{
