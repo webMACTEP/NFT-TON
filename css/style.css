@@ -1205,6 +1205,7 @@ main {
   font-size: 20px;
   line-height: 127.19%;
   color: #000000;
+  text-align-last: left;
 }
 
 .game .down .right {

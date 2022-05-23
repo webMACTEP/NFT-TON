@@ -35,6 +35,16 @@
 }
 
 @media (max-width: 1300px) {
+  .phraze {
+    display: none;
+  }
+  .phraze-mob {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    left: calc(50% + 50px);
+    bottom: calc(50% - 150px);
+  }
   .game .lefthp {
     margin-left: 5px;
   }
@@ -295,15 +305,6 @@
   }
   .game .down .right .coming-soon, .phraze-mob {
     display: block;
-  }
-  .phraze {
-    display: none;
-  }
-  .phraze-mob {
-    position: absolute;
-    z-index: 3;
-    left: calc(50% + 50px);
-    bottom: calc(50% - 150px);
   }
   .ufo-heroe .metal-ball1 {
     width: 91px;
@@ -580,6 +581,7 @@
     font-size: 20px;
     line-height: 127.19%;
     color: #000000;
+    text-align-last: left;
   }
   .game .lefthp, .game .righthp {
     display: none;
