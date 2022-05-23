@@ -813,4 +813,190 @@
     transition: 1s;
   }
 }
+
+@media (max-width: 1280px) {
+  .roadmap {
+    height: 100%;
+  }
+  .roadmap .title {
+    margin-left: 20px;
+  }
+  .roadmap canvas {
+    display: none;
+  }
+  .roadmap .places {
+    display: none;
+  }
+  .roadmap .mob-road {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .roadmap .left {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: block;
+    padding-left: 20px;
+  }
+  .roadmap .left img {
+    display: block;
+  }
+  .roadmap .right {
+    margin-left: 15px;
+  }
+  .roadmap .right .mob-1 .date {
+    margin-top: 30px;
+    text-align-last: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #00ED75;
+  }
+  .roadmap .right .mob-1 .whatnext {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align-last: left;
+    color: #00ED75;
+  }
+  .roadmap .right .mob-2 {
+    text-align-last: left;
+  }
+  .roadmap .right .mob-2 .date {
+    margin-top: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-2 .whatnext {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-3 {
+    text-align-last: left;
+  }
+  .roadmap .right .mob-3 .date {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-3 .whatnext {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-4 {
+    text-align-last: left;
+  }
+  .roadmap .right .mob-4 .date {
+    margin-top: 49px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-4 .whatnext {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-5 {
+    text-align-last: left;
+  }
+  .roadmap .right .mob-5 .date {
+    margin-top: 49px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-5 .whatnext {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-6 {
+    text-align-last: left;
+  }
+  .roadmap .right .mob-6 .date {
+    margin-top: 49px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-6 .whatnext {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: rgba(217, 217, 217, 0.11);
+    -webkit-filter: blur(11px);
+            filter: blur(11px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12px;
+  }
+  .roadmap .right .mob-7 {
+    text-align-last: left;
+  }
+  .roadmap .right .mob-7 .date {
+    margin-top: 49px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-7 .whatnext {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .roadmap .right .mob-7 {
+    text-align-last: left;
+  }
+  .roadmap .right .mob-7 .date {
+    margin-top: 49px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: rgba(217, 217, 217, 0.11);
+    -webkit-filter: blur(11px);
+            filter: blur(11px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12px;
+  }
+  .roadmap .right .mob-7 .whatnext {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+}
 /*# sourceMappingURL=media.css.map */
