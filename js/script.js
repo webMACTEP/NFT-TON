@@ -333,21 +333,21 @@ jQuery(document).ready(function ($) {
       $('.open').click(function (event) {
             $('.menu').toggleClass('active');
             $('body').toggleClass('lock');
-      
-         });
-      
-      
-      
-         $('.burger, .mnav').click(function (event) {
+
+      });
+
+
+
+      $('.burger, .mnav').click(function (event) {
             $('.mmenu').toggleClass('active');
             $('body').toggleClass('lock');
-      
-         });
-         $('.close').click(function (event) {
+
+      });
+      $('.close,.closing').click(function (event) {
             $('.menu').removeClass('active');
             $('body').removeClass('lock');
-      
-         });
+
+      });
 });
 
 
