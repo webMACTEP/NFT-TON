@@ -962,46 +962,46 @@ main {
   z-index: 2;
 }
 
+.custom .kat .body-cat {
+  z-index: -1;
+}
+
+.custom .kat .clothes11 {
+  z-index: 0;
+}
+
+.custom .kat .clothes22 {
+  z-index: 0;
+}
+
+.custom .kat .clothes33 {
+  z-index: 1;
+}
+
+.custom .kat .clothes44 {
+  z-index: 0;
+}
+
+.custom .kat .clothes55 {
+  z-index: 0;
+}
+
+.custom .kat .clothes66 {
+  z-index: 2;
+}
+
 .custom .kat-2 {
-  display: none;
   position: relative;
   width: 750px;
   height: 900px;
   left: 0;
+  top: 0;
 }
 
 .custom .kat-2 img {
   left: 0;
   bottom: 0;
   position: absolute;
-}
-
-.custom .kat-2 .body-cat {
-  z-index: -1;
-}
-
-.custom .kat-2 .clothes1 {
-  z-index: 0;
-}
-
-.custom .kat-2 .clothes2 {
-  z-index: 0;
-}
-
-.custom .kat-2 .clothes3 {
-  z-index: 1;
-}
-
-.custom .kat-2 .clothes4 {
-  z-index: 0;
-}
-
-.custom .kat-2 .clothes5 {
-  z-index: 0;
-}
-
-.custom .kat-2 .clothes6 {
-  z-index: 2;
 }
 
 .custom .img-wrapper {
