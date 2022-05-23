@@ -1135,7 +1135,7 @@
   }
   .roadmap .mob-road .right .mob-1 .date {
     margin-top: 30px;
-    text-align-last: left;
+    text-align: left;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -1147,11 +1147,11 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    text-align-last: left;
+    text-align: left;
     color: #00ED75;
   }
   .roadmap .mob-road .right .mob-2 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-2 .date {
     margin-top: 38px;
@@ -1168,7 +1168,7 @@
     color: #FFFFFF;
   }
   .roadmap .mob-road .right .mob-3 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-3 .date {
     margin-top: 20px;
@@ -1185,7 +1185,7 @@
     color: #FFFFFF;
   }
   .roadmap .mob-road .right .mob-4 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-4 .date {
     margin-top: 49px;
@@ -1202,7 +1202,7 @@
     color: #FFFFFF;
   }
   .roadmap .mob-road .right .mob-5 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-5 .date {
     margin-top: 49px;
@@ -1219,7 +1219,7 @@
     color: #FFFFFF;
   }
   .roadmap .mob-road .right .mob-6 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-6 .date {
     margin-top: 49px;
@@ -1241,7 +1241,7 @@
     border-radius: 12px;
   }
   .roadmap .mob-road .right .mob-7 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-7 .date {
     margin-top: 49px;
@@ -1258,7 +1258,7 @@
     color: #FFFFFF;
   }
   .roadmap .mob-road .right .mob-7 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-7 .date {
     margin-top: 49px;
