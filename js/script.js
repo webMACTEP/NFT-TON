@@ -145,6 +145,9 @@ jQuery(document).ready(function ($) {
             sub4.style.transform = 'translate(-' + x * 5 + 'px, -' + y * 5 + 'px)';
             sub7.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
 
+
+            
+
       });
 
 
