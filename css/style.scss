@@ -4,7 +4,9 @@
    font-family: "Bebas";
    src: url("../fonts/BebasNeue Bold.otf") format("opentype");
 }
-.hiiden,.game .down .right .coming-soon,.integration .right .title-int{
+.hiiden,
+.game .down .right .coming-soon,
+.integration .right .title-int {
    display: none;
 }
 body,
@@ -13,7 +15,7 @@ html {
    font-family: "Roboto";
    color: #fff;
 }
-main{
+main {
    margin-bottom: -100vh;
 }
 .container {
@@ -86,7 +88,7 @@ main{
       position: absolute;
       top: 0;
       left: 0;
-      width: 58.5vw;
+      width: 59vw;
       height: 100vh;
       background: #ef2adc;
       clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
@@ -97,7 +99,7 @@ main{
       right: 0;
       top: 0;
       background: #00ed75;
-      width: 58.5vw;
+      width: 59vw;
       height: 100vh;
       clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
    }
@@ -118,7 +120,6 @@ main{
       }
    }
    .ufo {
-      //width: 47vw;
       width: auto;
       height: 90vh;
       z-index: 3;
@@ -422,36 +423,35 @@ main{
       padding-bottom: 81px;
    }
 }
-.collection{
-position: relative;
-z-index: 1;
-top: -100vh;
-height: 100vh;
-background: #000;
-
-
-.allcards {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+.collection {
+   position: relative;
+   z-index: 1;
+   top: -100vh;
    height: 100vh;
-   .cards-left {
+   background: #000;
+
+   .allcards {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-      .card {
-         margin-right: 13px;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      .cards-left {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: flex-end;
+         .card {
+            margin-right: 13px;
+         }
+      }
+      .cards-right {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: flex-start;
+         .card {
+            margin-left: 13px;
+         }
       }
    }
-   .cards-right {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      .card {
-         margin-left: 13px;
-      }
-   }
-}
 }
 .card {
    background: #171717;
@@ -493,21 +493,20 @@ background: #000;
    position: relative;
    height: 100vh;
    overflow: hidden;
-   .animation-wrap{
+   .animation-wrap {
       height: 100vh;
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: center;
    }
-   
 }
 .howmuch {
    height: 100vh;
-   
+
    overflow: hidden;
    z-index: -1;
-   
+
    .how1 {
       position: absolute;
       left: 50%;
@@ -578,7 +577,7 @@ background: #000;
    display: flex;
    height: 100vh;
    position: relative;
-   
+
    background: url(../img/double-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -614,7 +613,7 @@ background: #000;
          /* identical to box height */
          padding-bottom: 62px;
          padding-left: 52px;
-         
+
          color: #ffffff;
       }
    }
@@ -652,15 +651,12 @@ background: #000;
          color: #ffffff;
       }
    }
-   
 }
-
-
 
 .game {
    background: url(../img/game-bg.png);
    position: relative;
-   
+
    background-repeat: no-repeat;
    background-size: cover;
    .lefthp {
@@ -735,17 +731,20 @@ background: #000;
       display: flex;
       .left-heroe {
          margin-left: 5%;
-         img{
-         display: block;
-         width: 100%;}
+         img {
+            display: block;
+            width: 100%;
+         }
       }
       .game-center {
          display: block;
       }
       .right-heroe {
          margin-right: 5%;
-         img{display: block;
-         width: 100%;}
+         img {
+            display: block;
+            width: 100%;
+         }
       }
    }
    .down {
@@ -799,7 +798,7 @@ background: #000;
          width: 50%;
          background: #00ed75;
          display: flex;
-         
+
          .title-down {
             display: flex;
 
@@ -824,11 +823,11 @@ background: #000;
 .integration {
    padding-top: 10vh;
    padding-bottom: 10vh;
-   
+
    padding: auto 5%;
    display: flex;
    position: relative;
-   
+
    .left {
       display: flex;
       justify-content: center;
@@ -913,7 +912,7 @@ background: #000;
    height: 100vh;
    position: relative;
    overflow: hidden;
-   
+
    .title-sub {
       z-index: -2;
       padding-top: 40vh;
@@ -935,40 +934,41 @@ background: #000;
    .sub2 {
       position: absolute;
       z-index: 1;
-right: calc(50% - 575px);
+      right: calc(50% - 575px);
       top: calc(50% - 400px);
    }
-   .sub3{
+   .sub3 {
       position: absolute;
       z-index: 1;
       left: 0;
       top: 10vh;
    }
 
-   .sub4{
-      position: absolute;z-index: 1;
+   .sub4 {
+      position: absolute;
+      z-index: 1;
       left: calc(40% - 306px);
       bottom: calc(40% - 349px);
    }
-   .sub5{
+   .sub5 {
       position: absolute;
       z-index: 1;
       right: 5vw;
       bottom: 0;
    }
-   .sub6{
+   .sub6 {
       position: absolute;
       z-index: 0;
       bottom: -5%;
       right: 0;
    }
-   .sub7{
+   .sub7 {
       position: absolute;
       z-index: 0;
       left: 0;
-      bottom: calc(50% - 300px);   
+      bottom: calc(50% - 300px);
    }
-   a{
+   a {
       display: block;
       position: relative;
       width: 420px;
@@ -979,7 +979,7 @@ right: calc(50% - 575px);
       margin-top: 26px;
       z-index: 20;
    }
-   .button{
+   .button {
       width: 420px;
       height: 110px;
       background: #000000;
@@ -990,12 +990,12 @@ right: calc(50% - 575px);
       width: 100%;
       height: 100%;
    }
-   .text{
+   .text {
       font-weight: 400;
-font-size: 41.25px;
-line-height: 48px;
+      font-size: 41.25px;
+      line-height: 48px;
 
-color: #FFFFFF;
-padding-left: 11px;
+      color: #ffffff;
+      padding-left: 11px;
    }
 }

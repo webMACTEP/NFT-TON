@@ -9,10 +9,11 @@
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/media.css">
    <link rel="stylesheet" href="css/animate.css">
-   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+   <link rel="stylesheet" href="css/pre-style.css">
 
    <script src="js/jquery.min.js"></script>
    <script src="js/script.js"></script>
+   <script src="js/plugin.js"></script>
    <script src="js/wow.js"></script>
    <script>
       new WOW().init();
@@ -20,6 +21,10 @@
 </head>
 
 <body>
+   <div id="preloader">
+      <div class="dws-progress-bar"></div>
+   </div>
+
    <header class="header">
       <div class="container">
          <a href=""><img src="img/logo.png" alt=""></a>
@@ -347,7 +352,7 @@
             <div class="title-int">
                Интеграции
             </div>
-            <div class="description1 wow fadeInDown" data-wow-delay="1s" >
+            <div class="description1 wow fadeInDown" data-wow-delay="1s">
                Наша команда долгое время занимается интеграцией технологий захвата мимики человеческого лица, для
                синхронизации с NFT-аватаром, что позволяет в реальном времени использовать ваш NFT в качестве маски.
 
@@ -394,11 +399,11 @@
    </main>
    <script type="text/javascript">
       $(function () {
-      if (!navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
-         $("video").prop('muted', true);
-      }
+         if (!navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+            $("video").prop('muted', true);
+         }
       });
-      </script>
+   </script>
 
 
 

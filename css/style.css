@@ -79,7 +79,9 @@ h1, h2, h3, h4, h5, h6 {
   src: url("../fonts/BebasNeue Bold.otf") format("opentype");
 }
 
-.hiiden, .game .down .right .coming-soon, .integration .right .title-int {
+.hiiden,
+.game .down .right .coming-soon,
+.integration .right .title-int {
   display: none;
 }
 
@@ -189,7 +191,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  width: 58.5vw;
+  width: 59vw;
   height: 100vh;
   background: #ef2adc;
   -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
@@ -202,7 +204,7 @@ main {
   right: 0;
   top: 0;
   background: #00ed75;
-  width: 58.5vw;
+  width: 59vw;
   height: 100vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
@@ -1272,7 +1274,6 @@ main {
   font-weight: 400;
   font-size: 41.25px;
   line-height: 48px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-left: 11px;
 }
-/*# sourceMappingURL=style.css.map */
