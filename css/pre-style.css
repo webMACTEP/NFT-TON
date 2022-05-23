@@ -13,7 +13,7 @@
  font-size: 40px;
  font-family: "Verdana", sans-serif;
  font-weight: bold;
- color: #25ffe4;
+ color: #00ED75;
 }
 #preloader {
  position: fixed;
@@ -93,7 +93,7 @@ body {
 
 }
 .header-content a:hover {
- color: #5C55FD;
+ color: #EF2ADC;
  box-shadow: 0 10px 65px 0 rgba(248, 247, 255, 0.32);
  -moz-box-shadow: 0 10px 65px 0 rgba(248, 247, 255, 0.32);
  -webkit-box-shadow: 0 10px 65px 0 rgba(248, 247, 255, 0.32);
