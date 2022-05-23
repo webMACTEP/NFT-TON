@@ -3,10 +3,10 @@
     font-size: 180px;
   }
   .double .cardr .number {
-    padding-top: 5%;
+    padding-top: 5% !important;
   }
   .double .cardl .name {
-    margin-bottom: 5%;
+    padding-bottom: 5% !important;
   }
 }
 
@@ -218,14 +218,34 @@
   .integration .left .title-int {
     display: none;
   }
+  .subscribe .sub3 {
+    width: 595.33px;
+    height: 654.23px;
+  }
+  .subscribe .sub5 {
+    width: 574.92px;
+    height: 652.27px;
+  }
+  .subscribe .sub1 {
+    top: 0;
+  }
 }
 
 @media (max-width: 750px) {
   .game .down .left .title-down {
     margin: 0 auto !important;
   }
-  .game .down .right .coming-soon {
+  .game .down .right .coming-soon, .phraze-mob {
     display: block;
+  }
+  .phraze {
+    display: none;
+  }
+  .phraze-mob {
+    position: absolute;
+    z-index: 3;
+    left: calc(50% + 50px);
+    bottom: calc(50% - 150px);
   }
   .ufo-heroe .metal-ball1 {
     width: 91px;
@@ -595,6 +615,52 @@
     width: 100% !important;
     height: 100% !important;
   }
+  .subscribe .sub2, .subscribe .sub7, .subscribe .sub1 {
+    display: none;
+  }
+  .subscribe .sub3 {
+    width: 295.33px;
+    height: 354.23px;
+  }
+  .subscribe .sub4 {
+    width: 139.06px;
+    height: 129.41px;
+    left: 0;
+    bottom: 10%;
+  }
+  .subscribe .sub5 {
+    width: 374.92px;
+    height: 452.27px;
+  }
+  .subscribe .sub6 {
+    top: 5%;
+    width: 121.75px;
+    height: 119.77px;
+  }
+  .subscribe .sub1 {
+    top: 0;
+  }
+  .subscribe .title-sub {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 94%;
+    /* or 45px */
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .subscribe a {
+    width: 300px;
+    height: 68px;
+  }
+  .subscribe .button .text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-left: 8px;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 500px) {
@@ -648,3 +714,4 @@
     font-size: 30px;
   }
 }
+/*# sourceMappingURL=media.css.map */
