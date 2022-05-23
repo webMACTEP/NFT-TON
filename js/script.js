@@ -146,7 +146,7 @@ jQuery(document).ready(function ($) {
             sub7.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
 
 
-            
+
 
       });
 
@@ -287,16 +287,8 @@ jQuery(document).ready(function ($) {
       ///////////////////////////////////////////////////////////////////////////////////////
 
 
-
-
-
-
-
-
-
-
       setTimeout(function () {
-            $("#clothes1").remove();
+            $("#clothes1, #clothes2, #clothes3, #clothes4, #clothes5, #clothes6").remove();
       }, 5000)
 
 
