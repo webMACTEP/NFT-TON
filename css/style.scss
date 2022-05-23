@@ -583,10 +583,10 @@ main {
 
 .double {
    display: flex;
-   height: 100vh;
+   height: 120vh;
    position: relative;
-   margin-top: 10%;
-   margin-bottom: 10%;
+   padding-top: 10vh;
+   padding-bottom: 10vh;
    background: url(../img/double-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
