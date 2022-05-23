@@ -1130,6 +1130,7 @@
     display: block;
   }
   .roadmap .mob-road .right {
+    text-align: left;
     margin-left: 15px;
   }
   .roadmap .mob-road .right .mob-1 .date {
