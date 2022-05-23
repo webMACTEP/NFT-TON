@@ -1161,9 +1161,11 @@ max-height: 108px;
    }
 }
 .roadmap {
+   position: relative;
+   height: 220vh;
    background: #000;
    .title {
-      padding-top: 114px;
+      margin-top: 114px;
       font-family: "Bebas";
       font-style: normal;
       font-weight: 700;
@@ -1175,5 +1177,218 @@ max-height: 108px;
       text-transform: uppercase;
 
       color: #ffffff;
+   }
+   .canvas{
+      width: 1280px!important;
+      height: 2200px!important;
+      margin-top: 0!important;
+   }
+   .places{
+      position: absolute;
+      width: 1280px;
+      height: 100%;
+      top: 0;
+      left: calc(50% - 640px);
+   }
+   .place1{
+      position: absolute;
+      left: 210px;
+      top: 200px;
+      .date{
+         font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align-last: left;
+color: #00ED75;
+      }
+      .what{
+         text-align-last: left;
+         font-weight: 400;
+         font-size: 40px;
+         line-height: 47px;
+         /* identical to box height */
+         
+         
+         color: #00ED75;
+         
+      }
+   }
+   .place2{
+      position: absolute;
+      left: 602px;
+      top: 434px;
+      .date{
+         font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align-last: left;
+color: #00ED75;
+      }
+      .what{
+         text-align-last: left;
+         font-weight: 400;
+         font-size: 40px;
+         line-height: 47px;
+         /* identical to box height */
+         
+         
+         color: #00ED75;
+         
+      }
+   }
+   .place3{
+      position: absolute;
+      left: 831px;
+      top: 726px;
+      .date{
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 28px;
+         text-align-last: left;
+         color: #FFFFFF;
+      }
+      .what{
+         font-weight: 400;
+         font-size: 40px;
+         line-height: 47px;
+         /* identical to box height */
+         text-align-last: left;
+         
+         color: #FFFFFF;
+         
+      }
+   }
+   .place4{
+      position: absolute;
+      left: 627px;
+      top: 961px;
+      .date{
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 28px;
+         text-align-last: left;
+         color: #FFFFFF;
+      }
+      .what{
+         font-weight: 400;
+         font-size: 40px;
+         line-height: 47px;
+         /* identical to box height */
+         text-align-last: left;
+         
+         color: #FFFFFF;
+         
+      }
+   }
+   .place5{
+      position: absolute;
+      left: 213px;
+      top: 1003px;
+      .date{
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 28px;
+         text-align-last: left;
+         color: #FFFFFF;
+      }
+      .what{
+         font-weight: 400;
+         font-size: 40px;
+         line-height: 47px;
+         /* identical to box height */
+         text-align-last: left;
+         
+         color: #FFFFFF;
+         
+      }
+   }
+   .place6{
+      position: absolute;
+      left: 152px;
+      top: 1364px;
+      .date{
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 28px;
+         text-align-last: left;
+         color: #FFFFFF;
+      }
+      .what{
+         font-weight: 400;
+         font-size: 40px;
+         line-height: 47px;
+         /* identical to box height */
+         text-align-last: left;
+         
+         color: #FFFFFF;
+         
+      }
+   }
+   .place7{
+      position: absolute;
+      left: 207px;
+      top: 1665px;
+      .date{
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 28px;
+         text-align-last: left;
+         color: #FFFFFF;
+      }
+      .what{
+         font-weight: 700;
+         font-size: 40px;
+         line-height: 47px;
+         /* identical to box height */
+         text-align-last: left;
+         background: rgba(217, 217, 217, 0.11);
+         color: #FFFFFF;
+         filter: blur(19px);
+      }
+   }
+   .place8{
+      position: absolute;
+      left: 841px;
+      top: 1880px;
+      .date{
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 28px;
+         text-align-last: left;
+         color: #FFFFFF;
+      }
+      .what{
+         font-weight: 700;
+         font-size: 40px;
+         line-height: 47px;
+         /* identical to box height */
+         text-align-last: left;
+         
+         color: #FFFFFF;
+         
+      }
+   }
+   .place9{
+      position: absolute;
+      left: 803px;
+      top: 2335px;
+      .date{
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 28px;
+         text-align-last: left;
+         color: #FFFFFF;
+      }
+      .what{
+         font-weight: 700;
+         font-size: 40px;
+         line-height: 47px;
+         /* identical to box height */
+         text-align-last: left;
+         filter: blur(12px);
+         background: rgba(217, 217, 217, 0.11);
+         color: #FFFFFF;
+         
+      }
    }
 }

@@ -1462,11 +1462,13 @@ main {
 }
 
 .roadmap {
+  position: relative;
+  height: 220vh;
   background: #000;
 }
 
 .roadmap .title {
-  padding-top: 114px;
+  margin-top: 114px;
   font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
@@ -1476,5 +1478,232 @@ main {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.roadmap .canvas {
+  width: 1280px !important;
+  height: 2200px !important;
+  margin-top: 0 !important;
+}
+
+.roadmap .places {
+  position: absolute;
+  width: 1280px;
+  height: 100%;
+  top: 0;
+  left: calc(50% - 640px);
+}
+
+.roadmap .place1 {
+  position: absolute;
+  left: 210px;
+  top: 200px;
+}
+
+.roadmap .place1 .date {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align-last: left;
+  color: #00ED75;
+}
+
+.roadmap .place1 .what {
+  text-align-last: left;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  color: #00ED75;
+}
+
+.roadmap .place2 {
+  position: absolute;
+  left: 602px;
+  top: 434px;
+}
+
+.roadmap .place2 .date {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align-last: left;
+  color: #00ED75;
+}
+
+.roadmap .place2 .what {
+  text-align-last: left;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  color: #00ED75;
+}
+
+.roadmap .place3 {
+  position: absolute;
+  left: 831px;
+  top: 726px;
+}
+
+.roadmap .place3 .date {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place3 .what {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place4 {
+  position: absolute;
+  left: 627px;
+  top: 961px;
+}
+
+.roadmap .place4 .date {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place4 .what {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place5 {
+  position: absolute;
+  left: 213px;
+  top: 1003px;
+}
+
+.roadmap .place5 .date {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place5 .what {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place6 {
+  position: absolute;
+  left: 152px;
+  top: 1364px;
+}
+
+.roadmap .place6 .date {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place6 .what {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place7 {
+  position: absolute;
+  left: 207px;
+  top: 1665px;
+}
+
+.roadmap .place7 .date {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place7 .what {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  text-align-last: left;
+  background: rgba(217, 217, 217, 0.11);
+  color: #FFFFFF;
+  -webkit-filter: blur(19px);
+          filter: blur(19px);
+}
+
+.roadmap .place8 {
+  position: absolute;
+  left: 841px;
+  top: 1880px;
+}
+
+.roadmap .place8 .date {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place8 .what {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place9 {
+  position: absolute;
+  left: 803px;
+  top: 2335px;
+}
+
+.roadmap .place9 .date {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align-last: left;
+  color: #FFFFFF;
+}
+
+.roadmap .place9 .what {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  text-align-last: left;
+  -webkit-filter: blur(12px);
+          filter: blur(12px);
+  background: rgba(217, 217, 217, 0.11);
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
