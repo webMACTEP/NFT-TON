@@ -286,6 +286,18 @@ jQuery(document).ready(function ($) {
 
 
 
+
+
+
+
+
+
+      setTimeout(function () {
+            $("#clothes1").remove();
+      }, 5000)
+
+
+
 });
 
 
