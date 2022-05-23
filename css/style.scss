@@ -38,21 +38,22 @@ main {
       align-items: center;
    }
    li {
-      opacity: 0.4;
       margin: 0px 14px;
       font-weight: 500;
       font-size: 15px;
       line-height: 18px;
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      &:hover {
-         opacity: 1;
-      }
-      &.active {
-         opacity: 1;
-      }
+
       a {
          color: #ffffff;
+         opacity: 0.4;
+         &:hover {
+            opacity: 1;
+         }
+         &.active {
+            opacity: 1;
+         }
       }
    }
    .butt {
@@ -113,13 +114,12 @@ main {
       bottom: 0;
       margin: 0px 0px 0px -100px;
       object-fit: cover;
-      
+
       img {
          object-fit: cover;
          width: 100%;
          height: 100%;
       }
-      
    }
    .ufo {
       width: auto;
@@ -504,7 +504,7 @@ main {
       justify-content: center;
       background: url(../img/animation-group.svg);
       background-repeat: no-repeat;
-      
+
       background-position: center;
       width: 100vw;
    }
@@ -614,12 +614,12 @@ main {
          width: 100%;
          font-weight: bold;
          color: #fff;
-         img{
+         img {
             max-width: 100%;
-         height: 100%;
+            height: 100%;
          }
       }
-      
+
       .name {
          font-style: normal;
          font-weight: 300;
@@ -655,11 +655,9 @@ main {
          color: #fff;
          width: 100%;
          padding-top: 15%;
-         img{
-            
-               max-width: 100%;
-               height: 100%;
-            
+         img {
+            max-width: 100%;
+            height: 100%;
          }
       }
       .name {
@@ -917,7 +915,7 @@ main {
       position: relative;
       border-radius: 35px;
       z-index: 1;
-      video{
+      video {
          z-index: -1;
       }
    }
@@ -1025,19 +1023,19 @@ main {
       padding-left: 11px;
    }
 }
-.roadmap{
-   .title{
+.roadmap {
+   .title {
       padding-top: 114px;
-      font-family: 'Bebas';
-font-style: normal;
-font-weight: 700;
-font-size: 200px;
-line-height: 200px;
-/* identical to box height */
+      font-family: "Bebas";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 200px;
+      line-height: 200px;
+      /* identical to box height */
 
-text-align: center;
-text-transform: uppercase;
+      text-align: center;
+      text-transform: uppercase;
 
-color: #FFFFFF;
+      color: #ffffff;
    }
 }

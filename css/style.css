@@ -130,7 +130,6 @@ main {
 }
 
 .header li {
-  opacity: 0.4;
   margin: 0px 14px;
   font-weight: 500;
   font-size: 15px;
@@ -139,16 +138,17 @@ main {
   text-transform: uppercase;
 }
 
-.header li:hover {
-  opacity: 1;
-}
-
-.header li.active {
-  opacity: 1;
-}
-
 .header li a {
   color: #ffffff;
+  opacity: 0.4;
+}
+
+.header li a:hover {
+  opacity: 1;
+}
+
+.header li a.active {
+  opacity: 1;
 }
 
 .header .butt {
@@ -1304,7 +1304,7 @@ main {
 
 .roadmap .title {
   padding-top: 114px;
-  font-family: 'Bebas';
+  font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -1312,6 +1312,5 @@ main {
   /* identical to box height */
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-/*# sourceMappingURL=style.css.map */
