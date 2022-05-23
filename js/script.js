@@ -287,11 +287,13 @@ jQuery(document).ready(function ($) {
       ///////////////////////////////////////////////////////////////////////////////////////
 
 
-      setTimeout(function () {
+      const element = document.getElementById('clothes1');
+      element.classList.add('animated', 'fadeInLeft');
+
+      element.addEventListener('animationend', () => {
+            // do something
             $("#clothes1, #clothes2, #clothes3, #clothes4, #clothes5, #clothes6").remove();
-      }, 5000)
-
-
+      });
 
 });
 
