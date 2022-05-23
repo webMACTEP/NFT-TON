@@ -294,7 +294,24 @@ jQuery(document).ready(function ($) {
             // do something
             $("#clothes1, #clothes2, #clothes3, #clothes4, #clothes5, #clothes6").remove();
       });
-
+      $('.open').click(function (event) {
+            $('.menu').toggleClass('active');
+            $('body').toggleClass('lock');
+      
+         });
+      
+      
+      
+         $('.burger, .mnav').click(function (event) {
+            $('.mmenu').toggleClass('active');
+            $('body').toggleClass('lock');
+      
+         });
+         $('.close').click(function (event) {
+            $('.menu').removeClass('active');
+            $('body').removeClass('lock');
+      
+         });
 });
 
 

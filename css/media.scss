@@ -3,7 +3,7 @@
         font-size: 180px;
     }
     .double .cardr .number{
-        padding-top: 5%!important;
+        padding-top:5vh!important;
     }
     .double .cardl .name{
         padding-bottom: 5%!important;
@@ -160,11 +160,71 @@ line-height: 27px;
     }
     .double{
         .cardl{
-            background-position: -95px 27px !important;
+            background-position: top left !important;
         }
         .cardr{
-            background-position: -110px 27px !important;
+            background-position: bottom left !important;
         }
+    }
+    .double{
+        background: #000!important;
+        padding: 5% 5%;
+        flex-direction: column;
+        height: 160vh;
+        .cardl{
+            height: 70vh;
+            width: 100%;
+            margin: 0;
+            margin-bottom: 20px;
+            .number {
+                font-size: 30vw!important;
+                line-height: 100%;
+                padding-left: 52px;
+                
+                width: 100%;
+                font-weight: bold;
+                color: #fff;
+             }
+             .name {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 40.7809px!important;
+                line-height: 60px;
+                /* identical to box height */
+                padding-bottom: 20%;
+                padding-left: 52px;
+                margin-bottom: 0;
+                
+                color: #ffffff;
+                
+             }
+        }
+        .cardr{
+            width: 100%;
+            height: 70vh;
+            margin: 0;
+            .number {
+                font-size: 30vw!important;
+                line-height: 100%;
+                padding-left: 52px;
+                width: 100%;
+                font-weight: bold;
+                padding-top: 20%;
+                color: #fff;
+             }
+             .name {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 40.7809px!important;
+                line-height: 60px;
+                /* identical to box height */
+                padding-bottom: 62px;
+                padding-left: 52px;
+                
+                color: #ffffff;
+             }
+        }
+        
     }
 }
 @media(max-width:1100px){
@@ -500,64 +560,7 @@ line-height: 13px;
         }
         
     }
-    .double{
-        background: #000!important;
-        padding: 5% 5%;
-        flex-direction: column;
-        height: 160vh;
-        .cardl{
-            height: 70vh;
-            width: 100%;
-            margin: 0;
-            margin-bottom: 20px;
-            .number {
-                font-size: 30vw!important;
-                line-height: 100%;
-                padding-left: 52px;
-                
-                width: 100%;
-                font-weight: bold;
-                color: #fff;
-             }
-             .name {
-                font-style: normal;
-                font-weight: 300;
-                font-size: 40.7809px!important;
-                line-height: 60px;
-                /* identical to box height */
-                padding-bottom: 20%;
-                padding-left: 52px;
-                
-                color: #ffffff;
-             }
-        }
-        .cardr{
-            width: 100%;
-            height: 70vh;
-            margin: 0;
-            .number {
-                font-size: 30vw!important;
-                line-height: 100%;
-                padding-left: 52px;
-                width: 100%;
-                font-weight: bold;
-                padding-top: 20%;
-                color: #fff;
-             }
-             .name {
-                font-style: normal;
-                font-weight: 300;
-                font-size: 40.7809px!important;
-                line-height: 60px;
-                /* identical to box height */
-                padding-bottom: 62px;
-                padding-left: 52px;
-                
-                color: #ffffff;
-             }
-        }
-        
-    }
+    
     .game{
 
         .up{
@@ -637,9 +640,11 @@ margin: 0 auto;
         }
         
         .iimg img{
-        
+            top: calc(50% - 350px);
+            right: calc(50% - 150px);
             width: 300px;
             height: 300px;
+            position: relative;
         }
         .iimg{
             top: 10%!important;
@@ -654,12 +659,13 @@ margin: 0 auto;
             .sub3{
                 width: 295.33px;
 height: 354.23px;
+top: -30px;
             }
             .sub4{
                 width: 139.06px;
 height: 129.41px;
 left: 0;
-bottom: 10%;
+bottom: calc(50% - 250px);
             }
             .sub5{
                 width: 374.92px;
@@ -697,6 +703,17 @@ color: #FFFFFF;
 margin-left: 8px;
 margin-right: 0;
             }}
+        }
+        .custom .img-wrapper{
+            margin-top: 0;
+        }
+        .roadmap{
+            .title{
+            font-style: normal;
+font-weight: 700;
+font-size: 78px;
+line-height: 94%;}
+text-align-last: left;
         }
 
 }
@@ -753,6 +770,94 @@ line-height: 61px;
             .name{
                 font-size: 30px;
             }   
+        }
+    }
+    .header{
+        display: none;
+    }
+    .header-mob{
+        position: fixed;
+        display: block;
+        z-index: 10;
+        width: 100%;
+        height: 60px;
+        top: 0;
+        right: 0;
+        
+        
+        .open{
+            position: absolute;
+
+            right: 12px;
+            top: 12px;
+            width: 40px;
+            height: 40px;
+            
+            
+        }
+        .menu{
+            transition: 1s;
+            left: -120%;
+            padding-top: 16px;
+            z-index: 20;
+            position: relative;
+            top: 0;
+            right: 0;
+            width: 100vw;
+            height: 100vh;
+            background: #000;
+            nav a{
+                
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 33px;
+                /* identical to box height */
+                
+                letter-spacing: 0.04em;
+                
+                
+                color: #FFFFFF;
+            }
+            nav li {
+                text-align: right;
+                margin-bottom: 28px;
+                margin-right: 16px;
+            }
+            .close{
+                display: block;
+                margin-left: auto;
+                
+                margin-right: 16px;
+                margin-bottom: 28px;
+                width: 24px;
+                height: 24px;
+            }
+            .tg{
+                
+            }
+            .tg a{
+                width: 178.8px;
+height: 52.8px;
+
+
+
+background: #FFFFFF;
+border-radius: 100px;
+margin-left: auto;
+margin-right: 16px;
+display: block;
+display: flex;
+align-items: center;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+justify-content: center;
+color: #000000;
+            }
+        }
+        .menu.active{
+            left: 0;
+            transition: 1s;
         }
     }
 }

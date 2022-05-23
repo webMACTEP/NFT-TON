@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hiiden,
 .game .down .right .coming-soon,
-.integration .right .title-int, .phraze-mob {
+.integration .right .title-int, .phraze-mob, .header-mob {
   display: none;
 }
 
