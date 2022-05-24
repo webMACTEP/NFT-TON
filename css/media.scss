@@ -1,14 +1,14 @@
-@media(min-width:2100px){
-    .about h2{
+@media (min-width: 2100px) {
+    .about h2 {
         font-size: 180px;
     }
-    .double .cardr .number{
-        padding-top:5%!important;
+    .double .cardr .number {
+        padding-top: 5% !important;
     }
-    .double .cardl .name{
-        padding-bottom: 5%!important;
+    .double .cardl .name {
+        padding-bottom: 5% !important;
     }
-    .bgnew{
+    .bgnew {
         background-position: 10px 10px;
     }
     .double {
@@ -17,370 +17,361 @@
         position: relative;
         padding-top: 10vh;
         padding-bottom: 10vh;
-        
+
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         align-items: center;
         justify-content: center;
         .cardl {
-           height: 884px;
-           background: url(../img/double-left.png) #ef2adc no-repeat;
-           background-position: top left;
-           width: 35%;
-           margin-left: 70px;
-           margin-right: 20px;
-           width: 600px;
-           display: flex;
-           justify-content: flex-end;
-           align-items: flex-start;
-           border-radius: 42.3174px;
-           flex-direction: column;
-           .number {
-              font-size: 200px;
-              line-height: 100%;
-              padding-left: 52px;
-              padding-right: 52px;
-              width: 100%;
-              font-weight: bold;
-              color: #fff;
-              
-              
-              
-                 height: 200px;
-                 display: block;
-                 margin-right: auto;
-                 
-              img {
-                 
-              }
-           }
-     
-           .name {
-              font-style: normal;
-              font-weight: 300;
-              font-size: 50.7809px;
-              line-height: 60px;
-              /* identical to box height */
-              
-              padding-left: 52px;
-              margin-top: 20px;
-              color: #ffffff;
-           }
+            height: 884px;
+            background: url(../img/double-left.png) #ef2adc no-repeat;
+            background-position: top left;
+            width: 35%;
+            margin-left: 70px;
+            margin-right: 20px;
+            width: 600px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            border-radius: 42.3174px;
+            flex-direction: column;
+            .number {
+                font-size: 200px;
+                line-height: 100%;
+                padding-left: 52px;
+                padding-right: 52px;
+                width: 100%;
+                font-weight: bold;
+                color: #fff;
+
+                height: 200px;
+                display: block;
+                margin-right: auto;
+
+                img {
+                }
+            }
+
+            .name {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 50.7809px;
+                line-height: 60px;
+                /* identical to box height */
+
+                padding-left: 52px;
+                margin-top: 20px;
+                color: #ffffff;
+            }
         }
-     
+
         .cardr {
-           margin-right: 70px;
-           margin-left: 20px;
-           height: 884px;
-           width: 35%;
-           width: 600px;
-           background: url(../img/double-right.png) #00ed75 no-repeat;
-           background-position: bottom left;
-           display: flex;
-           flex-direction: column;
-           border-radius: 42.3174px;
-           .picture {
-           }
-           .number {
-              font-size: 200px;
-              line-height: 100%;
-              padding-left: 52px;
-              padding-right: 52px;
-              text-align: left;
-              font-weight: bold;
-              color: #fff;
-              width: 100%;
-              height: 200px;
-              
-           }
-           .name {
-              font-style: normal;
-              font-weight: 300;
-              font-size: 50.7809px;
-              line-height: 60px;
-              /* identical to box height */
-              padding-left: 52px;
-              text-align: left;
-              margin-top: 20px;
-              color: #ffffff;
-           }
+            margin-right: 70px;
+            margin-left: 20px;
+            height: 884px;
+            width: 35%;
+            width: 600px;
+            background: url(../img/double-right.png) #00ed75 no-repeat;
+            background-position: bottom left;
+            display: flex;
+            flex-direction: column;
+            border-radius: 42.3174px;
+            .picture {
+            }
+            .number {
+                font-size: 200px;
+                line-height: 100%;
+                padding-left: 52px;
+                padding-right: 52px;
+                text-align: left;
+                font-weight: bold;
+                color: #fff;
+                width: 100%;
+                height: 200px;
+            }
+            .name {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 50.7809px;
+                line-height: 60px;
+                /* identical to box height */
+                padding-left: 52px;
+                text-align: left;
+                margin-top: 20px;
+                color: #ffffff;
+            }
         }
-     }
+    }
 }
-@media(max-width:1700px){
-    .about h2{
+@media (max-width: 1700px) {
+    .about h2 {
         font-size: 180px;
     }
-    
 }
 
-@media(max-width:1500px){
-    .game .title-game{
+@media (max-width: 1500px) {
+    .game .title-game {
         font-size: 100px;
     }
-    .game .descripton-game{
+    .game .descripton-game {
         font-size: 19px;
     }
-    .about h2{
+    .about h2 {
         font-size: 150px;
     }
-    .subscribe .sub3{
+    .subscribe .sub3 {
         top: 0;
     }
-    .subscribe .sub5{
+    .subscribe .sub5 {
         right: 0;
     }
-    .intro .ufo{
+    .intro .ufo {
         height: 70vh;
     }
-    .intro .cat{
+    .intro .cat {
         height: 70vh;
     }
-    
 }
-@media(max-width:1300px){
-    
-    
+@media (max-width: 1300px) {
 }
-@media(max-width:1300px){
-    
-    .phraze{
-        display: none!important;
+@media (max-width: 1300px) {
+    .phraze {
+        display: none !important;
     }
-    .phraze-mob{
-         display: block;
-        position: absolute ;
+    .phraze-mob {
+        display: block;
+        position: absolute;
         z-index: 3;
         left: calc(50% + 50px);
         bottom: calc(50% - 150px);
-        
-     }
-    .game{.lefthp{
-        margin-left:5px;
+    }
+    .game {
+        .lefthp {
+            margin-left: 5px;
         }
-        .righthp{
+        .righthp {
             margin-right: 5px;
         }
     }
-    canvas{
+    canvas {
         display: none;
     }
-    .hiiden{
+    .hiiden {
         display: block;
     }
-    
-    .about h2{
+
+    .about h2 {
         font-size: 120px;
     }
-    .integration .right .phone{
+    .integration .right .phone {
         height: 548px;
         width: 363px;
     }
-    .integration .left .title-int{
+    .integration .left .title-int {
         font-size: 100px;
     }
-    .subscribe .sub3{
+    .subscribe .sub3 {
         top: -5vh;
     }
-    .subscribe .sub5{
+    .subscribe .sub5 {
         right: 0vh;
     }
-    .intro .ufo{
+    .intro .ufo {
         height: 60vh;
     }
-    .intro .cat{
+    .intro .cat {
         height: 60vh;
     }
-    .intro .ufo{
+    .intro .ufo {
         width: 50vh;
     }
-    .intro .cat{
+    .intro .cat {
         width: 50vh;
     }
-    .intro .iimg{
+    .intro .iimg {
         top: 0;
     }
-    .catnip-heroe{
-        .under-title{
+    .catnip-heroe {
+        .under-title {
             font-weight: 700;
-font-size: 110px;
-line-height: 110px;
+            font-size: 110px;
+            line-height: 110px;
         }
-        .light1{
+        .light1 {
             width: 89.98px;
-height: 157.74px;
-left: 0!important;
+            height: 157.74px;
+            left: 0 !important;
         }
-        .light2{
+        .light2 {
             width: 89.98px;
-height: 157.74px;
-right: 0!important;
+            height: 157.74px;
+            right: 0 !important;
         }
-        .light3{
+        .light3 {
             width: 89.98px;
-height: 157.74px;
-right: 0!important;
-bottom: 30%!important;
+            height: 157.74px;
+            right: 0 !important;
+            bottom: 30% !important;
         }
-        .light4{
+        .light4 {
             width: 89.98px;
-height: 157.74px;
-left: 0!important;
-bottom: 30%!important;
+            height: 157.74px;
+            left: 0 !important;
+            bottom: 30% !important;
         }
-        .description{
+        .description {
             font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 28px;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 28px;
         }
     }
-    .metal1,.metal2{
+    .metal1,
+    .metal2 {
         display: none;
     }
-    .ufo-heroe{
-        .metal-ball1{
-            width: 91px!important;
-height: 84px!important;
-top: 20%!important;
+    .ufo-heroe {
+        .metal-ball1 {
+            width: 91px !important;
+            height: 84px !important;
+            top: 20% !important;
         }
-        .metal-ball2{
+        .metal-ball2 {
             width: 107px;
-height: 98px;
-bottom: 50%!important;
-
+            height: 98px;
+            bottom: 50% !important;
         }
-        .metal3{
+        .metal3 {
             width: 189px;
-height: 182px;
-bottom: -4%!important;
+            height: 182px;
+            bottom: -4% !important;
         }
-        .metal4{
+        .metal4 {
             width: 189px;
-height: 182px;
-left: -10%!important;
-bottom: -2%!important;
+            height: 182px;
+            left: -10% !important;
+            bottom: -2% !important;
         }
     }
-    .howmuch{
-        .number{
+    .howmuch {
+        .number {
             font-weight: 700;
-font-size: 201.628px;
-line-height: 202px;
+            font-size: 201.628px;
+            line-height: 202px;
         }
-        .title{
+        .title {
             font-weight: 600;
-font-size: 20.5128px;
-line-height: 27px;
+            font-size: 20.5128px;
+            line-height: 27px;
         }
-        
     }
-    .double{
-        .cardl{
+    .double {
+        .cardl {
             background-position: top left !important;
         }
-        .cardr{
+        .cardr {
             background-position: bottom left !important;
         }
     }
-    .double{
-        
+    .double {
         padding: 5% 5%;
         flex-direction: column;
         height: 100vh;
-        .cardl{
-            width:45%;
+        .cardl {
+            width: 45%;
             height: 70vh;
             margin: 0;
             margin-bottom: 20px;
             .number {
-                
                 line-height: 100%;
                 padding-left: 52px;
                 width: 100%;
                 font-weight: bold;
-                
+
                 color: #fff;
                 height: 100%;
-             }
-             .name {
+            }
+            .name {
                 font-style: normal;
                 font-weight: 300;
-                font-size: 40.7809px!important;
+                font-size: 40.7809px !important;
                 line-height: 60px;
                 /* identical to box height */
                 padding-bottom: 62px;
                 padding-left: 52px;
-                
+
                 color: #ffffff;
-             }
+            }
         }
-        .cardr{
+        .cardr {
             width: 45%;
             height: 70vh;
             margin: 0;
             .number {
-                
                 line-height: 100%;
                 padding-left: 52px;
                 width: 100%;
                 font-weight: bold;
                 padding-top: 20%;
                 color: #fff;
-             }
-             .name {
+            }
+            .name {
                 font-style: normal;
                 font-weight: 300;
-                font-size: 40.7809px!important;
+                font-size: 40.7809px !important;
                 line-height: 60px;
                 /* identical to box height */
                 padding-bottom: 62px;
                 padding-left: 52px;
-                
+
                 color: #ffffff;
-             }
+            }
         }
-        
     }
-    .first-mob,.second-mob,.third-mob,.fourth-mob,.fiveth-mob{
-        display: block!important;
+    .first-mob,
+    .second-mob,
+    .third-mob,
+    .fourth-mob,
+    .fiveth-mob {
+        display: block !important;
     }
-    .first,.second,.third,.fourth,.fiveth{
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fiveth {
         display: none;
     }
-    .img-wrapper{
-        height: 100%!important;
-        img{
-            
+    .img-wrapper {
+        height: 100% !important;
+        img {
             margin: 0 auto;
         }
     }
-    .fourth-mob,.fiveth-mob{
-        margin-top: 30px!important;
-        margin-bottom: 30px!important;
+    .fourth-mob,
+    .fiveth-mob {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
     }
-    .third-mob{
-        margin-bottom: 10px!important;
+    .third-mob {
+        margin-bottom: 10px !important;
     }
-    .custom h2{
+    .custom h2 {
         padding: 0 15%;
     }
 }
-@media(max-width:1100px){
+@media (max-width: 1100px) {
     .bgnew {
         background: url(../img/bg-new.png);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: -807px 10px!important;
+        background-position: -807px 10px !important;
     }
-    .skins .bro{
+    .skins .bro {
         height: 500px;
-        
-        
     }
-    .skins .nobg{
-        
+    .skins .nobg {
         width: 611px;
         height: 480px;
     }
@@ -390,302 +381,293 @@ line-height: 27px;
         margin: 0 auto;
         margin-left: -100px;
     }
-    .game .title-game{
+    .game .title-game {
         font-size: 60px;
     }
-    .game .descripton-game{
+    .game .descripton-game {
         font-size: 12px;
     }
-    .double{
+    .double {
         flex-direction: column;
-        .cardl{
-            background: url(../img/mob-cat.png)#ef2adc;
-            background-position: top left!important;
+        .cardl {
+            background: url(../img/mob-cat.png) #ef2adc;
+            background-position: top left !important;
             background-repeat: no-repeat;
             max-height: 884px;
-            margin-bottom: 0!important;
-            margin-bottom: 20px!important;
-            .number{
-                font-size: 15vw!important;
-                width: 100%!important;
+            margin-bottom: 0 !important;
+            margin-bottom: 20px !important;
+            .number {
+                font-size: 15vw !important;
+                width: 100% !important;
                 display: block;
                 max-height: 150px;
             }
-            .name{
-                font-size: 25px!important   ;
+            .name {
+                font-size: 25px !important   ;
                 margin-top: 20px;
             }
         }
-        .cardr{
+        .cardr {
             max-height: 884px;
-            background: url(../img/mob-ufo.png)#00ED75;
-            background-position: bottom left!important;
+            background: url(../img/mob-ufo.png) #00ed75;
+            background-position: bottom left !important;
             background-repeat: no-repeat;
-            .number{
-                font-size: 15vw!important;
-                width: 100%!important;
+            .number {
+                font-size: 15vw !important;
+                width: 100% !important;
                 text-align: left;
                 display: block;
                 max-height: 150px;
                 margin-right: auto;
-                margin-top: 20px!important;
-                padding-top: 0!important;
+                margin-top: 20px !important;
+                padding-top: 0 !important;
             }
-            .name{
-                font-size: 25px!important;
-                
-            }   
+            .name {
+                font-size: 25px !important;
+            }
         }
     }
 }
-@media(max-width:1100px){
-    
-    .game .lefthp{
+@media (max-width: 1100px) {
+    .game .lefthp {
         display: none;
     }
-    .game .righthp{
+    .game .righthp {
         display: none;
     }
-    .game .text{
+    .game .text {
         margin: 0 auto;
     }
-    
-        .game .down .right .title-down{
-            margin-right: 10px;
 
-        }
-        .game .down .left .title-down{
-            margin-left: 10px;
-        }
-        .game .down .left .coming-soon{
-            margin-left: 10px;
-        }
-        .integration{
-            flex-direction: column-reverse;
-            justify-content: center;
+    .game .down .right .title-down {
+        margin-right: 10px;
+    }
+    .game .down .left .title-down {
+        margin-left: 10px;
+    }
+    .game .down .left .coming-soon {
+        margin-left: 10px;
+    }
+    .integration {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        .right {
+            margin: 0;
+            width: 100%;
             align-items: center;
-            .right{
-                margin: 0;
-                width: 100%;
-                align-items: center;
-                .phone{
-                    margin-left: 0;
-                }
-                .title-int{
-                    font-weight: 700;
-font-size: 78px;
-line-height: 94%;
-padding-bottom: 30px;
-font-family: 'Bebas';
-display: block;
-                }
+            .phone {
+                margin-left: 0;
             }
-            .left{
-                padding: 0;
-                padding-top: 40px;
-                .title-int{
-                    display: none;
-                }
-
+            .title-int {
+                font-weight: 700;
+                font-size: 78px;
+                line-height: 94%;
+                padding-bottom: 30px;
+                font-family: "Bebas";
+                display: block;
             }
         }
-        .subscribe{
-            .sub3{
-                width: 595.33px;
-height: 654.23px;
-            }
-            .sub5{
-                width: 574.92px;
-height: 652.27px;
-            }
-            .sub1{
-                top: 0;
+        .left {
+            padding: 0;
+            padding-top: 40px;
+            .title-int {
+                display: none;
             }
         }
-        
+    }
+    .subscribe {
+        .sub3 {
+            width: 595.33px;
+            height: 654.23px;
+        }
+        .sub5 {
+            width: 574.92px;
+            height: 652.27px;
+        }
+        .sub1 {
+            top: 0;
+        }
+    }
 }
-@media (max-width:750px) {
-    .skins .bro{
+@media (max-width: 750px) {
+    .skins .bro {
         height: 400px;
         background: url(../img/bro2.png);
         background-repeat: no-repeat;
         background-position: bottom right;
     }
-    .skins .nobg{
-        
+    .skins .nobg {
         display: none;
     }
-    .skins .skinses img{
+    .skins .skinses img {
         width: 184px;
         height: 207px;
-    
     }
-    .skins .skinses{
+    .skins .skinses {
         margin-left: -150px;
     }
-    
 
-    .skins .title{
+    .skins .title {
         font-weight: 700;
-font-size: 46.3158px;
-line-height: 94%;
+        font-size: 46.3158px;
+        line-height: 94%;
     }
-    .custom h1{
+    .custom h1 {
         font-weight: 700;
-font-size: 60px;
-line-height: 94%;
+        font-size: 60px;
+        line-height: 94%;
     }
-    
-    .custom h2{
+
+    .custom h2 {
         font-style: normal;
         font-weight: 300;
         font-size: 16px;
         line-height: 28px;
-        padding-left: 15%!important;
-        padding-right: 15%!important;
+        padding-left: 15% !important;
+        padding-right: 15% !important;
     }
-    .allcards{
-        height: 100vh!important;
+    .allcards {
+        height: 100vh !important;
         overflow: hidden;
     }
-    .double{
+    .double {
         display: flex;
-        flex-direction: column!important;
-        
+        flex-direction: column !important;
     }
-    .double{
+    .double {
         flex-direction: column;
-        .cardl{
-            width: 70%!important;
-            background: url(../img/mob-cat.png)#ef2adc;
-            background-position: top left!important;
+        .cardl {
+            width: 70% !important;
+            background: url(../img/mob-cat.png) #ef2adc;
+            background-position: top left !important;
             background-repeat: no-repeat;
             max-height: 884px;
-            margin-bottom: 20px!important;
+            margin-bottom: 20px !important;
             margin-right: 0;
-            .number{
-                font-size: 20vw!important;
-                width: 100%!important;
+            .number {
+                font-size: 20vw !important;
+                width: 100% !important;
                 display: block;
                 max-height: 150px;
             }
-            .name{
+            .name {
                 font-size: 20px;
                 margin-top: 20px;
             }
         }
-        .cardr{
-            width: 70%!important;
+        .cardr {
+            width: 70% !important;
             max-height: 884px;
-            background: url(../img/mob-ufo.png)#00ED75;
-            background-position: bottom left!important;
+            background: url(../img/mob-ufo.png) #00ed75;
+            background-position: bottom left !important;
             background-repeat: no-repeat;
-            margin-bottom: 0px!important;
+            margin-bottom: 0px !important;
             margin-right: 0;
-            .number{
-                font-size: 20vw!important;
-                width: 100%!important;
+            .number {
+                font-size: 20vw !important;
+                width: 100% !important;
                 text-align: left;
                 display: block;
                 max-height: 150px;
                 margin-right: auto;
-                margin-top: 20px!important;
-                padding-top: 0!important;
+                margin-top: 20px !important;
+                padding-top: 0 !important;
             }
-            .name{
+            .name {
                 font-size: 20px;
-                
-            }   
+            }
         }
     }
-    
-    .game .down .left .title-down{
-        margin: 0 auto!important;
-        
+
+    .game .down .left .title-down {
+        margin: 0 auto !important;
     }
-    .game .down .right .coming-soon,.phraze-mob{
+    .game .down .right .coming-soon,
+    .phraze-mob {
         display: block;
     }
-    
-    .ufo-heroe{
-        .metal-ball1{
-            width: 91px;
-height: 84px;
-top: 20%!important;
-        }
-        .metal-ball2{
-            width: 107px;
-height: 98px;
-bottom: 50%!important;
 
+    .ufo-heroe {
+        .metal-ball1 {
+            width: 91px;
+            height: 84px;
+            top: 20% !important;
         }
-        
-        .metal3{
+        .metal-ball2 {
+            width: 107px;
+            height: 98px;
+            bottom: 50% !important;
+        }
+
+        .metal3 {
             width: 189px;
-height: 182px;
-bottom: -7%!important;
+            height: 182px;
+            bottom: -7% !important;
         }
-        .metal4{
+        .metal4 {
             width: 189px;
-height: 182px;
-left: -20%!important;
-bottom: -5%!important;
+            height: 182px;
+            left: -20% !important;
+            bottom: -5% !important;
         }
-        .under-title{
+        .under-title {
             font-weight: 700;
-font-size: 110px;
-line-height: 110px;
+            font-size: 110px;
+            line-height: 110px;
         }
-        .description{
+        .description {
             font-weight: 300;
-font-size: 20px;
-line-height: 28px;
+            font-size: 20px;
+            line-height: 28px;
         }
     }
-    .catnip-heroe{
-        .under-title{
+    .catnip-heroe {
+        .under-title {
             font-weight: 700;
-font-size: 110px;
-line-height: 110px;
+            font-size: 110px;
+            line-height: 110px;
         }
-        .light1{
+        .light1 {
             width: 89.98px;
-height: 157.74px;
+            height: 157.74px;
         }
-        .light2{
+        .light2 {
             width: 89.98px;
-height: 157.74px;
+            height: 157.74px;
         }
-        .light3{
+        .light3 {
             width: 89.98px;
-height: 157.74px;
+            height: 157.74px;
         }
-        .light4{
+        .light4 {
             width: 89.98px;
-height: 157.74px;
+            height: 157.74px;
         }
     }
     .about h2 {
         font-size: 80px;
         line-height: 110%;
-        
     }
-    .fly5,.fly7,.fly8,.fly9{
+    .fly5,
+    .fly7,
+    .fly8,
+    .fly9 {
         display: none;
     }
-    .about{
+    .about {
         overflow: hidden;
         display: flex;
         justify-content: center;
-        h2{
+        h2 {
             display: flex;
             justify-content: center;
             flex-direction: column;
             text-align-last: left;
         }
     }
-    .fly4{
-        left: 5%!important;
+    .fly4 {
+        left: 5% !important;
         filter: blur(5px);
         top: -20px;
         width: 104px;
@@ -694,10 +676,10 @@ height: 157.74px;
     .fly1 {
         position: absolute;
         top: 5%;
-        right: -50px!important;
+        right: -50px !important;
         z-index: -1;
-     }
-     .fly2 {
+    }
+    .fly2 {
         position: absolute;
         top: 35%;
         right: 3%;
@@ -705,29 +687,29 @@ height: 157.74px;
         height: 185px;
         z-index: -1;
         display: none;
-     }
-     .fly3 {
+    }
+    .fly3 {
         position: absolute;
         top: 35%;
-        left: -2%!important;
+        left: -2% !important;
         z-index: -1;
         width: 101px;
         height: 204px;
-     }
-     .fly4 {
+    }
+    .fly4 {
         position: absolute;
         z-index: -1;
         left: 20%;
         bottom: 5%;
-     }
-     .fly5 {
+    }
+    .fly5 {
         position: absolute;
         z-index: -1;
         left: -5%;
         bottom: -10%;
         filter: blur(9px);
-     }
-     .fly6 {
+    }
+    .fly6 {
         position: absolute;
         z-index: -2;
         left: 3%;
@@ -735,141 +717,139 @@ height: 157.74px;
         width: 153px;
         height: 143px;
         filter: blur(11px);
-     }
-     .fly7 {
+    }
+    .fly7 {
         position: absolute;
         z-index: -1;
         left: 47%;
         bottom: -10%;
         width: 153px;
         height: 143px;
-     }
-     .fly8 {
+    }
+    .fly8 {
         position: absolute;
         z-index: -1;
         filter: blur(20px);
         left: 25%;
         top: 20%;
-     }
-     .fly9 {
+    }
+    .fly9 {
         position: absolute;
         z-index: -1;
-  
+
         left: -5%;
         top: 5%;
-     }
-     .fly10 {
+    }
+    .fly10 {
         position: absolute;
         z-index: -1;
         width: 132px;
         height: 130px;
-  
-        right: -5%!important;
-        bottom: 5%!important;
-     }
-    
+
+        right: -5% !important;
+        bottom: 5% !important;
+    }
+
     .collection .allcards .cards-right .card {
-        width: 148px!important;
-        height: 184px!important;
+        width: 148px !important;
+        height: 184px !important;
     }
     .collection .allcards .cards-left .card {
-        width: 148px!important;
-        height: 184px!important;
+        width: 148px !important;
+        height: 184px !important;
     }
     .card .heroe-picture img {
         display: block;
-        width: 100%!important;
-        height: 100%!important;
+        width: 100% !important;
+        height: 100% !important;
     }
-    .card .down .name{
+    .card .down .name {
         font-weight: 400;
-font-size: 11.1408px;
-line-height: 13px;
+        font-size: 11.1408px;
+        line-height: 13px;
     }
-    .card .down .number{
+    .card .down .number {
         font-weight: 400;
-font-size: 11.1408px;
-line-height: 13px;
+        font-size: 11.1408px;
+        line-height: 13px;
     }
-    .intro .ufo{
+    .intro .ufo {
         width: 35vh;
     }
-    .intro .cat{
+    .intro .cat {
         width: 35vh;
     }
-    .howmuch{
-        .how1,.how2{
+    .howmuch {
+        .how1,
+        .how2 {
             display: none;
         }
-        .how3{
-            top: 0%!important;
-            
-            right: 40%!important;
-            
-            width: 92px!important;
-            height: 90px!important;
-        }
-        .how4{
-            bottom: 5%!important;
-            
-            left: -100px!important;
-            
-            width: 205px!important;
-            height: 265px!important;
-        }
-        .how5{
-            bottom: 50%!important;
-            
-            left: 40%!important;
-            
-            width: 120px!important;
-            height: 120px!important;
-        }
-        .how6{
-            top: 20%!important;
-            
-            left: 0%!important;
-            
-            width: 85px!important;
-            height: 70px!important;
-        }
-        .how7{
-            bottom: 2%!important;
-            
-            right: 2%!important;
-            
-            width: 110px!important;
-            height: 110px!important;
-        }
-        .how8{
-            top: 10%!important;
-            
-            right:0%!important;
-            
-            width: 130px!important;
-            height: 110px!important;
-        }
-        
-    }
-    
-    .game{
+        .how3 {
+            top: 0% !important;
 
-        .up{
+            right: 40% !important;
+
+            width: 92px !important;
+            height: 90px !important;
+        }
+        .how4 {
+            bottom: 5% !important;
+
+            left: -100px !important;
+
+            width: 205px !important;
+            height: 265px !important;
+        }
+        .how5 {
+            bottom: 50% !important;
+
+            left: 40% !important;
+
+            width: 120px !important;
+            height: 120px !important;
+        }
+        .how6 {
+            top: 20% !important;
+
+            left: 0% !important;
+
+            width: 85px !important;
+            height: 70px !important;
+        }
+        .how7 {
+            bottom: 2% !important;
+
+            right: 2% !important;
+
+            width: 110px !important;
+            height: 110px !important;
+        }
+        .how8 {
+            top: 10% !important;
+
+            right: 0% !important;
+
+            width: 130px !important;
+            height: 110px !important;
+        }
+    }
+
+    .game {
+        .up {
             justify-content: center;
         }
-        .down{
+        .down {
             flex-direction: column;
-            .left{
-                
+            .left {
                 width: 100%;
-                .coming-soon{
+                .coming-soon {
                     display: none;
                 }
             }
-            .right{
+            .right {
                 width: 100%;
                 align-items: flex-start;
-                .title-down{
+                .title-down {
                     margin: 0 auto;
                 }
                 .coming-soon {
@@ -878,277 +858,294 @@ line-height: 13px;
                     opacity: 0.4;
                     display: flex;
                     .logo {
-                       img {
-                          margin-right: 13px;
-                       }
+                        img {
+                            margin-right: 13px;
+                        }
                     }
                     .text {
-                       font-weight: 400;
-                       font-size: 20px;
-                       line-height: 127.19%;
-                       color: #000000;
-                       text-align-last: left;
-                    }
-                 }
-            }
-        }
-            .lefthp,.righthp{
-                display: none;
-            }
-            .title-game{
-                font-weight: 700;
-font-size: 102.121px;
-line-height: 94%;
-            }
-            .descripton-game{
-                font-weight: 500;
-font-size: 24px;
-line-height: 32px;
-width: 90%;
-margin: 0 auto;
-            }
-            .center{
-                .game-center{
-                    img{
-                        width: 92px;
-                        height: 120px;
-                    }
-                }
-                .left-heroe{
-                    margin-left: 0;
-                    img{
-                        
-                        
-                    }
-                }
-                .right-heroe{
-                    margin-right: 0;
-                    img{
-                        
-                        
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 127.19%;
+                        color: #000000;
+                        text-align-last: left;
                     }
                 }
             }
         }
-        
-        .iimg img{
-            top: calc(50% - 350px);
-            right: calc(50% - 150px);
-            width: 300px;
-            height: 300px;
-            position: relative;
-        }
-        .iimg{
-            top: 10%!important;
-            left: calc(50% - 150px)!important;
-            width: 100%!important;
-            height: 100%!important;
-        }
-        .subscribe{
-            .sub2,.sub7,.sub1{
-                display: none;
-            }
-            .sub3{
-                width: 295.33px;
-height: 354.23px;
-top: -30px;
-            }
-            .sub4{
-                width: 139.06px;
-height: 129.41px;
-left: 0;
-bottom: calc(50% - 250px);
-            }
-            .sub5{
-                width: 374.92px;
-height: 452.27px;
-            }
-            .sub6{
-                top: 5%;
-                width: 121.75px;
-height: 119.77px;
-            }
-            .sub1{
-                top: 0;
-            }
-            .title-sub{
-                font-weight: 700;
-font-size: 48px;
-line-height: 94%;
-/* or 45px */
-
-text-align: center;
-text-transform: uppercase;
-            }
-            a{
-                width: 300px;
-height: 68px;
-            }.button{
-            .text{
-                font-weight: 400;
-font-size: 28px;
-line-height: 33px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-margin-left: 8px;
-margin-right: 0;
-            }}
-        }
-        
-        .roadmap{
-            .title{
-            font-style: normal;
-font-weight: 700;
-font-size: 78px;
-line-height: 94%;}
-text-align: left!important;
-                .desk-road{
-                    display: none;
-                }
-        }
-        .first-mob,.second-mob,.third-mob,.fourth-mob,.fiveth-mob{
-            display: block!important;
-        }
-        .first,.second,.third,.fourth,.fiveth{
+        .lefthp,
+        .righthp {
             display: none;
         }
-        .img-wrapper{
-            height: 100%!important;
-            img{
-                
-                margin: 0 auto;
+        .title-game {
+            font-weight: 700;
+            font-size: 102.121px;
+            line-height: 94%;
+        }
+        .descripton-game {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 32px;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .center {
+            .game-center {
+                img {
+                    width: 92px;
+                    height: 120px;
+                }
+            }
+            .left-heroe {
+                margin-left: 0;
+                img {
+                }
+            }
+            .right-heroe {
+                margin-right: 0;
+                img {
+                }
             }
         }
-        .fourth-mob,.fiveth-mob{
-            margin-top: 30px!important;
-            margin-bottom: 30px!important;
+    }
+    .iimg img {
+        top: calc(50% - 350px);
+        right: calc(50% - 150px);
+        width: 300px;
+        height: 300px;
+        position: relative;
+    }
+    .iimg {
+        top: 10% !important;
+        left: calc(50% - 150px) !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .preloader__image {
+        top: calc(50% - 350px);
+        right: calc(50% - 150px);
+        width: 300px;
+        height: 300px;
+        position: relative;
+    }
+    .preloader {
+        top: 10% !important;
+        left: calc(50% - 120px) !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .subscribe {
+        .sub2,
+        .sub7,
+        .sub1 {
+            display: none;
         }
-        .third-mob{
-            margin-bottom: 10px!important;
+        .sub3 {
+            width: 295.33px;
+            height: 354.23px;
+            top: -30px;
         }
-        .custom h2{
-            padding: 0 15%;
+        .sub4 {
+            width: 139.06px;
+            height: 129.41px;
+            left: 0;
+            bottom: calc(50% - 250px);
         }
-}
-@media(max-width:628px){
+        .sub5 {
+            width: 374.92px;
+            height: 452.27px;
+        }
+        .sub6 {
+            top: 5%;
+            width: 121.75px;
+            height: 119.77px;
+        }
+        .sub1 {
+            top: 0;
+        }
+        .title-sub {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 94%;
+            /* or 45px */
 
+            text-align: center;
+            text-transform: uppercase;
+        }
+        a {
+            width: 300px;
+            height: 68px;
+        }
+        .button {
+            .text {
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 33px;
+                /* identical to box height */
+
+                color: #ffffff;
+                margin-left: 8px;
+                margin-right: 0;
+            }
+        }
+    }
+
+    .roadmap {
+        .title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 78px;
+            line-height: 94%;
+        }
+        text-align: left !important;
+        .desk-road {
+            display: none;
+        }
+    }
+    .first-mob,
+    .second-mob,
+    .third-mob,
+    .fourth-mob,
+    .fiveth-mob {
+        display: block !important;
+    }
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fiveth {
+        display: none;
+    }
+    .img-wrapper {
+        height: 100% !important;
+        img {
+            margin: 0 auto;
+        }
+    }
+    .fourth-mob,
+    .fiveth-mob {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .third-mob {
+        margin-bottom: 10px !important;
+    }
+    .custom h2 {
+        padding: 0 15%;
+    }
 }
-@media(max-width:550px){
-    .double{
-        .cardl{
-            background: url(../img/mob-cat.png)#ef2adc;
-            background-position: top left!important;
+@media (max-width: 628px) {
+}
+@media (max-width: 550px) {
+    .double {
+        .cardl {
+            background: url(../img/mob-cat.png) #ef2adc;
+            background-position: top left !important;
             background-repeat: no-repeat;
-            width: 80%!important;
-            .number{
-                font-size: 20vw!important;
-                width: 100%!important;
+            width: 80% !important;
+            .number {
+                font-size: 20vw !important;
+                width: 100% !important;
                 display: block;
                 max-height: 120px;
                 text-align: left;
             }
-            .name{
-                font-size: 20px!important;
+            .name {
+                font-size: 20px !important;
                 margin-top: 20px;
             }
         }
-        .cardr{
-            background: url(../img/mob-ufo.png)#00ED75;
-            background-position: bottom left!important;
+        .cardr {
+            background: url(../img/mob-ufo.png) #00ed75;
+            background-position: bottom left !important;
             background-repeat: no-repeat;
-            width: 80%!important;
-            .number{
-                font-size: 20vw!important;
-                width: 100%!important;
+            width: 80% !important;
+            .number {
+                font-size: 20vw !important;
+                width: 100% !important;
                 text-align: left;
                 display: block;
                 max-height: 120px;
                 margin-right: auto;
-                margin-top: 20px!important;
-                padding-top: 0!important;
+                margin-top: 20px !important;
+                padding-top: 0 !important;
             }
-            .name{
-                font-size: 20px!important;
-                
-            }   
+            .name {
+                font-size: 20px !important;
+            }
         }
     }
 }
-@media (max-width:500px) {
-    .phraze-mob{
+@media (max-width: 500px) {
+    .phraze-mob {
         display: block;
-       position: absolute ;
-       z-index: 3;
-       left: calc(50% + 50px);
-       bottom: calc(50% - 350px);
-       left: 39px;
-   bottom: 377px;
-    }a
-    .custom h1{
+        position: absolute;
+        z-index: 3;
+        left: calc(50% + 50px);
+        bottom: calc(50% - 350px);
+        left: 39px;
+        bottom: 377px;
+    }
+    a .custom h1 {
         font-size: 60px;
         padding: 0 3%;
     }
-    .custom h2{
+    .custom h2 {
         font-weight: 300;
-font-size: 16px;
-line-height: 28px;
-/* or 175% */
+        font-size: 16px;
+        line-height: 28px;
+        /* or 175% */
 
-text-align: center;
-padding: 0 3%;
+        text-align: center;
+        padding: 0 3%;
     }
-    .integration .left .title-int{
+    .integration .left .title-int {
         font-weight: 700;
-font-size: 78px;
-line-height: 94%;
+        font-size: 78px;
+        line-height: 94%;
     }
-    .integration .left .description1{
+    .integration .left .description1 {
         font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 28px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
     }
-    .integration .left .description2{
+    .integration .left .description2 {
         font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 28px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
     }
-    .about h2{
+    .about h2 {
         font-size: 50.25px;
         left: 180%;
         font-weight: 700;
-font-size: 68px!important;
-line-height: 61px;
+        font-size: 68px !important;
+        line-height: 61px;
     }
-    
-    
 }
-@media(max-width:1100px){
+@media (max-width: 1100px) {
     .wrap-fix {
         position: relative;
         height: 100vh;
         overflow: hidden;
         .animation-wrap {
-           height: 100vh;
-           display: flex;
-           align-items: center;
-           flex-direction: column;
-           justify-content: center;
-           background: url(../img/animation-group-mob.svg);
-           background-repeat: no-repeat;
-     
-           background-position: center;
-           width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            background: url(../img/animation-group-mob.svg);
+            background-repeat: no-repeat;
+
+            background-position: center;
+            width: 100vw;
         }
-     }
-    
-    .header{
+    }
+
+    .header {
         display: none;
     }
-    .header-mob{
+    .header-mob {
         position: fixed;
         display: block;
         z-index: 10;
@@ -1156,19 +1153,16 @@ line-height: 61px;
         height: 60px;
         top: 0;
         right: 0;
-        
-        
-        .open{
+
+        .open {
             position: absolute;
 
             right: 12px;
             top: 12px;
             width: 40px;
             height: 40px;
-            
-            
         }
-        .menu{
+        .menu {
             transition: 1s;
             left: -150%;
             padding-top: 16px;
@@ -1179,273 +1173,259 @@ line-height: 61px;
             width: 100vw;
             height: 100vh;
             background: #000;
-            nav a{
-                
+            nav a {
                 font-weight: 500;
                 font-size: 28px;
                 line-height: 33px;
                 /* identical to box height */
-                
+
                 letter-spacing: 0.04em;
-                
-                
-                color: #FFFFFF;
+
+                color: #ffffff;
             }
             nav li {
                 text-align: right;
                 margin-bottom: 28px;
                 margin-right: 16px;
             }
-            .close{
+            .close {
                 display: block;
                 margin-left: auto;
-                
+
                 margin-right: 16px;
                 margin-bottom: 28px;
                 width: 24px;
                 height: 24px;
             }
-            .tg{
-                
+            .tg {
             }
-            .tg a{
+            .tg a {
                 width: 178.8px;
-height: 52.8px;
+                height: 52.8px;
 
-
-
-background: #FFFFFF;
-border-radius: 100px;
-margin-left: auto;
-margin-right: 16px;
-display: block;
-display: flex;
-align-items: center;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-justify-content: center;
-color: #000000;
+                background: #ffffff;
+                border-radius: 100px;
+                margin-left: auto;
+                margin-right: 16px;
+                display: block;
+                display: flex;
+                align-items: center;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+                justify-content: center;
+                color: #000000;
             }
         }
-        .menu.active{
+        .menu.active {
             left: 0;
             transition: 1s;
         }
     }
 }
 
-@media(max-width:1300px){
-    
-    .roadmap{
-        
+@media (max-width: 1300px) {
+    .roadmap {
         display: block;
         height: 100%;
-        .canvas{
+        .canvas {
             display: none;
         }
-        .mob-road{
-        .title{
-            margin-left: 20px;
-            display: block;
-            width: 100vw;
-        }
-        
-        .mob-road{
-            display: flex;
-            justify-content: flex-start;
-            text-align: left;
-        }
-        
-        .left{
-margin-top: 30px;
-margin-bottom: 60px;
-display: block; 
-padding-left: 20px;
-            img{
+        .mob-road {
+            .title {
+                margin-left: 20px;
                 display: block;
+                width: 100vw;
+            }
+
+            .mob-road {
+                display: flex;
+                justify-content: flex-start;
+                text-align: left;
+            }
+
+            .left {
+                margin-top: 30px;
+                margin-bottom: 60px;
+                display: block;
+                padding-left: 20px;
+                img {
+                    display: block;
+                }
+            }
+            .right {
+                text-align: left;
+                margin-left: 15px;
+                .mob-1 {
+                    .date {
+                        margin-top: 30px;
+                        text-align: left;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        color: #00ed75;
+                    }
+                    .whatnext {
+                        margin-top: 8px;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 28px;
+                        text-align: left;
+                        color: #00ed75;
+                    }
+                }
+                .mob-2 {
+                    text-align: left;
+                    .date {
+                        margin-top: 38px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        color: #ffffff;
+                    }
+                    .whatnext {
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 28px;
+
+                        color: #ffffff;
+                    }
+                }
+                .mob-3 {
+                    text-align: left;
+                    .date {
+                        margin-top: 20px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        color: #ffffff;
+                    }
+                    .whatnext {
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 28px;
+
+                        color: #ffffff;
+                    }
+                }
+                .mob-4 {
+                    text-align: left;
+                    .date {
+                        margin-top: 49px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        color: #ffffff;
+                    }
+                    .whatnext {
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 28px;
+
+                        color: #ffffff;
+                    }
+                }
+                .mob-5 {
+                    text-align: left;
+                    .date {
+                        margin-top: 49px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        color: #ffffff;
+                    }
+                    .whatnext {
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 28px;
+
+                        color: #ffffff;
+                    }
+                }
+                .mob-6 {
+                    text-align: left;
+                    .date {
+                        margin-top: 49px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        color: #ffffff;
+                    }
+                    .whatnext {
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 28px;
+
+                        color: #ffffff;
+                        background: rgba(217, 217, 217, 0.11);
+                        filter: blur(11px);
+                        /* Note: backdrop-filter has minimal browser support */
+
+                        border-radius: 12px;
+                    }
+                }
+                .mob-7 {
+                    text-align: left;
+                    .date {
+                        margin-top: 49px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        color: #ffffff;
+                    }
+                    .whatnext {
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 28px;
+
+                        color: #ffffff;
+                    }
+                }
+                .mob-7 {
+                    text-align: left;
+                    .date {
+                        margin-top: 49px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        color: #ffffff;
+                        background: rgba(217, 217, 217, 0.11);
+                        filter: blur(11px);
+                        /* Note: backdrop-filter has minimal browser support */
+
+                        border-radius: 12px;
+                    }
+                    .whatnext {
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 28px;
+
+                        color: #ffffff;
+                        font-style: italic;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 28px;
+
+                        color: #ffffff;
+                    }
+                }
             }
         }
-        .right{
-            text-align: left;
-            margin-left: 15px;
-            .mob-1{
-                .date{
-                    margin-top: 30px;
-                    text-align: left;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 19px;
-                    /* identical to box height */
-                    
-                    
-                    color: #00ED75;
-                }
-                .whatnext{
-                    margin-top: 8px;
-                    font-weight: 400;
-                    font-size: 24px;
-                    line-height: 28px;
-                    text-align: left;
-                    color: #00ED75;
-                }
-            }
-            .mob-2{
-                text-align: left;
-                .date{
-                    margin-top: 38px;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-                /* identical to box height */
-                
-                
-                color: #FFFFFF;
-                }
-                .whatnext{
-                    font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-                }
-            }
-            .mob-3{
-                text-align: left;
-                .date{
-                    margin-top: 20px;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-                /* identical to box height */
-                
-                
-                color: #FFFFFF;
-                }
-                .whatnext{
-                    font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-                }
-            }
-            .mob-4{
-                text-align: left;
-                .date{
-                    margin-top: 49px;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-                /* identical to box height */
-                
-                
-                color: #FFFFFF;
-                }
-                .whatnext{
-                    font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-                }
-            }
-            .mob-5{
-                text-align: left;
-                .date{
-                    margin-top: 49px;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-                /* identical to box height */
-                
-                
-                color: #FFFFFF;
-                }
-                .whatnext{
-                    font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-                }
-            }
-            .mob-6{
-                text-align: left;
-                .date{
-                    margin-top: 49px;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-                /* identical to box height */
-                
-                
-                color: #FFFFFF;
-                }
-                .whatnext{
-                    font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-background: rgba(217, 217, 217, 0.11);
-filter: blur(11px);
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 12px;
-                }
-            }
-            .mob-7{
-                text-align: left;
-                .date{
-                    margin-top: 49px;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-                /* identical to box height */
-                
-                
-                color: #FFFFFF;
-                }
-                .whatnext{
-                    font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-                }
-            }
-            .mob-7{
-                text-align: left;
-                .date{
-                    margin-top: 49px;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-                /* identical to box height */
-                
-                
-                color: #FFFFFF;
-                background: rgba(217, 217, 217, 0.11);
-filter: blur(11px);
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 12px;
-                }
-                .whatnext{
-                    font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-font-style: italic;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
-                }
-            }
-        }
-    }}
+    }
 }

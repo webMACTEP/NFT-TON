@@ -232,7 +232,8 @@
     font-size: 20px;
     line-height: 28px;
   }
-  .metal1, .metal2 {
+  .metal1,
+  .metal2 {
     display: none;
   }
   .ufo-heroe .metal-ball1 {
@@ -327,10 +328,18 @@
     padding-left: 52px;
     color: #ffffff;
   }
-  .first-mob, .second-mob, .third-mob, .fourth-mob, .fiveth-mob {
+  .first-mob,
+  .second-mob,
+  .third-mob,
+  .fourth-mob,
+  .fiveth-mob {
     display: block !important;
   }
-  .first, .second, .third, .fourth, .fiveth {
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fiveth {
     display: none;
   }
   .img-wrapper {
@@ -339,7 +348,8 @@
   .img-wrapper img {
     margin: 0 auto;
   }
-  .fourth-mob, .fiveth-mob {
+  .fourth-mob,
+  .fiveth-mob {
     margin-top: 30px !important;
     margin-bottom: 30px !important;
   }
@@ -403,7 +413,7 @@
   }
   .double .cardr {
     max-height: 884px;
-    background: url(../img/mob-ufo.png) #00ED75;
+    background: url(../img/mob-ufo.png) #00ed75;
     background-position: bottom left !important;
     background-repeat: no-repeat;
   }
@@ -468,7 +478,7 @@
     font-size: 78px;
     line-height: 94%;
     padding-bottom: 30px;
-    font-family: 'Bebas';
+    font-family: "Bebas";
     display: block;
   }
   .integration .left {
@@ -567,7 +577,7 @@
   .double .cardr {
     width: 70% !important;
     max-height: 884px;
-    background: url(../img/mob-ufo.png) #00ED75;
+    background: url(../img/mob-ufo.png) #00ed75;
     background-position: bottom left !important;
     background-repeat: no-repeat;
     margin-bottom: 0px !important;
@@ -589,7 +599,8 @@
   .game .down .left .title-down {
     margin: 0 auto !important;
   }
-  .game .down .right .coming-soon, .phraze-mob {
+  .game .down .right .coming-soon,
+  .phraze-mob {
     display: block;
   }
   .ufo-heroe .metal-ball1 {
@@ -648,7 +659,10 @@
     font-size: 80px;
     line-height: 110%;
   }
-  .fly5, .fly7, .fly8, .fly9 {
+  .fly5,
+  .fly7,
+  .fly8,
+  .fly9 {
     display: none;
   }
   .about {
@@ -787,7 +801,8 @@
   .intro .cat {
     width: 35vh;
   }
-  .howmuch .how1, .howmuch .how2 {
+  .howmuch .how1,
+  .howmuch .how2 {
     display: none;
   }
   .howmuch .how3 {
@@ -870,7 +885,8 @@
     color: #000000;
     text-align-last: left;
   }
-  .game .lefthp, .game .righthp {
+  .game .lefthp,
+  .game .righthp {
     display: none;
   }
   .game .title-game {
@@ -908,7 +924,22 @@
     width: 100% !important;
     height: 100% !important;
   }
-  .subscribe .sub2, .subscribe .sub7, .subscribe .sub1 {
+  .preloader__image {
+    top: calc(50% - 350px);
+    right: calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+    position: relative;
+  }
+  .preloader {
+    top: 10% !important;
+    left: calc(50% - 120px) !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .subscribe .sub2,
+  .subscribe .sub7,
+  .subscribe .sub1 {
     display: none;
   }
   .subscribe .sub3 {
@@ -951,7 +982,7 @@
     font-size: 28px;
     line-height: 33px;
     /* identical to box height */
-    color: #FFFFFF;
+    color: #ffffff;
     margin-left: 8px;
     margin-right: 0;
   }
@@ -967,10 +998,18 @@
   .roadmap .desk-road {
     display: none;
   }
-  .first-mob, .second-mob, .third-mob, .fourth-mob, .fiveth-mob {
+  .first-mob,
+  .second-mob,
+  .third-mob,
+  .fourth-mob,
+  .fiveth-mob {
     display: block !important;
   }
-  .first, .second, .third, .fourth, .fiveth {
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fiveth {
     display: none;
   }
   .img-wrapper {
@@ -979,7 +1018,8 @@
   .img-wrapper img {
     margin: 0 auto;
   }
-  .fourth-mob, .fiveth-mob {
+  .fourth-mob,
+  .fiveth-mob {
     margin-top: 30px !important;
     margin-bottom: 30px !important;
   }
@@ -1010,7 +1050,7 @@
     margin-top: 20px;
   }
   .double .cardr {
-    background: url(../img/mob-ufo.png) #00ED75;
+    background: url(../img/mob-ufo.png) #00ed75;
     background-position: bottom left !important;
     background-repeat: no-repeat;
     width: 80% !important;
@@ -1040,8 +1080,7 @@
     left: 39px;
     bottom: 377px;
   }
-  a
-.custom h1 {
+  a .custom h1 {
     font-size: 60px;
     padding: 0 3%;
   }
@@ -1143,7 +1182,7 @@
     line-height: 33px;
     /* identical to box height */
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .header-mob .menu nav li {
     text-align: right;
@@ -1161,7 +1200,7 @@
   .header-mob .menu .tg a {
     width: 178.8px;
     height: 52.8px;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 100px;
     margin-left: auto;
     margin-right: 16px;
@@ -1229,7 +1268,7 @@
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    color: #00ED75;
+    color: #00ed75;
   }
   .roadmap .mob-road .right .mob-1 .whatnext {
     margin-top: 8px;
@@ -1237,7 +1276,7 @@
     font-size: 24px;
     line-height: 28px;
     text-align: left;
-    color: #00ED75;
+    color: #00ed75;
   }
   .roadmap .mob-road .right .mob-2 {
     text-align: left;
@@ -1248,13 +1287,13 @@
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-2 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-3 {
     text-align: left;
@@ -1265,13 +1304,13 @@
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-3 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-4 {
     text-align: left;
@@ -1282,13 +1321,13 @@
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-4 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-5 {
     text-align: left;
@@ -1299,13 +1338,13 @@
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-5 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-6 {
     text-align: left;
@@ -1316,13 +1355,13 @@
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-6 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
     background: rgba(217, 217, 217, 0.11);
     -webkit-filter: blur(11px);
             filter: blur(11px);
@@ -1338,13 +1377,13 @@
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-7 .whatnext {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .roadmap .mob-road .right .mob-7 {
     text-align: left;
@@ -1355,7 +1394,7 @@
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    color: #FFFFFF;
+    color: #ffffff;
     background: rgba(217, 217, 217, 0.11);
     -webkit-filter: blur(11px);
             filter: blur(11px);
@@ -1366,11 +1405,11 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
