@@ -373,7 +373,7 @@
         background-position: -807px 10px !important;
     }
     .skins .bro {
-        height: 500px;
+        height: 400px!important;
     }
     .skins .nobg {
         width: 375px;
@@ -508,7 +508,7 @@
 }
 @media (max-width: 750px) {
     .skins .bro {
-        height: 400px;
+        height: 300px!important;
         background: url(../img/bro2.png);
         background-repeat: no-repeat;
         background-position: bottom right;
