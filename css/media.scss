@@ -8,13 +8,16 @@
     .double .cardl .name{
         padding-bottom: 5%!important;
     }
+    .bgnew{
+        background-position: 10px 10px;
+    }
     .double {
         display: flex;
         height: 100%;
         position: relative;
         padding-top: 10vh;
         padding-bottom: 10vh;
-        background: url(../img/double-bg.png);
+        
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -365,6 +368,12 @@ line-height: 27px;
     }
 }
 @media(max-width:1100px){
+    .bgnew {
+        background: url(../img/bg-new.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -807px 10px!important;
+    }
     .skins .bro{
         height: 500px;
         

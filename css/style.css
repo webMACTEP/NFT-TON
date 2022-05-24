@@ -821,6 +821,7 @@ html {
   background: url(../img/bg-new.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: -408px 10px;
 }
 
 .double {
