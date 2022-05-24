@@ -96,10 +96,6 @@ html {
   color: #fff;
 }
 
-main {
-  margin-bottom: -100vh;
-}
-
 .container {
   margin: 0px auto;
   max-width: 1360px;
@@ -1358,7 +1354,6 @@ main {
   background: url(../img/light-sub.png) #ef2adc;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   position: relative;
   overflow: hidden;
 }
@@ -1465,12 +1460,16 @@ main {
 
 @media (max-width: 1280px) {
   .places {
-    display: none;
+    display: block !important;
+    left: 0 !important;
+    top: 200px !important;
   }
   .mob-road {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100vw;
+    position: absolute;
   }
   .roadmap .title {
     margin-left: 20px;
@@ -1479,8 +1478,14 @@ main {
 
 .roadmap {
   position: relative;
-  height: 280vh;
   background: #000;
+}
+
+.roadmap .desk-road {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .roadmap .title {
@@ -1500,14 +1505,11 @@ main {
   width: 1280px !important;
   height: 2200px !important;
   margin-top: 0 !important;
+  margin-bottom: 50px;
 }
 
 .roadmap .places {
-  position: absolute;
-  width: 1280px;
-  height: 100%;
-  top: 0;
-  left: calc(50% - 640px);
+  display: none;
 }
 
 .roadmap .place1 {

@@ -930,6 +930,9 @@ font-weight: 700;
 font-size: 78px;
 line-height: 94%;}
 text-align: left!important;
+                .desk-road{
+                    display: none;
+                }
         }
 
 }
@@ -1131,19 +1134,20 @@ color: #000000;
     }
 }
 
-@media(max-width:1280px){
+@media(max-width:1300px){
     
     .roadmap{
         
         display: block;
-        height: 100%;
-        canvas{
+        height: 150vh;
+        .canvas{
             display: none;
         }
         .mob-road{
         .title{
             margin-left: 20px;
             display: block;
+            width: 100vw;
         }
         
         .mob-road{

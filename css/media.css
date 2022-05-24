@@ -904,6 +904,9 @@
     font-size: 78px;
     line-height: 94%;
   }
+  .roadmap .desk-road {
+    display: none;
+  }
 }
 
 @media (max-width: 550px) {
@@ -1100,17 +1103,18 @@
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1300px) {
   .roadmap {
     display: block;
-    height: 100%;
+    height: 150vh;
   }
-  .roadmap canvas {
+  .roadmap .canvas {
     display: none;
   }
   .roadmap .mob-road .title {
     margin-left: 20px;
     display: block;
+    width: 100vw;
   }
   .roadmap .mob-road .mob-road {
     display: -webkit-box;
