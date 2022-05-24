@@ -1,9 +1,9 @@
-(function ( $ ) {
+(function ($) {
 
     var global_settings = {};
 
     var methods = {
-        init : function(options) {
+        init: function (options) {
             // This is the easiest way to have default options.
             var settings = $.extend({
                 // These are the defaults.
@@ -16,14 +16,14 @@
                 counter_clockwise: false,
                 percentage: true,
                 text: ''
-            }, options );
+            }, options);
             global_settings = settings;
 
 
             // Create percentage
             var percentage = $("<div class='progress-percentage'></div>");
 
-            if(!global_settings.percentage) {
+            if (!global_settings.percentage) {
                 percentage.text(global_settings.percentage);
             }
             $(this).append(percentage);
@@ -33,16 +33,16 @@
             var text = $("<div class='progress-text'></div>");
 
             // Custom text
-            if(global_settings.text != "percent") {
+            if (global_settings.text != "percent") {
                 text.text(global_settings.text);
             }
             $(this).append(text);
 
             // Correct any invalid values
-            if(global_settings.starting_position != 100) {
+            if (global_settings.starting_position != 100) {
                 global_settings.starting_position = global_settings.starting_position % 100;
             }
-            if(global_settings.ending_position != 100) {
+            if (global_settings.ending_position != 100) {
                 global_settings.ending_position = global_settings.ending_position % 100;
             }
             // No 'px' or '%', add 'px'
@@ -65,7 +65,7 @@
             // Return allows for chaining
             return this;
         },
-        percent : function(value) {
+        percent: function (value) {
             // Change percent
             global_settings.percent = value;
             // Apply global_settings
@@ -81,7 +81,7 @@
             // Return allows for chaining
             return this;
         },
-        animate : function(value, time) {
+        animate: function (value, time) {
             // Apply global_settings
             $(this).css({
                 "height": global_settings.height,
@@ -95,8 +95,8 @@
 
             // Variable conflict, rename this
             var scope = $(this);
-            var theInterval = setInterval(function() {
-                if(global_settings.percent < value) {
+            var theInterval = setInterval(function () {
+                if (global_settings.percent < value) {
                     // Remove old canvas
                     scope.children("canvas").remove();
                     // Increment percent
@@ -113,15 +113,15 @@
         }
     };
 
-    $.fn.circularProgress = function(methodOrOptions) {
+    $.fn.circularProgress = function (methodOrOptions) {
         if (methods[methodOrOptions]) {
             // Method found
             return methods[methodOrOptions].apply(this, Array.prototype.slice.call(arguments, 1));
         } else if (typeof methodOrOptions === 'object' || !methodOrOptions) {
             // Default to "init", object passed in or nothing passed in
-            return methods.init.apply( this, arguments );
+            return methods.init.apply(this, arguments);
         } else {
-            $.error('Method ' +  methodOrOptions + ' does not exist.');
+            $.error('Method ' + methodOrOptions + ' does not exist.');
         }
     };
 
@@ -131,21 +131,21 @@
 
     // return string without 'px' or '%'
     function removeUnit(apples) {
-        if(apples.indexOf("px")) {
+        if (apples.indexOf("px")) {
             return apples.substring(0, apples.length - 2);
-        } else if(canvas_height.indexOf("%")) {
+        } else if (canvas_height.indexOf("%")) {
             return apples.substring(0, apples.length - 1);
         }
     };
     // return string with 'px'
     function appendUnit(apples) {
-        if(apples.toString().indexOf("px") < -1 && apples.toString().indexOf("%") < -1) {
+        if (apples.toString().indexOf("px") < -1 && apples.toString().indexOf("%") < -1) {
             return apples += "px";
         }
     };
     // calculate starting position on canvas
     function calcPos(apples, percent) {
-        if(percent < 0) {
+        if (percent < 0) {
             // Calculate starting position
             var starting_degree = (parseInt(apples) / 100) * 360;
             var starting_radian = starting_degree * (Math.PI / 180);
@@ -160,7 +160,7 @@
     // Put percentage or custom text inside progress circle
     function insertText(scope) {
         global_settings.percent = (global_settings.percent > 100) ? 100 : global_settings.percent;
-        $(".progress-percentage").text(Math.round(global_settings.percent) + "%");
+        $(".progress-percentage").text(Math.round(global_settings.percent) + "");
     }
     // create canvas
     function createCanvas(scope) {
@@ -189,7 +189,7 @@
         var xcoord = canvas_width / 2;
         var ycoord = canvas_height / 2;
         // Height or width greater
-        if(canvas_height >= canvas_width) {
+        if (canvas_height >= canvas_width) {
             radius = canvas_width * 0.9 / 2 - (global_settings.line_width * 2);
         } else {
             radius = canvas_height * 0.9 / 2 - (global_settings.line_width * 2);
@@ -207,11 +207,11 @@
         ctx.stroke();
 
         // Add text
-        if(global_settings.percentage) {
+        if (global_settings.percentage) {
             insertText(scope);
         }
 
         return canvas;
     };
 
-}( jQuery ));
+}(jQuery));

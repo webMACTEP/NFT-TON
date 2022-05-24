@@ -10,11 +10,23 @@
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
- font-size: 40px;
- font-family: "Verdana", sans-serif;
+ font-size: 760px;
+ font-family: "Bebas", sans-serif;
  font-weight: bold;
- color: #00ED75;
+ color: #EF2ADC;
+ 
 }
+@media (max-width:750px){
+   .progress-percentage {
+      font-size: 160px;
+     }
+     
+}
+.progress-percentage::after {
+   content: '%';
+   color: #00ED75;
+}
+
 #preloader {
  position: fixed;
  left: 0;

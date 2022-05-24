@@ -1842,28 +1842,6 @@ html {
   height: 720px !important;
 }
 
-.preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  background: #000;
-  z-index: 1001;
-}
-
-.preloader__image {
-  width: 582px;
-  height: 582px;
-  position: absolute;
-  z-index: 1;
-  left: calc(50% - 240px);
-  top: calc(50vh - 291px);
-  background: url("../img/preloader.gif") no-repeat 50% 50%;
-  /*расположение (url) изображения gif и др. параметры*/
-}
-
 .loaded_hiding .preloader {
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
