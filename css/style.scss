@@ -634,6 +634,16 @@ border-radius: 7.02524px;
       margin: 0 auto;
       
    }
+   .bro{
+      position: relative;
+      height: 730px;
+   }
+   .nobg{
+      background: #000;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+   }
 }
 .double {
    display: flex;

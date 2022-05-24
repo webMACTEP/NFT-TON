@@ -365,6 +365,16 @@ line-height: 27px;
     }
 }
 @media(max-width:1100px){
+    .skins .bro{
+        height: 500px;
+        
+        
+    }
+    .skins .nobg{
+        
+        width: 611px;
+        height: 480px;
+    }
     .skins .skinses {
         padding-top: 50px;
         width: 1200px;
@@ -486,6 +496,26 @@ height: 652.27px;
         
 }
 @media (max-width:750px) {
+    .skins .bro{
+        height: 400px;
+        background: url(../img/bro2.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+    .skins .nobg{
+        
+        display: none;
+    }
+    .skins .skinses img{
+        width: 184px;
+        height: 207px;
+    
+    }
+    .skins .skinses{
+        margin-left: -150px;
+    }
+    
+
     .skins .title{
         font-weight: 700;
 font-size: 46.3158px;
@@ -496,6 +526,7 @@ line-height: 94%;
 font-size: 60px;
 line-height: 94%;
     }
+    
     .custom h2{
         font-style: normal;
         font-weight: 300;

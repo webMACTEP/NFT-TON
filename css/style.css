@@ -807,6 +807,18 @@ html {
   margin: 0 auto;
 }
 
+.skins .bro {
+  position: relative;
+  height: 730px;
+}
+
+.skins .nobg {
+  background: #000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 .double {
   display: -webkit-box;
   display: -ms-flexbox;
