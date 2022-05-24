@@ -515,7 +515,7 @@
 
 @media (max-width: 750px) {
   .skins .bro {
-    height: 700px !important;
+    height: 800px !important;
     background: url(../img/bro2.png);
     background-repeat: no-repeat;
     background-position: bottom right;
