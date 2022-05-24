@@ -572,7 +572,6 @@ html {
   z-index: 1;
   overflow: hidden;
   height: 100%;
-  background: #000;
 }
 
 .collection .allcards {
@@ -694,7 +693,6 @@ html {
   height: 100vh;
   display: block;
   overflow: hidden;
-  background: url(../img/howmuch.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -807,6 +805,24 @@ html {
   margin: 0 auto;
 }
 
+.skins .bro {
+  position: relative;
+  height: 730px;
+}
+
+.skins .nobg {
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.bgnew {
+  background: url(../img/bg-new.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .double {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -815,7 +831,6 @@ html {
   position: relative;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  background: url(../img/double-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -946,6 +961,7 @@ html {
 }
 
 .custom h1 {
+  margin-bottom: 0 !important;
   font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
