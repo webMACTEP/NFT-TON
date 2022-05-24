@@ -1061,6 +1061,8 @@ max-height: 108px;
       z-index: 1;
       video {
          z-index: -1;
+         display: block;
+         object-fit: cover;
       }
    }
 

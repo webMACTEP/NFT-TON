@@ -1339,6 +1339,9 @@ main {
 
 .integration .video-container video {
   z-index: -1;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .integration .video-container video {
