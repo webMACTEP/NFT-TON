@@ -1354,6 +1354,7 @@ html {
   background: url(../img/light-sub.png) #ef2adc;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }
@@ -1430,6 +1431,7 @@ html {
   margin: 0 auto;
   margin-top: 26px;
   z-index: 20;
+  margin-bottom: 40vh;
 }
 
 .subscribe .button {
@@ -1458,11 +1460,13 @@ html {
   padding-left: 11px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1300px) {
   .places {
+    position: static;
     display: block !important;
     left: 0 !important;
     top: 200px !important;
+    height: 1042px;
   }
   .mob-road {
     display: -webkit-box;
@@ -1489,7 +1493,7 @@ html {
 }
 
 .roadmap .title {
-  margin-top: 114px;
+  padding-top: 114px;
   font-family: "Bebas";
   font-style: normal;
   font-weight: 700;

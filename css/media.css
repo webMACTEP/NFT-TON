@@ -186,7 +186,7 @@
     top: -5vh;
   }
   .subscribe .sub5 {
-    right: -5vh;
+    right: 0vh;
   }
   .intro .ufo {
     height: 60vh;
@@ -1043,7 +1043,7 @@
   .header-mob .menu {
     -webkit-transition: 1s;
     transition: 1s;
-    left: -120%;
+    left: -150%;
     padding-top: 16px;
     z-index: 20;
     position: relative;
@@ -1106,7 +1106,7 @@
 @media (max-width: 1300px) {
   .roadmap {
     display: block;
-    height: 150vh;
+    height: 100%;
   }
   .roadmap .canvas {
     display: none;

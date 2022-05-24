@@ -186,7 +186,7 @@
         top: -5vh;
     }
     .subscribe .sub5{
-        right: -5vh;
+        right: 0vh;
     }
     .intro .ufo{
         height: 60vh;
@@ -1069,7 +1069,7 @@ line-height: 61px;
         }
         .menu{
             transition: 1s;
-            left: -120%;
+            left: -150%;
             padding-top: 16px;
             z-index: 20;
             position: relative;
@@ -1139,7 +1139,7 @@ color: #000000;
     .roadmap{
         
         display: block;
-        height: 150vh;
+        height: 100%;
         .canvas{
             display: none;
         }
