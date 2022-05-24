@@ -373,11 +373,11 @@
         background-position: -807px 10px !important;
     }
     .skins .bro {
-        height: 400px!important;
+        height: 850px!important;
     }
     .skins .nobg {
-        width: 375px;
-        height: 352px;
+        width: 557px;
+        height: 820px;
     }
     .skins .skinses {
         padding-top: 50px;
@@ -508,13 +508,16 @@
 }
 @media (max-width: 750px) {
     .skins .bro {
-        height: 300px!important;
+        height: 700px!important;
         background: url(../img/bro2.png);
         background-repeat: no-repeat;
         background-position: bottom right;
+        background-size: contain;
     }
     .skins .nobg {
         display: none;
+        width: 400px;
+        height: 800px;
     }
     .skins .skinses img {
         width: 184px;
