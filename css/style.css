@@ -777,7 +777,7 @@ html {
 }
 
 .skins .title {
-  font-family: 'Bebas';
+  font-family: "Bebas";
   margin-top: 112px;
   font-style: normal;
   font-weight: 700;
@@ -786,7 +786,7 @@ html {
   /* or 94px */
   text-align: center;
   text-transform: uppercase;
-  background: linear-gradient(90.46deg, #BF22B0 10.27%, #E0B70F 96.57%);
+  background: linear-gradient(90.46deg, #bf22b0 10.27%, #e0b70f 96.57%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1104,7 +1104,11 @@ html {
   left: 60%;
 }
 
-.custom .img-wrapper .first-mob, .custom .img-wrapper .second-mob, .custom .img-wrapper .third-mob, .custom .img-wrapper .fourth-mob, .custom .img-wrapper .fiveth-mob {
+.custom .img-wrapper .first-mob,
+.custom .img-wrapper .second-mob,
+.custom .img-wrapper .third-mob,
+.custom .img-wrapper .fourth-mob,
+.custom .img-wrapper .fiveth-mob {
   display: none;
 }
 
@@ -1834,4 +1838,36 @@ html {
 #background2 {
   width: 1280px !important;
   height: 720px !important;
+}
+
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #000;
+  z-index: 1001;
+}
+
+.preloader__image {
+  width: 582px;
+  height: 582px;
+  position: absolute;
+  z-index: 1;
+  left: calc(50% - 240px);
+  top: calc(50vh - 291px);
+  background: url("../img/preloader.gif") no-repeat 50% 50%;
+  /*расположение (url) изображения gif и др. параметры*/
+}
+
+.loaded_hiding .preloader {
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
 }

@@ -330,11 +330,11 @@ main {
       margin-top: -15px;
    }
 }
-.double .cardr .number{
-   padding-top:5%!important;
+.double .cardr .number {
+   padding-top: 5% !important;
 }
-.double .cardl .name{
-   padding-bottom: 5%!important;
+.double .cardl .name {
+   padding-bottom: 5% !important;
 }
 .ufo-heroe {
    background: url(../img/ufo-bg.png) no-repeat;
@@ -440,11 +440,9 @@ main {
    }
 }
 .collection {
-   
    z-index: 1;
    overflow: hidden;
    height: 100%;
-   
 
    .allcards {
       display: flex;
@@ -530,7 +528,7 @@ main {
    height: 100vh;
    display: block;
    overflow: hidden;
-   
+
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -600,52 +598,51 @@ main {
       color: #00ed75;
    }
 }
-.skins{
+.skins {
    height: 100%;
    overflow: hidden;
-   
+
    overflow: hidden;
-   .title{
-      font-family: 'Bebas';
+   .title {
+      font-family: "Bebas";
       margin-top: 112px;
-font-style: normal;
-font-weight: 700;
-font-size: 100px;
-line-height: 94%;
-/* or 94px */
+      font-style: normal;
+      font-weight: 700;
+      font-size: 100px;
+      line-height: 94%;
+      /* or 94px */
 
-text-align: center;
-text-transform: uppercase;
+      text-align: center;
+      text-transform: uppercase;
 
-background: linear-gradient(90.46deg, #BF22B0 10.27%, #E0B70F 96.57%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+      background: linear-gradient(90.46deg, #bf22b0 10.27%, #e0b70f 96.57%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
    }
-   img{
+   img {
       margin: 10px;
       background: #141414;
-border-radius: 7.02524px;
+      border-radius: 7.02524px;
    }
-   .skinses{
+   .skinses {
       padding-top: 50px;
       width: 1200px;
       margin: 0 auto;
-      
    }
-   .bro{
+   .bro {
       position: relative;
       height: 730px;
    }
-   .nobg{
+   .nobg {
       background: rgba(0, 0, 0, 0);
       position: absolute;
       right: 0;
       bottom: 0;
    }
 }
-.bgnew{
+.bgnew {
    background: url(../img/bg-new.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -656,7 +653,7 @@ border-radius: 7.02524px;
    position: relative;
    padding-top: 10vh;
    padding-bottom: 10vh;
-   
+
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -761,7 +758,7 @@ border-radius: 7.02524px;
       margin-bottom: 35px;
    }
    h1 {
-      margin-bottom: 0!important;
+      margin-bottom: 0 !important;
       font-family: "Bebas";
       font-style: normal;
       font-weight: 700;
@@ -861,31 +858,33 @@ border-radius: 7.02524px;
       max-width: 100vw;
       height: 562px;
       position: relative;
-      .first{
+      .first {
          position: absolute;
          left: 0;
       }
-      .second{
+      .second {
          position: absolute;
          left: calc(50% - 234px);
       }
-      .third{
+      .third {
          position: absolute;
          right: 0;
       }
-      .fourth{
-         bottom:calc(50% - 100px) ;
-            position: absolute;
-            left: 30%;
-         
+      .fourth {
+         bottom: calc(50% - 100px);
+         position: absolute;
+         left: 30%;
       }
-      .fiveth{
-         bottom:calc(50% - 100px) ;
-            position: absolute;
-            left:60%;
-         
+      .fiveth {
+         bottom: calc(50% - 100px);
+         position: absolute;
+         left: 60%;
       }
-      .first-mob,.second-mob,.third-mob,.fourth-mob,.fiveth-mob{
+      .first-mob,
+      .second-mob,
+      .third-mob,
+      .fourth-mob,
+      .fiveth-mob {
          display: none;
       }
    }
@@ -1505,4 +1504,33 @@ border-radius: 7.02524px;
 #background2 {
    width: 1280px !important;
    height: 720px !important;
+}
+.preloader {
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   overflow: hidden;
+   background: #000;
+   z-index: 1001;
+}
+
+.preloader__image {
+   width: 582px;
+   height: 582px;
+   position: absolute;
+   z-index: 1;
+   left: calc(50% - 240px);
+   top: calc(50vh - 291px);
+   background: url("../img/preloader.gif") no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
+}
+
+.loaded_hiding .preloader {
+   transition: 0.3s opacity;
+   opacity: 0;
+}
+
+.loaded .preloader {
+   display: none;
 }
