@@ -958,6 +958,7 @@ html {
 }
 
 .custom h1 {
+  margin-bottom: 0 !important;
   font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
