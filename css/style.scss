@@ -444,7 +444,7 @@ main {
    z-index: 1;
    overflow: hidden;
    height: 100%;
-   background: #000;
+   
 
    .allcards {
       display: flex;
@@ -530,7 +530,7 @@ main {
    height: 100vh;
    display: block;
    overflow: hidden;
-   background: url(../img/howmuch.png);
+   
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -639,11 +639,16 @@ border-radius: 7.02524px;
       height: 730px;
    }
    .nobg{
-      background: #000;
+      background: rgba(0, 0, 0, 0);
       position: absolute;
       right: 0;
       bottom: 0;
    }
+}
+.bgnew{
+   background: url(../img/bg-new.png);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .double {
    display: flex;
@@ -651,7 +656,7 @@ border-radius: 7.02524px;
    position: relative;
    padding-top: 10vh;
    padding-bottom: 10vh;
-   background: url(../img/double-bg.png);
+   
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
