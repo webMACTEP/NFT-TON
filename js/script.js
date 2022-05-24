@@ -161,7 +161,6 @@ jQuery(document).ready(function ($) {
       var totalImages = 34;
       var images = [];
       var images2 = [];
-      var images3 = [];
       for (var i = 1; i < totalImages; i++) {
             var filename = '';
             if (i < 10) filename += '00';
@@ -176,23 +175,11 @@ jQuery(document).ready(function ($) {
 
       }
 
-      for (var g = 1; g < totalImages; g++) {
-            var filename = '';
-            if (g < 10) filename += '00';
-            else if (g < 100) filename += '0';
-            filename += g + '.svg';
-            var img3 = new Image;
-            img3.src = 'img/sequence/road/' + filename;
-            images3.push(img3);
-
-      }
 
       var canv = document.getElementById('background');
       var canv2 = document.getElementById('background2');
-      var canv3 = document.getElementById('background3');
       var context = canv.getContext('2d');
       var context2 = canv2.getContext('2d');
-      var context3 = canv3.getContext('2d');
 
 
       var currentLocation = 0;
@@ -204,10 +191,6 @@ jQuery(document).ready(function ($) {
       var setImage2 = function (newLocation) {
             context2.clearRect(0, 0, 1280, 720);
             context2.drawImage(images2[newLocation], 0, 0, 1280, 720);
-      }
-      var setImage3 = function (newLocation) {
-            context3.clearRect(0, 0, 1280, 720);
-            context3.drawImage(images3[newLocation], 0, 0, 1280, 720);
       }
       var wheelDistance = function (evt) {
             if (!evt) evt = event;
@@ -270,15 +253,7 @@ jQuery(document).ready(function ($) {
                               top: "0",
                               marginTop: "0"
                         });
-                  $(canv3)
-                        .width(winW)
-                        .height(winH)
-                        .css({
-                              // marginLeft: - winH / ratio / 2 + "px",
-                              left: "50%",
-                              top: "0",
-                              marginTop: "0"
-                        });
+
             } else {
                   $(canv)
                         .width(winW)
@@ -298,15 +273,7 @@ jQuery(document).ready(function ($) {
                               top: "50%",
                               marginTop: - winW * ratio / 2 + "px"
                         });
-                  $(canv3)
-                        .width(winW)
-                        .height(winW * ratio)
-                        .css({
-                              marginLeft: "0",
-                              left: "0",
-                              top: "50%",
-                              marginTop: - winW * ratio / 2 + "px"
-                        });
+
             }
 
       }
@@ -317,7 +284,6 @@ jQuery(document).ready(function ($) {
       window.addEventListener("resize", canvasFillWin, false);
       setImage(1);
       setImage2(1);
-      setImage3(1);
       canvasFillWin();
 
 
@@ -330,6 +296,7 @@ jQuery(document).ready(function ($) {
             // do something
             $("#clothes1, #clothes2, #clothes3, #clothes4, #clothes5, #clothes6").remove();
       });
+
       $('.open').click(function (event) {
             $('.menu').toggleClass('active');
             $('body').toggleClass('lock');
