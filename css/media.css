@@ -117,12 +117,6 @@
   .about h2 {
     font-size: 180px;
   }
-  .double .cardr .number {
-    padding-top: 5% !important;
-  }
-  .double .cardl .name {
-    padding-bottom: 5% !important;
-  }
 }
 
 @media (max-width: 1500px) {
@@ -283,7 +277,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 160vh;
+    height: 100vh;
   }
   .double .cardl {
     width: 45%;
@@ -332,9 +326,37 @@
     padding-left: 52px;
     color: #ffffff;
   }
+  .first-mob, .second-mob, .third-mob, .fourth-mob, .fiveth-mob {
+    display: block !important;
+  }
+  .first, .second, .third, .fourth, .fiveth {
+    display: none;
+  }
+  .img-wrapper {
+    height: 100% !important;
+  }
+  .img-wrapper img {
+    margin: 0 auto;
+  }
+  .fourth-mob, .fiveth-mob {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+  .third-mob {
+    margin-bottom: 10px !important;
+  }
+  .custom h2 {
+    padding: 0 15%;
+  }
 }
 
 @media (max-width: 1100px) {
+  .skins .skinses {
+    padding-top: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-left: -100px;
+  }
   .game .title-game {
     font-size: 60px;
   }
@@ -456,6 +478,28 @@
 }
 
 @media (max-width: 750px) {
+  .skins .title {
+    font-weight: 700;
+    font-size: 46.3158px;
+    line-height: 94%;
+  }
+  .custom h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 94%;
+  }
+  .custom h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+  }
+  .allcards {
+    height: 100vh !important;
+    overflow: hidden;
+  }
   .double {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -511,9 +555,6 @@
   }
   .double .cardr .name {
     font-size: 20px;
-  }
-  .custom h1 {
-    font-size: 60px;
   }
   .game .down .left .title-down {
     margin: 0 auto !important;
@@ -884,17 +925,6 @@
     margin-left: 8px;
     margin-right: 0;
   }
-  .custom .img-wrapper {
-    margin-top: 0;
-    width: 90vw;
-    height: 100%;
-  }
-  .custom .img-wrapper img {
-    width: 375px;
-    height: 450px;
-    display: block;
-    margin-left: calc(50% - 187.5px);
-  }
   .roadmap {
     text-align: left !important;
   }
@@ -907,6 +937,28 @@
   .roadmap .desk-road {
     display: none;
   }
+  .first-mob, .second-mob, .third-mob, .fourth-mob, .fiveth-mob {
+    display: block !important;
+  }
+  .first, .second, .third, .fourth, .fiveth {
+    display: none;
+  }
+  .img-wrapper {
+    height: 100% !important;
+  }
+  .img-wrapper img {
+    margin: 0 auto;
+  }
+  .fourth-mob, .fiveth-mob {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+  .third-mob {
+    margin-bottom: 10px !important;
+  }
+  .custom h2 {
+    padding: 0 15%;
+  }
 }
 
 @media (max-width: 550px) {
@@ -914,6 +966,7 @@
     background: url(../img/mob-cat.png) #ef2adc;
     background-position: top left !important;
     background-repeat: no-repeat;
+    width: 80% !important;
   }
   .double .cardl .number {
     font-size: 20vw !important;
@@ -930,6 +983,7 @@
     background: url(../img/mob-ufo.png) #00ED75;
     background-position: bottom left !important;
     background-repeat: no-repeat;
+    width: 80% !important;
   }
   .double .cardr .number {
     font-size: 20vw !important;

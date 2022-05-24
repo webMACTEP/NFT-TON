@@ -455,6 +455,15 @@ html {
   text-align: center;
   color: #ffffff;
   padding-bottom: 81px;
+  margin-top: -15px;
+}
+
+.double .cardr .number {
+  padding-top: 5% !important;
+}
+
+.double .cardl .name {
+  padding-bottom: 5% !important;
 }
 
 .ufo-heroe {
@@ -556,13 +565,13 @@ html {
   text-align: center;
   color: #ffffff;
   padding-bottom: 81px;
+  margin-top: -15px;
 }
 
 .collection {
-  position: relative;
   z-index: 1;
-  top: -100vh;
-  height: 100vh;
+  overflow: hidden;
+  height: 100%;
   background: #000;
 }
 
@@ -576,7 +585,9 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .collection .allcards .cards-left {
@@ -681,8 +692,12 @@ html {
 
 .howmuch {
   height: 100vh;
+  display: block;
   overflow: hidden;
-  z-index: -1;
+  background: url(../img/howmuch.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .howmuch .how1 {
@@ -724,7 +739,7 @@ html {
 
 .howmuch .how7 {
   position: absolute;
-  bottom: -10%;
+  bottom: 0%;
   right: 25%;
 }
 
@@ -755,6 +770,41 @@ html {
   text-align: center;
   text-transform: uppercase;
   color: #00ed75;
+}
+
+.skins {
+  height: 100%;
+  overflow: hidden;
+  overflow: hidden;
+}
+
+.skins .title {
+  font-family: 'Bebas';
+  margin-top: 112px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 94%;
+  /* or 94px */
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(90.46deg, #BF22B0 10.27%, #E0B70F 96.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.skins img {
+  margin: 10px;
+  background: #141414;
+  border-radius: 7.02524px;
+}
+
+.skins .skinses {
+  padding-top: 50px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .double {
@@ -802,14 +852,14 @@ html {
 }
 
 .double .cardl .number {
-  font-size: 13vw;
+  font-size: 11vw;
   line-height: 100%;
   padding-left: 52px;
   padding-right: 52px;
   width: 100%;
   font-weight: bold;
   color: #fff;
-  height: 20vh;
+  text-align: left;
   display: block;
   margin-right: auto;
 }
@@ -1007,8 +1057,39 @@ html {
 
 .custom .img-wrapper {
   max-width: 100vw;
+  height: 562px;
   position: relative;
-  margin-top: -120px;
+}
+
+.custom .img-wrapper .first {
+  position: absolute;
+  left: 0;
+}
+
+.custom .img-wrapper .second {
+  position: absolute;
+  left: calc(50% - 234px);
+}
+
+.custom .img-wrapper .third {
+  position: absolute;
+  right: 0;
+}
+
+.custom .img-wrapper .fourth {
+  bottom: calc(50% - 100px);
+  position: absolute;
+  left: 30%;
+}
+
+.custom .img-wrapper .fiveth {
+  bottom: calc(50% - 100px);
+  position: absolute;
+  left: 60%;
+}
+
+.custom .img-wrapper .first-mob, .custom .img-wrapper .second-mob, .custom .img-wrapper .third-mob, .custom .img-wrapper .fourth-mob, .custom .img-wrapper .fiveth-mob {
+  display: none;
 }
 
 .custom .phraze {
@@ -1262,6 +1343,7 @@ html {
 }
 
 .integration .left .title-int {
+  text-align: left;
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: "Bebas";
@@ -1359,6 +1441,7 @@ html {
   background-repeat: no-repeat;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 .subscribe .title-sub {
@@ -1730,12 +1813,10 @@ html {
   background: rgba(217, 217, 217, 0.11);
   color: #ffffff;
 }
-<<<<<<< HEAD
-=======
 
-#background, #background2 {
+#background,
+#background2 {
   width: 1280px !important;
   height: 720px !important;
 }
 /*# sourceMappingURL=style.css.map */
->>>>>>> 072baf40615a1cd5b9f74b1ae2faf58de6443241
