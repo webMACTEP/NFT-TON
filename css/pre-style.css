@@ -10,11 +10,17 @@
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
- font-size: 160px;
+ font-size: 460px;
  font-family: "Bebas", sans-serif;
  font-weight: bold;
  color: #EF2ADC;
  
+}
+@media (max-width:750px){
+   .progress-percentage {
+      font-size: 160px;
+     }
+     
 }
 .progress-percentage::after {
    content: '%';
