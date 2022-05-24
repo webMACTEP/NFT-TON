@@ -1,3 +1,118 @@
+@media (min-width: 2100px) {
+  .about h2 {
+    font-size: 180px;
+  }
+  .double .cardr .number {
+    padding-top: 5% !important;
+  }
+  .double .cardl .name {
+    padding-bottom: 5% !important;
+  }
+  .double {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    position: relative;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background: url(../img/double-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .double .cardl {
+    height: 884px;
+    background: url(../img/double-left.png) #ef2adc no-repeat;
+    background-position: top left;
+    width: 35%;
+    margin-left: 70px;
+    margin-right: 20px;
+    width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border-radius: 42.3174px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .double .cardl .number {
+    font-size: 200px;
+    line-height: 100%;
+    padding-left: 52px;
+    padding-right: 52px;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+    height: 200px;
+    display: block;
+    margin-right: auto;
+  }
+  .double .cardl .name {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50.7809px;
+    line-height: 60px;
+    /* identical to box height */
+    padding-left: 52px;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  .double .cardr {
+    margin-right: 70px;
+    margin-left: 20px;
+    height: 884px;
+    width: 35%;
+    width: 600px;
+    background: url(../img/double-right.png) #00ed75 no-repeat;
+    background-position: bottom left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 42.3174px;
+  }
+  .double .cardr .number {
+    font-size: 200px;
+    line-height: 100%;
+    padding-left: 52px;
+    padding-right: 52px;
+    text-align: left;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    height: 200px;
+  }
+  .double .cardr .name {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50.7809px;
+    line-height: 60px;
+    /* identical to box height */
+    padding-left: 52px;
+    text-align: left;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+}
+
 @media (max-width: 1700px) {
   .about h2 {
     font-size: 180px;
@@ -71,7 +186,7 @@
     top: -5vh;
   }
   .subscribe .sub5 {
-    right: -5vh;
+    right: 0vh;
   }
   .intro .ufo {
     height: 60vh;
@@ -171,18 +286,18 @@
     height: 160vh;
   }
   .double .cardl {
+    width: 45%;
     height: 70vh;
-    width: 100%;
     margin: 0;
     margin-bottom: 20px;
   }
   .double .cardl .number {
-    font-size: 30vw !important;
     line-height: 100%;
     padding-left: 52px;
     width: 100%;
     font-weight: bold;
     color: #fff;
+    height: 100%;
   }
   .double .cardl .name {
     font-style: normal;
@@ -190,18 +305,16 @@
     font-size: 40.7809px !important;
     line-height: 60px;
     /* identical to box height */
-    padding-bottom: 20%;
+    padding-bottom: 62px;
     padding-left: 52px;
-    margin-bottom: 0;
     color: #ffffff;
   }
   .double .cardr {
-    width: 100%;
+    width: 45%;
     height: 70vh;
     margin: 0;
   }
   .double .cardr .number {
-    font-size: 30vw !important;
     line-height: 100%;
     padding-left: 52px;
     width: 100%;
@@ -227,6 +340,49 @@
   }
   .game .descripton-game {
     font-size: 12px;
+  }
+  .double {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .double .cardl {
+    background: url(../img/mob-cat.png) #ef2adc;
+    background-position: top left !important;
+    background-repeat: no-repeat;
+    max-height: 884px;
+    margin-bottom: 0 !important;
+    margin-bottom: 20px !important;
+  }
+  .double .cardl .number {
+    font-size: 15vw !important;
+    width: 100% !important;
+    display: block;
+    max-height: 150px;
+  }
+  .double .cardl .name {
+    font-size: 25px !important;
+    margin-top: 20px;
+  }
+  .double .cardr {
+    max-height: 884px;
+    background: url(../img/mob-ufo.png) #00ED75;
+    background-position: bottom left !important;
+    background-repeat: no-repeat;
+  }
+  .double .cardr .number {
+    font-size: 15vw !important;
+    width: 100% !important;
+    text-align: left;
+    display: block;
+    max-height: 150px;
+    margin-right: auto;
+    margin-top: 20px !important;
+    padding-top: 0 !important;
+  }
+  .double .cardr .name {
+    font-size: 25px !important;
   }
 }
 
@@ -300,6 +456,62 @@
 }
 
 @media (max-width: 750px) {
+  .double {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .double {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .double .cardl {
+    width: 70% !important;
+    background: url(../img/mob-cat.png) #ef2adc;
+    background-position: top left !important;
+    background-repeat: no-repeat;
+    max-height: 884px;
+    margin-bottom: 20px !important;
+    margin-right: 0;
+  }
+  .double .cardl .number {
+    font-size: 20vw !important;
+    width: 100% !important;
+    display: block;
+    max-height: 150px;
+  }
+  .double .cardl .name {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .double .cardr {
+    width: 70% !important;
+    max-height: 884px;
+    background: url(../img/mob-ufo.png) #00ED75;
+    background-position: bottom left !important;
+    background-repeat: no-repeat;
+    margin-bottom: 0px !important;
+    margin-right: 0;
+  }
+  .double .cardr .number {
+    font-size: 20vw !important;
+    width: 100% !important;
+    text-align: left;
+    display: block;
+    max-height: 150px;
+    margin-right: auto;
+    margin-top: 20px !important;
+    padding-top: 0 !important;
+  }
+  .double .cardr .name {
+    font-size: 20px;
+  }
   .custom h1 {
     font-size: 60px;
   }
@@ -388,6 +600,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    text-align-last: left;
   }
   .fly4 {
     left: 5% !important;
@@ -683,13 +896,53 @@
     margin-left: calc(50% - 187.5px);
   }
   .roadmap {
-    text-align-last: left;
+    text-align: left !important;
   }
   .roadmap .title {
     font-style: normal;
     font-weight: 700;
     font-size: 78px;
     line-height: 94%;
+  }
+  .roadmap .desk-road {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .double .cardl {
+    background: url(../img/mob-cat.png) #ef2adc;
+    background-position: top left !important;
+    background-repeat: no-repeat;
+  }
+  .double .cardl .number {
+    font-size: 20vw !important;
+    width: 100% !important;
+    display: block;
+    max-height: 120px;
+    text-align: left;
+  }
+  .double .cardl .name {
+    font-size: 20px !important;
+    margin-top: 20px;
+  }
+  .double .cardr {
+    background: url(../img/mob-ufo.png) #00ED75;
+    background-position: bottom left !important;
+    background-repeat: no-repeat;
+  }
+  .double .cardr .number {
+    font-size: 20vw !important;
+    width: 100% !important;
+    text-align: left;
+    display: block;
+    max-height: 120px;
+    margin-right: auto;
+    margin-top: 20px !important;
+    padding-top: 0 !important;
+  }
+  .double .cardr .name {
+    font-size: 20px !important;
   }
 }
 
@@ -768,28 +1021,6 @@
     background-position: center;
     width: 100vw;
   }
-  .double .cardl {
-    background: url(../img/mob-cat.png) #ef2adc;
-    background-position: top left !important;
-    background-repeat: no-repeat;
-  }
-  .double .cardl .number {
-    font-size: 10vw;
-  }
-  .double .cardl .name {
-    font-size: 30px;
-  }
-  .double .cardr {
-    background: url(../img/mob-ufo.png) #00ED75;
-    background-position: bottom left !important;
-    background-repeat: no-repeat;
-  }
-  .double .cardr .number {
-    font-size: 10vw;
-  }
-  .double .cardr .name {
-    font-size: 30px;
-  }
   .header {
     display: none;
   }
@@ -812,7 +1043,7 @@
   .header-mob .menu {
     -webkit-transition: 1s;
     transition: 1s;
-    left: -120%;
+    left: -150%;
     padding-top: 16px;
     z-index: 20;
     position: relative;
@@ -872,17 +1103,18 @@
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1300px) {
   .roadmap {
     display: block;
     height: 100%;
   }
-  .roadmap canvas {
+  .roadmap .canvas {
     display: none;
   }
   .roadmap .mob-road .title {
     margin-left: 20px;
     display: block;
+    width: 100vw;
   }
   .roadmap .mob-road .mob-road {
     display: -webkit-box;
@@ -891,6 +1123,7 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    text-align: left;
   }
   .roadmap .mob-road .left {
     margin-top: 30px;
@@ -902,11 +1135,12 @@
     display: block;
   }
   .roadmap .mob-road .right {
+    text-align: left;
     margin-left: 15px;
   }
   .roadmap .mob-road .right .mob-1 .date {
     margin-top: 30px;
-    text-align-last: left;
+    text-align: left;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -918,11 +1152,11 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    text-align-last: left;
+    text-align: left;
     color: #00ED75;
   }
   .roadmap .mob-road .right .mob-2 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-2 .date {
     margin-top: 38px;
@@ -939,7 +1173,7 @@
     color: #FFFFFF;
   }
   .roadmap .mob-road .right .mob-3 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-3 .date {
     margin-top: 20px;
@@ -956,7 +1190,7 @@
     color: #FFFFFF;
   }
   .roadmap .mob-road .right .mob-4 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-4 .date {
     margin-top: 49px;
@@ -973,7 +1207,7 @@
     color: #FFFFFF;
   }
   .roadmap .mob-road .right .mob-5 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-5 .date {
     margin-top: 49px;
@@ -990,7 +1224,7 @@
     color: #FFFFFF;
   }
   .roadmap .mob-road .right .mob-6 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-6 .date {
     margin-top: 49px;
@@ -1012,7 +1246,7 @@
     border-radius: 12px;
   }
   .roadmap .mob-road .right .mob-7 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-7 .date {
     margin-top: 49px;
@@ -1029,7 +1263,7 @@
     color: #FFFFFF;
   }
   .roadmap .mob-road .right .mob-7 {
-    text-align-last: left;
+    text-align: left;
   }
   .roadmap .mob-road .right .mob-7 .date {
     margin-top: 49px;

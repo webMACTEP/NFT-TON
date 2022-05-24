@@ -1,3 +1,110 @@
+@media(min-width:2100px){
+    .about h2{
+        font-size: 180px;
+    }
+    .double .cardr .number{
+        padding-top:5%!important;
+    }
+    .double .cardl .name{
+        padding-bottom: 5%!important;
+    }
+    .double {
+        display: flex;
+        height: 100%;
+        position: relative;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        background: url(../img/double-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+        .cardl {
+           height: 884px;
+           background: url(../img/double-left.png) #ef2adc no-repeat;
+           background-position: top left;
+           width: 35%;
+           margin-left: 70px;
+           margin-right: 20px;
+           width: 600px;
+           display: flex;
+           justify-content: flex-end;
+           align-items: flex-start;
+           border-radius: 42.3174px;
+           flex-direction: column;
+           .number {
+              font-size: 200px;
+              line-height: 100%;
+              padding-left: 52px;
+              padding-right: 52px;
+              width: 100%;
+              font-weight: bold;
+              color: #fff;
+              
+              
+              
+                 height: 200px;
+                 display: block;
+                 margin-right: auto;
+                 
+              img {
+                 
+              }
+           }
+     
+           .name {
+              font-style: normal;
+              font-weight: 300;
+              font-size: 50.7809px;
+              line-height: 60px;
+              /* identical to box height */
+              
+              padding-left: 52px;
+              margin-top: 20px;
+              color: #ffffff;
+           }
+        }
+     
+        .cardr {
+           margin-right: 70px;
+           margin-left: 20px;
+           height: 884px;
+           width: 35%;
+           width: 600px;
+           background: url(../img/double-right.png) #00ed75 no-repeat;
+           background-position: bottom left;
+           display: flex;
+           flex-direction: column;
+           border-radius: 42.3174px;
+           .picture {
+           }
+           .number {
+              font-size: 200px;
+              line-height: 100%;
+              padding-left: 52px;
+              padding-right: 52px;
+              text-align: left;
+              font-weight: bold;
+              color: #fff;
+              width: 100%;
+              height: 200px;
+              
+           }
+           .name {
+              font-style: normal;
+              font-weight: 300;
+              font-size: 50.7809px;
+              line-height: 60px;
+              /* identical to box height */
+              padding-left: 52px;
+              text-align: left;
+              margin-top: 20px;
+              color: #ffffff;
+           }
+        }
+     }
+}
 @media(max-width:1700px){
     .about h2{
         font-size: 180px;
@@ -34,7 +141,8 @@
     }
     
 }
-@media(max-width:1400px){
+@media(max-width:1300px){
+    
     
 }
 @media(max-width:1300px){
@@ -78,7 +186,7 @@
         top: -5vh;
     }
     .subscribe .sub5{
-        right: -5vh;
+        right: 0vh;
     }
     .intro .ufo{
         height: 60vh;
@@ -184,18 +292,19 @@ line-height: 27px;
         flex-direction: column;
         height: 160vh;
         .cardl{
+            width:45%;
             height: 70vh;
-            width: 100%;
             margin: 0;
             margin-bottom: 20px;
             .number {
-                font-size: 30vw!important;
+                
                 line-height: 100%;
                 padding-left: 52px;
-                
                 width: 100%;
                 font-weight: bold;
+                
                 color: #fff;
+                height: 100%;
              }
              .name {
                 font-style: normal;
@@ -203,20 +312,18 @@ line-height: 27px;
                 font-size: 40.7809px!important;
                 line-height: 60px;
                 /* identical to box height */
-                padding-bottom: 20%;
+                padding-bottom: 62px;
                 padding-left: 52px;
-                margin-bottom: 0;
                 
                 color: #ffffff;
-                
              }
         }
         .cardr{
-            width: 100%;
+            width: 45%;
             height: 70vh;
             margin: 0;
             .number {
-                font-size: 30vw!important;
+                
                 line-height: 100%;
                 padding-left: 52px;
                 width: 100%;
@@ -246,9 +353,50 @@ line-height: 27px;
     .game .descripton-game{
         font-size: 12px;
     }
-
+    .double{
+        flex-direction: column;
+        .cardl{
+            background: url(../img/mob-cat.png)#ef2adc;
+            background-position: top left!important;
+            background-repeat: no-repeat;
+            max-height: 884px;
+            margin-bottom: 0!important;
+            margin-bottom: 20px!important;
+            .number{
+                font-size: 15vw!important;
+                width: 100%!important;
+                display: block;
+                max-height: 150px;
+            }
+            .name{
+                font-size: 25px!important   ;
+                margin-top: 20px;
+            }
+        }
+        .cardr{
+            max-height: 884px;
+            background: url(../img/mob-ufo.png)#00ED75;
+            background-position: bottom left!important;
+            background-repeat: no-repeat;
+            .number{
+                font-size: 15vw!important;
+                width: 100%!important;
+                text-align: left;
+                display: block;
+                max-height: 150px;
+                margin-right: auto;
+                margin-top: 20px!important;
+                padding-top: 0!important;
+            }
+            .name{
+                font-size: 25px!important;
+                
+            }   
+        }
+    }
 }
 @media(max-width:1100px){
+    
     .game .lefthp{
         display: none;
     }
@@ -314,6 +462,55 @@ height: 652.27px;
         
 }
 @media (max-width:750px) {
+    .double{
+        display: flex;
+        flex-direction: column!important;
+    }
+    .double{
+        flex-direction: column;
+        .cardl{
+            width: 70%!important;
+            background: url(../img/mob-cat.png)#ef2adc;
+            background-position: top left!important;
+            background-repeat: no-repeat;
+            max-height: 884px;
+            margin-bottom: 20px!important;
+            margin-right: 0;
+            .number{
+                font-size: 20vw!important;
+                width: 100%!important;
+                display: block;
+                max-height: 150px;
+            }
+            .name{
+                font-size: 20px;
+                margin-top: 20px;
+            }
+        }
+        .cardr{
+            width: 70%!important;
+            max-height: 884px;
+            background: url(../img/mob-ufo.png)#00ED75;
+            background-position: bottom left!important;
+            background-repeat: no-repeat;
+            margin-bottom: 0px!important;
+            margin-right: 0;
+            .number{
+                font-size: 20vw!important;
+                width: 100%!important;
+                text-align: left;
+                display: block;
+                max-height: 150px;
+                margin-right: auto;
+                margin-top: 20px!important;
+                padding-top: 0!important;
+            }
+            .name{
+                font-size: 20px;
+                
+            }   
+        }
+    }
     .custom h1{
         font-size: 60px;
     }
@@ -386,6 +583,7 @@ height: 157.74px;
     .about h2 {
         font-size: 80px;
         line-height: 110%;
+        
     }
     .fly5,.fly7,.fly8,.fly9{
         display: none;
@@ -398,6 +596,7 @@ height: 157.74px;
             display: flex;
             justify-content: center;
             flex-direction: column;
+            text-align-last: left;
         }
     }
     .fly4{
@@ -730,9 +929,51 @@ margin-right: 0;
 font-weight: 700;
 font-size: 78px;
 line-height: 94%;}
-text-align-last: left;
+text-align: left!important;
+                .desk-road{
+                    display: none;
+                }
         }
 
+}
+@media(max-width:550px){
+    .double{
+        .cardl{
+            background: url(../img/mob-cat.png)#ef2adc;
+            background-position: top left!important;
+            background-repeat: no-repeat;
+            .number{
+                font-size: 20vw!important;
+                width: 100%!important;
+                display: block;
+                max-height: 120px;
+                text-align: left;
+            }
+            .name{
+                font-size: 20px!important;
+                margin-top: 20px;
+            }
+        }
+        .cardr{
+            background: url(../img/mob-ufo.png)#00ED75;
+            background-position: bottom left!important;
+            background-repeat: no-repeat;
+            .number{
+                font-size: 20vw!important;
+                width: 100%!important;
+                text-align: left;
+                display: block;
+                max-height: 120px;
+                margin-right: auto;
+                margin-top: 20px!important;
+                padding-top: 0!important;
+            }
+            .name{
+                font-size: 20px!important;
+                
+            }   
+        }
+    }
 }
 @media (max-width:500px) {
     .phraze-mob{
@@ -802,32 +1043,7 @@ line-height: 61px;
            width: 100vw;
         }
      }
-    .double{
-        .cardl{
-            background: url(../img/mob-cat.png)#ef2adc;
-            background-position: top left!important;
-            background-repeat: no-repeat;
-            .number{
-                font-size: 10vw;
-
-            }
-            .name{
-                font-size: 30px;
-            }
-        }
-        .cardr{
-            background: url(../img/mob-ufo.png)#00ED75;
-            background-position: bottom left!important;
-            background-repeat: no-repeat;
-            .number{
-                font-size: 10vw;
-                
-            }
-            .name{
-                font-size: 30px;
-            }   
-        }
-    }
+    
     .header{
         display: none;
     }
@@ -853,7 +1069,7 @@ line-height: 61px;
         }
         .menu{
             transition: 1s;
-            left: -120%;
+            left: -150%;
             padding-top: 16px;
             z-index: 20;
             position: relative;
@@ -918,25 +1134,26 @@ color: #000000;
     }
 }
 
-@media(max-width:1280px){
+@media(max-width:1300px){
     
     .roadmap{
         
         display: block;
         height: 100%;
-        canvas{
+        .canvas{
             display: none;
         }
         .mob-road{
         .title{
             margin-left: 20px;
             display: block;
+            width: 100vw;
         }
         
         .mob-road{
             display: flex;
             justify-content: flex-start;
-            
+            text-align: left;
         }
         
         .left{
@@ -949,11 +1166,12 @@ padding-left: 20px;
             }
         }
         .right{
+            text-align: left;
             margin-left: 15px;
             .mob-1{
                 .date{
                     margin-top: 30px;
-                    text-align-last: left;
+                    text-align: left;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 19px;
@@ -967,12 +1185,12 @@ padding-left: 20px;
                     font-weight: 400;
                     font-size: 24px;
                     line-height: 28px;
-                    text-align-last: left;
+                    text-align: left;
                     color: #00ED75;
                 }
             }
             .mob-2{
-                text-align-last: left;
+                text-align: left;
                 .date{
                     margin-top: 38px;
                 font-weight: 400;
@@ -992,7 +1210,7 @@ color: #FFFFFF;
                 }
             }
             .mob-3{
-                text-align-last: left;
+                text-align: left;
                 .date{
                     margin-top: 20px;
                 font-weight: 400;
@@ -1012,7 +1230,7 @@ color: #FFFFFF;
                 }
             }
             .mob-4{
-                text-align-last: left;
+                text-align: left;
                 .date{
                     margin-top: 49px;
                 font-weight: 400;
@@ -1032,7 +1250,7 @@ color: #FFFFFF;
                 }
             }
             .mob-5{
-                text-align-last: left;
+                text-align: left;
                 .date{
                     margin-top: 49px;
                 font-weight: 400;
@@ -1052,7 +1270,7 @@ color: #FFFFFF;
                 }
             }
             .mob-6{
-                text-align-last: left;
+                text-align: left;
                 .date{
                     margin-top: 49px;
                 font-weight: 400;
@@ -1077,7 +1295,7 @@ border-radius: 12px;
                 }
             }
             .mob-7{
-                text-align-last: left;
+                text-align: left;
                 .date{
                     margin-top: 49px;
                 font-weight: 400;
@@ -1097,7 +1315,7 @@ color: #FFFFFF;
                 }
             }
             .mob-7{
-                text-align-last: left;
+                text-align: left;
                 .date{
                     margin-top: 49px;
                 font-weight: 400;
