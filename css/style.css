@@ -85,7 +85,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .hiiden,
 .game .down .right .coming-soon,
-.integration .right .title-int, .phraze-mob, .header-mob {
+.integration .right .title-int,
+.phraze-mob,
+.header-mob {
   display: none;
 }
 
@@ -897,7 +899,7 @@ main {
   gap: 4px;
   width: 232px;
   height: 40px;
-  background: #BF22B0;
+  background: #bf22b0;
   border-radius: 61px;
   margin: 0 auto;
   margin-top: 112px;
@@ -905,14 +907,14 @@ main {
 }
 
 .custom h1 {
-  font-family: 'Bebas';
+  font-family: "Bebas";
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
   line-height: 94%;
   /* identical to box height, or 94px */
   text-transform: uppercase;
-  background: linear-gradient(90.46deg, #BF22B0 10.27%, #E0B70F 96.57%);
+  background: linear-gradient(90.46deg, #bf22b0 10.27%, #e0b70f 96.57%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -925,7 +927,7 @@ main {
   line-height: 36px;
   /* or 129% */
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 auto;
   max-width: 915px;
   max-height: 108px;
@@ -1357,12 +1359,12 @@ main {
 }
 
 .subscribe {
+  overflow: hidden;
   background: url(../img/light-sub.png) #ef2adc;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   position: relative;
-  overflow: hidden;
 }
 
 .subscribe .title-sub {
@@ -1523,7 +1525,7 @@ main {
   font-size: 24px;
   line-height: 28px;
   text-align-last: left;
-  color: #00ED75;
+  color: #00ed75;
 }
 
 .roadmap .place1 .what {
@@ -1532,7 +1534,7 @@ main {
   font-size: 40px;
   line-height: 47px;
   /* identical to box height */
-  color: #00ED75;
+  color: #00ed75;
 }
 
 .roadmap .place2 {
@@ -1546,7 +1548,7 @@ main {
   font-size: 24px;
   line-height: 28px;
   text-align-last: left;
-  color: #00ED75;
+  color: #00ed75;
 }
 
 .roadmap .place2 .what {
@@ -1555,7 +1557,7 @@ main {
   font-size: 40px;
   line-height: 47px;
   /* identical to box height */
-  color: #00ED75;
+  color: #00ed75;
 }
 
 .roadmap .place3 {
@@ -1569,7 +1571,7 @@ main {
   font-size: 24px;
   line-height: 28px;
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place3 .what {
@@ -1578,7 +1580,7 @@ main {
   line-height: 47px;
   /* identical to box height */
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place4 {
@@ -1592,7 +1594,7 @@ main {
   font-size: 24px;
   line-height: 28px;
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place4 .what {
@@ -1601,7 +1603,7 @@ main {
   line-height: 47px;
   /* identical to box height */
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place5 {
@@ -1615,7 +1617,7 @@ main {
   font-size: 24px;
   line-height: 28px;
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place5 .what {
@@ -1624,7 +1626,7 @@ main {
   line-height: 47px;
   /* identical to box height */
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place6 {
@@ -1638,7 +1640,7 @@ main {
   font-size: 24px;
   line-height: 28px;
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place6 .what {
@@ -1647,7 +1649,7 @@ main {
   line-height: 47px;
   /* identical to box height */
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place7 {
@@ -1661,7 +1663,7 @@ main {
   font-size: 24px;
   line-height: 28px;
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place7 .what {
@@ -1671,7 +1673,7 @@ main {
   /* identical to box height */
   text-align-last: left;
   background: rgba(217, 217, 217, 0.11);
-  color: #FFFFFF;
+  color: #ffffff;
   -webkit-filter: blur(19px);
           filter: blur(19px);
 }
@@ -1687,7 +1689,7 @@ main {
   font-size: 24px;
   line-height: 28px;
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place8 .what {
@@ -1696,7 +1698,7 @@ main {
   line-height: 47px;
   /* identical to box height */
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place9 {
@@ -1710,7 +1712,7 @@ main {
   font-size: 24px;
   line-height: 28px;
   text-align-last: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .roadmap .place9 .what {
@@ -1722,6 +1724,5 @@ main {
   -webkit-filter: blur(12px);
           filter: blur(12px);
   background: rgba(217, 217, 217, 0.11);
-  color: #FFFFFF;
+  color: #ffffff;
 }
-/*# sourceMappingURL=style.css.map */
