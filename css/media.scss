@@ -376,8 +376,8 @@
         height: 500px;
     }
     .skins .nobg {
-        width: 611px;
-        height: 480px;
+        width: 375px;
+        height: 352px;
     }
     .skins .skinses {
         padding-top: 50px;
@@ -405,6 +405,7 @@
                 width: 100% !important;
                 display: block;
                 max-height: 150px;
+                display: none;
             }
             .name {
                 font-size: 25px !important   ;
@@ -425,6 +426,7 @@
                 margin-right: auto;
                 margin-top: 20px !important;
                 padding-top: 0 !important;
+                display: none;
             }
             .name {
                 font-size: 25px !important;
@@ -552,13 +554,15 @@
         flex-direction: column !important;
     }
     .double {
+        height: 100%;
+
         flex-direction: column;
         .cardl {
             width: 70% !important;
             background: url(../img/mob-cat.png) #ef2adc;
             background-position: top left !important;
             background-repeat: no-repeat;
-            max-height: 884px;
+            height: 484px!important;
             margin-bottom: 20px !important;
             margin-right: 0;
             .number {
@@ -567,24 +571,29 @@
                 width: 100% !important;
                 display: block;
                 max-height: 150px;
+                height: 100%;
             }
             .name {
                 font-size: 20px;
                 margin-top: 1px!important;
+                
             }
             .number-mob{
-                padding-left: 42px;
-                padding-top: 26px;
+                
+                
                 display: flex;
             }
             .number-mob img{
-                width: 100%;
+                
                 justify-content: start;
+                width: 288px !important;
+                justify-content: start;
+                height: 172px!important;
             }
         }
         .cardr {
             width: 70% !important;
-            max-height: 884px;
+            height: 484px!important;
             background: url(../img/mob-ufo.png) #00ed75;
             background-position: bottom left !important;
             background-repeat: no-repeat;
@@ -593,26 +602,29 @@
             .number {
                 display: none!important;
                 font-size: 20vw !important;
-                width: 100% !important;
+                width: 288px !important;
                 text-align: left;
                 display: block;
                 max-height: 150px;
                 margin-right: auto;
                 margin-top: 20px !important;
                 padding-top: 0 !important;
+                height: 172px!important;
             }
             .number-mob{
-                padding-left: 32px;
+                
                 padding-top: 26px;
                 display: flex;
             }
             .number-mob img{
-                width: 60%;
+                width: 288px !important;
                 justify-content: start;
+                height: 172px!important;
             }
             .name {
                 font-size: 20px;
                 margin-top: 0!important;
+                padding-top: 20px;
             }
         }
     }
@@ -1124,6 +1136,16 @@
     }
 }
 @media (max-width: 500px) {
+    .double .cardr .number-mob img{
+        width: 194px !important;
+        justify-content: start;
+        height: 125px !important;
+    }
+    .double .cardl .number-mob img{
+        width: 194px !important;
+        justify-content: start;
+        height: 125px !important;
+    }
     .catnip-heroe .description,.ufo-heroe .description {
         font-style: normal;
         font-weight: 300;
@@ -1187,6 +1209,50 @@
     }
 }
 @media (max-width: 1100px) {
+    .double .cardr .number-mob img{
+        width: 286px !important;
+        justify-content: start;
+        height: 140px !important;
+        display: block!important;
+        padding-left: 52px;
+        
+    }
+    .double .cardl .number-mob img{
+        width: 286px !important;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    height: 140px !important;
+    padding-left: 52px;
+    }
+    .double .cardr{
+        height:481px;
+        padding-top: 30px;
+    }  
+    .double{
+        height: 100%;
+    }
+    .double .cardl{
+        height: 481px;
+        
+    }  
+    .double .cardr .name{
+        margin-top: 0;
+    }
+    .double .cardl .name{
+        margin-top: 0;
+
+    }
+    .number-mob{
+        display: block!important;
+        width: 286px !important;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    height: 140px !important;
+
+        
+    }
     .wrap-fix {
         position: relative;
         height: 100vh;
@@ -1488,6 +1554,94 @@
                         color: #ffffff;
                     }
                 }
+            }
+        }
+    }
+}
+@media(max-width:400px){
+    .double {
+        height: 100%;
+
+        flex-direction: column;
+        .cardl {
+            padding-left: 32px;
+            width: 70% !important;
+            background: url(../img/mob-cat.png) #ef2adc;
+            background-position: top left !important;
+            background-repeat: no-repeat;
+            height: 484px!important;
+            margin-bottom: 20px !important;
+            margin-right: 0;
+            .number {
+                display: none!important;
+                font-size: 20vw !important;
+                width: 100% !important;
+                display: block;
+                max-height: 150px;
+                height: 100%;
+            }
+            .name {
+                font-size: 20px;
+                margin-top: 1px!important;
+                padding-left: 0;
+            }
+            .number-mob{
+                
+                width: 143px !important;
+    justify-content: start;
+    height: 137px !important;
+                display: flex;
+            }
+            .number-mob img{
+                padding-left: 0!important;
+                justify-content: start;
+                width: 166px !important;
+                justify-content: start;
+                height: 179px !important;
+                
+            }
+        }
+        .cardr {
+            padding-top: 0;
+            padding-left: 32px;
+            width: 70% !important;
+            height: 484px!important;
+            background: url(../img/mob-ufo.png) #00ed75;
+            background-position: bottom left !important;
+            background-repeat: no-repeat;
+            margin-bottom: 0px !important;
+            margin-right: 0;
+            .number {
+                display: none!important;
+                font-size: 20vw !important;
+                width: 288px !important;
+                text-align: left;
+                display: block;
+                max-height: 150px;
+                margin-right: auto;
+                margin-top: 20px !important;
+                padding-top: 0 !important;
+                height: 172px!important;
+            }
+            .number-mob{
+                width: 143px !important;
+    justify-content: start;
+    height: 137px !important;
+                
+                display: flex;
+            }
+            .number-mob img{
+                width: 166px !important;
+                justify-content: start;
+                height: 107px !important;
+                padding-left: 0!important;
+                
+            }
+            .name {
+                font-size: 20px;
+                margin-top: 0!important;
+                padding-top: 0px;
+                padding-left: 0;
             }
         }
     }
