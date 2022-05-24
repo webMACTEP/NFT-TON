@@ -367,7 +367,7 @@
     background: url(../img/bg-new.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -807px 10px !important;
+    background-position: -807px 0px !important;
   }
   .skins .bro {
     height: 850px !important;
