@@ -933,6 +933,7 @@ html {
 }
 
 .custom {
+  background: #141414;
   overflow: hidden;
 }
 
@@ -1872,3 +1873,4 @@ html {
 .loaded .preloader {
   display: none;
 }
+/*# sourceMappingURL=style.css.map */
