@@ -168,8 +168,12 @@
   .hiiden {
     display: block;
   }
+  .about {
+    padding-left: 20px;
+  }
   .about h2 {
     font-size: 120px;
+    text-align: left;
   }
   .integration .right .phone {
     height: 548px;
@@ -430,6 +434,12 @@
 }
 
 @media (max-width: 1100px) {
+  .allcards {
+    height: 100vh !important;
+    overflow: hidden;
+    width: 1100px;
+    margin-left: -150px;
+  }
   .game .lefthp {
     display: none;
   }
@@ -481,6 +491,9 @@
   .integration .left {
     padding: 0;
     padding-top: 40px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .integration .left .title-int {
     display: none;
@@ -536,6 +549,8 @@
   .allcards {
     height: 100vh !important;
     overflow: hidden;
+    width: 1100px;
+    margin-left: -169px;
   }
   .double {
     display: -webkit-box;
@@ -562,6 +577,7 @@
     margin-right: 0;
   }
   .double .cardl .number {
+    display: none !important;
     font-size: 20vw !important;
     width: 100% !important;
     display: block;
@@ -569,7 +585,20 @@
   }
   .double .cardl .name {
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 1px !important;
+  }
+  .double .cardl .number-mob {
+    padding-left: 42px;
+    padding-top: 26px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .double .cardl .number-mob img {
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
   .double .cardr {
     width: 70% !important;
@@ -581,6 +610,7 @@
     margin-right: 0;
   }
   .double .cardr .number {
+    display: none !important;
     font-size: 20vw !important;
     width: 100% !important;
     text-align: left;
@@ -590,8 +620,22 @@
     margin-top: 20px !important;
     padding-top: 0 !important;
   }
+  .double .cardr .number-mob {
+    padding-left: 32px;
+    padding-top: 26px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .double .cardr .number-mob img {
+    width: 60%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
   .double .cardr .name {
     font-size: 20px;
+    margin-top: 0 !important;
   }
   .game .down .left .title-down {
     margin: 0 auto !important;
@@ -855,6 +899,12 @@
   .game .down .left .coming-soon {
     display: none;
   }
+  .game .down .left .title-down {
+    margin: 0 auto;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 24px !important;
+  }
   .game .down .right {
     width: 100%;
     -webkit-box-align: start;
@@ -863,6 +913,9 @@
   }
   .game .down .right .title-down {
     margin: 0 auto;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 24px !important;
   }
   .game .down .right .coming-soon {
     padding-left: 40px;
@@ -890,6 +943,7 @@
     font-weight: 700;
     font-size: 102.121px;
     line-height: 94%;
+    margin-top: 45px;
   }
   .game .descripton-game {
     font-weight: 500;
@@ -1068,6 +1122,12 @@
 }
 
 @media (max-width: 500px) {
+  .catnip-heroe .description, .ufo-heroe .description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+  }
   .phraze-mob {
     display: block;
     position: absolute;
@@ -1099,12 +1159,21 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 28px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .integration .left {
+    width: 100%;
   }
   .integration .left .description2 {
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 28px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .about h2 {
     font-size: 50.25px;
