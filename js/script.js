@@ -1,13 +1,5 @@
 jQuery(document).ready(function ($) {
 
-      // $(window).on('load', function () {
-      //       $('.preloader').fadeOut().end().delay(400).fadeOut('slow');
-      // });
-
-
-
-
-
 
       const section = $('.section'),
             nav = $('.menu'),
@@ -303,13 +295,13 @@ jQuery(document).ready(function ($) {
 
 
 
-      const element = document.getElementById('clothes1');
-      element.classList.add('animated', 'fadeInLeft');
+      // const element = document.getElementById('clothes1');
+      // element.classList.add('animated', 'fadeInLeft');
 
-      element.addEventListener('animationend', () => {
-            // do something
-            $("#clothes1, #clothes2, #clothes3, #clothes4, #clothes5, #clothes6").remove();
-      });
+      // element.addEventListener('animationend', () => {
+      //       // do something
+      //       $("#clothes1, #clothes2, #clothes3, #clothes4, #clothes5, #clothes6").remove();
+      // });
 
       $('.open').click(function (event) {
             $('.menu').toggleClass('active');
